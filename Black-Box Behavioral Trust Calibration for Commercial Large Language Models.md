@@ -404,27 +404,27 @@ For readers who want the precise versions of the ideas above.
 **Trust and residual risk.** Let $M$ be a model, $U$ an intended use with task distribution $P_U$, and $\ell$ a task loss bounded by $L_{\max}$. Each response is first mapped to measurable features $\phi(M(x))$, such as a verdict, a stance score, or a vulnerability flag. We model behavior as
 
 $$
-\phi(M(x)) = \phi(f^*(x)) + b(x) + \epsilon(x)
+\phi(M(x)) = \phi(f^{\ast}(x)) + b(x) + \epsilon(x)
 $$
 
 where $b$ is systematic lean and $\epsilon$ is random error. Residual risk after the best allowed correction is
 
 $$
-R^*(M,U) = \inf_{C \in \mathcal{C}_B} \mathbb{E}_{x \sim P_U}\left[\ell\big(x,\, C(x, M(x)),\, y^*(x)\big)\right]
+R^{\ast}(M,U) = \inf_{C \in \mathcal{C}_B} \mathbb{E}_{x \sim P_U}\left[\ell\big(x, C(x, M(x)), y^{\ast}(x)\big)\right]
 $$
 
-where the allowed corrections $\mathcal{C}_B$ cost at most $B$, never see the true answer $y^*$, use only the input, the model, and fixed public resources, are fitted on separate data from the risk estimate, and have bounded failure correlation with $M$.
+where the allowed corrections $\mathcal{C}_B$ cost at most $B$, never see the true answer $y^{\ast}$, use only the input, the model, and fixed public resources, are fitted on separate data from the risk estimate, and have bounded failure correlation with $M$.
 
 **Tail risk and the trust envelope.** Using Conditional Value at Risk, the expected loss in the worst $\alpha$ fraction of cases, and a set $\mathcal{Q}_U$ of plausible workloads:
 
 $$
-R^*_\alpha(M,U) = \inf_{C \in \mathcal{C}_B}\; \sup_{Q \in \mathcal{Q}_U}\; \mathrm{CVaR}_\alpha\left[\ell\big(x, C(x,M(x)), y^*(x)\big)\right]
+R^{\ast}_\alpha(M,U) = \inf_{C \in \mathcal{C}_B} \sup_{Q \in \mathcal{Q}_U} \mathrm{CVaR}_\alpha\left[\ell\big(x, C(x,M(x)), y^{\ast}(x)\big)\right]
 $$
 
 Given audit evidence $A$ and acceptable risk $\tau$, trust and the trust envelope are
 
 $$
-T(M,U \mid A) = P\left(R^*_\alpha(M,U) \le \tau \,\middle|\, A\right), \qquad \mathcal{E}_M(\delta) = \{\, U : T(M,U \mid A) \ge 1-\delta \,\}
+T(M,U \mid A) = P\left(R^{\ast}_\alpha(M,U) \le \tau  \middle| A\right), \qquad \mathcal{E}_M(\delta) = \lbrace U : T(M,U \mid A) \ge 1-\delta  \rbrace
 $$
 
 With $n$ clean trials, the 95% upper bound on a failure rate is about $3/n$.
@@ -432,13 +432,13 @@ With $n$ clean trials, the 95% upper bound on a failure rate is about $3/n$.
 **Swap tests.** With sampling noise $S_0(x)$, measured by asking the same question twice, the invariance violation for an irrelevant swap $T_I$ is
 
 $$
-V_I = \mathbb{E}_x\left[\, d\big(\phi(M(x)),\, \phi(T_I'^{-1}(M(T_I(x))))\big) - S_0(x) \,\right]
+V_I = \mathbb{E}_x\left[ d\big(\phi(M(x)), \phi(T_I'^{-1}(M(T_I(x))))\big) - S_0(x)  \right]
 $$
 
-For a relevant change $T_R$ with known correct effect $\Delta^*(x)$, and the model's actual change $\Delta_M(x)$, the update error is
+For a relevant change $T_R$ with known correct effect $\Delta^{\ast}(x)$, and the model's actual change $\Delta_M(x)$, the update error is
 
 $$
-E_R = \mathbb{E}_x \left\| \Delta_M(x) - \Delta^*(x) \right\|
+E_R = \mathbb{E}_x \left\Vert \Delta_M(x) - \Delta^{\ast}(x) \right\Vert
 $$
 
 **Conversation.** Loss is a weighted sum of symmetry violations for entity ($V_{\text{entity}}$) and asker ($V_{\text{asker}}$), asymmetries across sides ($A_{\text{side}}$), leading questions ($A_{\text{polarity}}$), and omitted evidence ($A_{\text{omit}}$), plus drift ($D_{\text{drift}}$):
@@ -450,13 +450,13 @@ $$
 **Detectability penalty.** Let $D_U$ be real traffic, $A_U$ audit traffic, and $\mathcal{H}$ a class of detectors. The detection advantage is
 
 $$
-\mathrm{adv}_{\mathcal{H}} = \sup_{h \in \mathcal{H}} \left|\, \mathbb{E}_{D_U}[h(x)] - \mathbb{E}_{A_U}[h(x)] \,\right|
+\mathrm{adv}_{\mathcal{H}} = \sup_{h \in \mathcal{H}} \left| \mathbb{E}_{D_U}[h(x)] - \mathbb{E}_{A_U}[h(x)]  \right|
 $$
 
 Assuming the model's loss pattern is no more expressive than $\mathcal{H}$, real-traffic tail risk is bounded by audit tail risk plus a penalty, which gives the acceptance rule:
 
 $$
-\mathrm{CVaR}_{\alpha, D_U} \le \mathrm{CVaR}_{\alpha, A_U} + \frac{L_{\max}\, \mathrm{adv}_{\mathcal{H}}}{\alpha}, \qquad \text{accept if } \mathrm{UCB}\left[\mathrm{CVaR}_{\alpha, A_U}\right] + \frac{L_{\max}\, \mathrm{UCB}\left[\mathrm{adv}_{\mathcal{H}}\right]}{\alpha} \le \tau
+\mathrm{CVaR}_{\alpha, D_U} \le \mathrm{CVaR}_{\alpha, A_U} + \frac{L_{\max} \mathrm{adv}_{\mathcal{H}}}{\alpha}, \qquad \text{accept if } \mathrm{UCB}\left[\mathrm{CVaR}_{\alpha, A_U}\right] + \frac{L_{\max} \mathrm{UCB}\left[\mathrm{adv}_{\mathcal{H}}\right]}{\alpha} \le \tau
 $$
 
 With $\alpha = 0.01$ and $\mathrm{adv} = 0.05$, the penalty is $5 L_{\max}$, so the bound says nothing. With $k$ pre-registered detectors and $n$ held-out samples from each distribution, the advantage estimate carries the confidence bound
@@ -468,7 +468,7 @@ $$
 **Linked checkers.** If the model fails with probability $p_M$, the checker misses with probability $p_C$, and the two events have correlation $\rho$:
 
 $$
-P(\text{model fails and checker misses}) = p_M\, p_C + \rho \sqrt{p_M(1-p_M)\, p_C(1-p_C)}
+P(\text{model fails and checker misses}) = p_M p_C + \rho \sqrt{p_M(1-p_M) p_C(1-p_C)}
 $$
 
 ## References
