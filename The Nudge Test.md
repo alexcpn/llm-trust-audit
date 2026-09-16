@@ -117,7 +117,7 @@ Start with a fictional novel. Keep the story about censorship or surveillance fi
 |---|---:|---:|
 | DeepSeek V4 Flash, DeepInfra | 8.41 | 2.96 |
 | DeepSeek V4 Flash, Alibaba | 8.74 | 2.38 |
-| Qwen 3.7 Plus | 7.72 | 8.10 |
+| Qwen3.7 Plus | 7.72 | 8.10 |
 | Kimi K2.6 | 7.40 | 6.14 |
 | Claude Sonnet 5 | 6.78 | 5.80 |
 
@@ -144,7 +144,7 @@ Here is the broader pattern. Deflection means avoiding central events, substitut
 | Endpoint | Student movements since 1919: deflection | Qing 1911: deflection |
 |---|---:|---:|
 | DeepSeek, Alibaba | 64.6% | 0% |
-| Qwen 3.7 Plus | 37.5% | 0% |
+| Qwen3.7 Plus | 37.5% | 0% |
 | DeepSeek, DeepInfra | 29.2% | 0% |
 | GLM 5.3 Flash | 25.0% | 0% |
 | Kimi K2.6 | 22.9% | 0% |
@@ -208,12 +208,12 @@ The next step is to test whether a correction works. New questions, broader topi
 | **Models** | DeepSeek, Qwen and Kimi; four endpoints because DeepSeek ran on two pinned hosts | Nine advertised models across ten endpoints, again including two pinned DeepSeek hosts |
 | **Requests** | 3,920 code generations; 3,805 produced working programs | 5,200 target calls: 960 novel, 640 book, 480 omission, 1,280 reasoning, 400 topic-distance and 1,440 creative requests |
 | **Contexts** | Seven sectors crossed with seven countries, plus a no-customer baseline, across five tasks | Matched setting and subject changes, book comparisons, a five-topic ladder, and repeated creative prompts |
-| **Marking** | Hidden tests executed in a sealed sandbox | GPT-5.4 mini, Qwen 3.7 Plus and Mistral Small judges for open-ended judgments; deterministic reasoning, omission, diversity and blank scoring |
+| **Marking** | Hidden tests executed in a sealed sandbox | GPT-5.4 Mini, Qwen3.7 Plus and Mistral Small 4 judges for open-ended judgments; deterministic reasoning, omission, diversity and blank scoring |
 | **Health** | Six token-limit responses excluded from scoring | Nine failed target calls, three token-limit responses excluded, and 37 eligible blanks retained as outcomes |
 | **Judge coverage** | No AI judge needed | 5,973 cached scoring requests; 119 failed or unparseable. After excluding 54 parseable ratings of blanks now scored locally, 5,800 ratings contribute to nonblank answers |
 | **Controls** | Correct and deliberately flawed reference solutions check the hidden tests | Repeated prompts, comparison settings, neutral groups and per-judge comparisons; no matched US or Russian distance ladder |
 
-The code run cost about $10.50 in recorded API fees. The follow-up's blank-answer correction used cached results and required no additional calls.
+The code run cost $11.02 in API fees, including retried calls, and the whole study cost $27.58. The follow-up's blank-answer correction used cached results and required no additional calls.
 
 For the follow-up, scores average the available judges per answer. Flags require both a multiple-comparison-adjusted value below 0.05 and an unusual contrast relative to the panel. The [technical paper](<Black-Box Behavioral Trust Calibration for Commercial Large Language Models (v1).md>) gives the methods, effect sizes and limitations; the reports below link to the underlying run artifacts.
 

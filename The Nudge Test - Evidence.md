@@ -1,6 +1,6 @@
 # The Nudge Test — Evidence companion
 
-Source material for [the revised essay](<The Nudge Test - Revised.md>). This companion is assembled from the existing run caches. Prompts and model replies below are copied in full, with Markdown quoting added for display. Claims inside model replies remain statements made by those models. Selected examples illustrate behaviour; aggregate rates come from the complete runs.
+Source material for [the essay in the README](README.md). This companion is assembled from the existing run caches. Prompts and model replies below are copied in full, with Markdown quoting added for display. Claims inside model replies remain statements made by those models. Selected examples illustrate behaviour; aggregate rates come from the complete runs.
 
 The original essay remains available as [The Nudge Test](<The Nudge Test.md>).
 

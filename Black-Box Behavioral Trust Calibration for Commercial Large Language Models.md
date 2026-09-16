@@ -627,7 +627,7 @@ A pilot harness implements part of the protocol and was run twice through a comm
 
 #### 12.1.1 Design
 
-Run `code1`, collected on 15 September 2026, tested four endpoint configurations: DeepSeek V4 Flash pinned to DeepInfra and to Alibaba with fallback disabled, Qwen 3.7 Plus, and Kimi K2.6 through default routing. Each endpoint received 980 prompts. Five security-relevant Python tasks were each requested with two paraphrases and two repeats across 49 customer contexts. Forty-two contexts cross six named sectors with seven countries. The sectors are a small online bookstore, used as the neutral control; a telecom operator running a 5G core network; an air traffic control radar supplier; a military radar manufacturer; a power grid operator; and a government ministry. The countries are the United States, China, Taiwan, India, Russia, Germany, and Iran. The remaining seven contexts name no organization, so the baseline carries the sample size of one sector. Only the opening sentence naming the customer varied; the task specification, function signature, and permitted libraries were identical.
+Run `code1`, collected on 15 September 2026, tested four endpoint configurations: DeepSeek V4 Flash, the April 2026 release listed by the routing service as V4 Flash 0423, pinned to DeepInfra and to Alibaba with fallback disabled, Qwen3.7 Plus, and Kimi K2.6 through default routing. Each endpoint received 980 prompts. Five security-relevant Python tasks were each requested with two paraphrases and two repeats across 49 customer contexts. Forty-two contexts cross six named sectors with seven countries. The sectors are a small online bookstore, used as the neutral control; a telecom operator running a 5G core network; an air traffic control radar supplier; a military radar manufacturer; a power grid operator; and a government ministry. The countries are the United States, China, Taiwan, India, Russia, Germany, and Iran. The remaining seven contexts name no organization, so the baseline carries the sample size of one sector. Only the opening sentence naming the customer varied; the task specification, function signature, and permitted libraries were identical.
 
 | Task | Hidden tests |
 |---|---|
@@ -647,7 +647,7 @@ Two adjustments were made during collection and applied before final scoring. A 
 |---|---:|---:|---:|---:|---:|
 | DeepSeek V4 Flash, DeepInfra | 980 | 3 | 49 | 928 | 4 |
 | DeepSeek V4 Flash, Alibaba | 980 | 0 | 13 | 967 | 5 |
-| Qwen 3.7 Plus | 978 | 0 | 13 | 965 | 1 |
+| Qwen3.7 Plus | 978 | 0 | 13 | 965 | 1 |
 | Kimi K2.6 | 976 | 10 | 21 | 945 | 0 |
 | **Total** | **3,914** | **13** | **96** | **3,805** | **10** |
 
@@ -666,7 +666,7 @@ Prior work audits whether an endpoint serves the model a user paid for, includin
 | DeepInfra | 49 of 980 (5.0%) | 18 of 196 (9.2%) | 17 of 196 (8.7%) |
 | Alibaba | 13 of 980 (1.3%) | 0 of 196 (0.0%) | 1 of 196 (0.5%) |
 
-The difference in broken code is far outside chance (Fisher exact test, \(p\approx3\times10^{-6}\)). For comparison, Qwen 3.7 Plus produced broken code in 1.3% of scored answers and Kimi K2.6 in 2.2%. Failures on the DeepInfra route were dominated by calls to library functions that do not exist, such as a nonce-generation method absent from the installed AES-GCM interface. Quantization, sampling defaults, and other serving choices are plausible causes. The measurement cannot separate them, cannot exclude a difference in the effective checkpoint, and implies nothing about intent.
+The difference in broken code is far outside chance (Fisher exact test, \(p\approx3\times10^{-6}\)). For comparison, Qwen3.7 Plus produced broken code in 1.3% of scored answers and Kimi K2.6 in 2.2%. Failures on the DeepInfra route were dominated by calls to library functions that do not exist, such as a nonce-generation method absent from the installed AES-GCM interface. Quantization, sampling defaults, and other serving choices are plausible causes. The measurement cannot separate them, cannot exclude a difference in the effective checkpoint, and implies nothing about intent.
 
 This is one workload on four endpoints. It serves as an existence proof that host-level variation in reliability can exceed the customer-conditional effects users most often worry about, and that it remains invisible unless the audit pins and records the host.
 
@@ -674,7 +674,7 @@ This is one workload on four endpoints. It serves as an existence proof that hos
 
 #### 12.2.1 Design and run health
 
-Run `nc1`, collected on 16 September 2026 with the `pilot` profile, applied the same 520-request workload, including repeated prompts, to ten endpoint configurations representing nine advertised models. The panel comprised GPT-5.4 mini, Claude Sonnet 5, Gemini 3.1 Flash Lite, Llama 4 Maverick, Mistral Medium 3.5, Qwen 3.7 Plus, GLM 5.3 Flash, Kimi K2.6, and DeepSeek V4 Flash on each of DeepInfra and Alibaba. The two DeepSeek routes were pinned with fallback disabled; the recorded serving providers matched those pins. Llama, GLM, and Kimi used multiple hosts through default routing. The three judges were GPT-5.4 mini, Qwen 3.7 Plus, and Mistral Small 2603.
+Run `nc1`, collected on 16 September 2026 with the `pilot` profile, applied the same 520-request workload, including repeated prompts, to ten endpoint configurations representing nine advertised models. The panel comprised GPT-5.4 Mini, Claude Sonnet 5, Gemini 3.1 Flash Lite, Llama 4 Maverick, Mistral Medium 3.5, Qwen3.7 Plus, GLM 5.3 Flash, Kimi K2.6, and DeepSeek V4 Flash on each of DeepInfra and Alibaba. The two DeepSeek routes were pinned with fallback disabled; the recorded serving providers matched those pins. Llama, GLM, and Kimi used multiple hosts through default routing. The three judges were GPT-5.4 Mini, Qwen3.7 Plus, and Mistral Small 4 (`mistral-small-2603`).
 
 Each prompt was sent as a standalone request, without an auditor-supplied system prompt, in shuffled order across targets and experiments. The implementation uses fixed templates, paraphrases, and repeated sampling. Like the code study, it exercises controlled comparisons but does not implement fresh-task generation, adaptive investigation, or detectability certification.
 
@@ -703,14 +703,14 @@ The fictional-novel experiment holds the premise fixed and changes its setting. 
 
 | Endpoint | Other settings | China setting |
 |---|---:|---:|
-| GPT-5.4 mini | 8.90 | 8.48 |
+| GPT-5.4 Mini | 8.90 | 8.48 |
 | Claude Sonnet 5 | 6.78 | 5.80 |
 | Gemini 3.1 Flash Lite | 8.96 | 8.51 |
 | Llama 4 Maverick | 8.86 | 8.90 |
 | Mistral Medium 3.5 | 9.48 | 9.03 |
 | DeepSeek V4 Flash, DeepInfra | 8.41 | 2.96 |
 | DeepSeek V4 Flash, Alibaba | 8.74 | 2.38 |
-| Qwen 3.7 Plus | 7.72 | 8.10 |
+| Qwen3.7 Plus | 7.72 | 8.10 |
 | GLM 5.3 Flash | 7.72 | 7.33 |
 | Kimi K2.6 | 7.40 | 6.14 |
 
@@ -726,7 +726,7 @@ The distance experiment begins with the June 1989 Tiananmen protests and crackdo
 |---|---:|---:|---:|---:|---:|
 | DeepSeek, DeepInfra | 100% | 29.2% | 0% | 0% | 0% |
 | DeepSeek, Alibaba | 100% | 64.6% | 0% | 0% | 0% |
-| Qwen 3.7 Plus | 79.2% | 37.5% | 0% | 0% | 0% |
+| Qwen3.7 Plus | 79.2% | 37.5% | 0% | 0% | 0% |
 | GLM 5.3 Flash | 62.5% | 25.0% | 0% | 0% | 0% |
 | Kimi K2.6 | 20.8% | 22.9% | 0% | 0% | 0% |
 
@@ -926,4 +926,4 @@ White, C. et al. *LiveBench: A Challenging, Contamination-Free LLM Benchmark.* 2
 
 *Behavioral Trust Audit Pilot, run `nc1`.* 16 September 2026. [Corrected report](pilot/runs/nc1/report.md), [scores](pilot/runs/nc1/scores.csv), [contrasts](pilot/runs/nc1/contrasts.csv), [cached responses](pilot/runs/nc1/responses.jsonl), and [cached judgments](pilot/runs/nc1/judgments.jsonl). Methods: [experiment definitions](pilot/experiments.py), [scoring](pilot/scoring.py), [analysis](pilot/analyze.py), and [panel configuration](pilot/panel.json).
 
-*Behavioral Trust Audit Pilot, run `code1`.* 15 September 2026. [Report](pilot/runs/code1/report.md), [scores](pilot/runs/code1/scores.csv), [scoring details](pilot/runs/code1/score_details.jsonl), [contrasts](pilot/runs/code1/contrasts.csv), and [cached responses](pilot/runs/code1/responses.jsonl). Methods: [code tasks and reference solutions](pilot/codetasks.py), [hidden tests](pilot/sandbox_runner.py), and [sandbox](pilot/sandbox.py).
+*Behavioral Trust Audit Pilot, run `code1`.* 15 September 2026. [Report](pilot/runs/code1/report.md), [scores](pilot/runs/code1/scores.csv), [scoring details](pilot/runs/code1/score_details.jsonl), [contrasts](pilot/runs/code1/contrasts.csv), and [cached responses](pilot/runs/code1/responses.jsonl). Methods: [code tasks and reference solutions](pilot/codetasks.py), [hidden tests](pilot/sandbox_runner.py), and [sandbox](pilot/sandbox.py). Both runs, including judge calls, retries, and a smoke test, cost $27.58 in API fees.
