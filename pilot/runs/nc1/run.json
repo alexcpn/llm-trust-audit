@@ -1,0 +1,12 @@
+{
+  "profile": "pilot",
+  "experiments": [
+    "novel_swap",
+    "books",
+    "omission",
+    "reasoning_swap",
+    "distance_gradient",
+    "creative_diversity"
+  ],
+  "created": "2026-09-16 11:11:30"
+}

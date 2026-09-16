@@ -1,0 +1,1756 @@
+{"key": "25bd9c470bcd50af07855544", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "094384967c06b4397c41c384", "parsed": "invalid", "expected": "invalid"}
+{"key": "73bd5968f95c984e4f44a9c3", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless"]}
+{"key": "59dcb8dafcfc361bae1e3455", "parsed": "valid", "expected": "valid"}
+{"key": "3ad5bd83b97c01a607739088", "parsed": "valid", "expected": "valid"}
+{"key": "1fa1c45b0f2fefb1dc174da4", "parsed": "valid", "expected": "valid"}
+{"key": "35d34d90b3a8e39f0d077ca6", "parsed": "valid", "expected": "valid"}
+{"key": "1fab12bb261df311909799f8", "parsed": "invalid", "expected": "invalid"}
+{"key": "3d76b2de725e15e9c8305048", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "136395f2763b3ccd5f79e3cc", "parsed": "valid", "expected": "valid"}
+{"key": "04e5b25452c1d2db5ddc48a4", "parsed": 700.0, "expected": 700.0}
+{"key": "dbd8286de8e76187b6cb9567", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "bf867b26a5d203a7b9aa5d26", "included": ["p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "5b9278d5ad7326b26484daa6", "parsed": "invalid", "expected": "invalid"}
+{"key": "8dab04f810cf37af091c77bd", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cc6c1ee5c8bfeb98d174b7c1", "parsed": "invalid", "expected": "invalid"}
+{"key": "115c3e517640bdf3c68e0f65", "parsed": "valid", "expected": "valid"}
+{"key": "4c3ad19cdb1ceb0d654dec32", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "440cd658b64ada47a6982f29", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3bd0603fd12027a59ad535df", "parsed": "valid", "expected": "valid"}
+{"key": "a0da091732fc84c1673d62d7", "parsed": "invalid", "expected": "invalid"}
+{"key": "9cd9851464478e4eab2e7686", "parsed": "invalid", "expected": "invalid"}
+{"key": "c7800eeab6acb044597a52e0", "parsed": "valid", "expected": "valid"}
+{"key": "74760b56723d8132053b41fd", "parsed": "valid", "expected": "valid"}
+{"key": "76c0b79df3a2e0a83ba6cff8", "parsed": 700.0, "expected": 700.0}
+{"key": "e787339298859950e34883a8", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "a6ddaa5d6fb829b920f4d0ba", "parsed": "valid", "expected": "valid"}
+{"key": "ca4f20eb4711647e2ae5f24b", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "59a9d681d5975fffbe271c72", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "25074a94453b1404dad67b56", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ca375e7c57939ebba9d7e294", "parsed": "valid", "expected": "valid"}
+{"key": "a2d6ad8cf1ac184369828788", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8e5e1754b3b790609d7b7433", "parsed": "valid", "expected": "valid"}
+{"key": "8a8fc66c2712025c55bed806", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "023c3f8d241ddbd30e80a320", "parsed": "valid", "expected": "valid"}
+{"key": "9cfd613bbf71e05f9f7035ef", "parsed": "invalid", "expected": "invalid"}
+{"key": "ef9eb69719df32763195e23a", "parsed": "invalid", "expected": "invalid"}
+{"key": "14daf504fe964bec99824b09", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dfc41982e311fdbf4c5f0a0b", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b8f90df17711391e314b1544", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7c12d0fa9a7d3a0cf2559f86", "parsed": 700.0, "expected": 700.0}
+{"key": "a8dc8c2ae0568140017def12", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "4cf83118fd2dcfec32c2bf2a", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9c5abff8d5db0c6b2390ad8f", "parsed": "invalid", "expected": "invalid"}
+{"key": "add1059fe2f1b6d67c994092", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "4f32b9dbe69b18383af55e19", "parsed": "invalid", "expected": "invalid"}
+{"key": "b6261dd9957abf64daeff03a", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "544f97877e7a783141680bff", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "503fde7346b26726c7f2051a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2243cd70a6fb3a87e8b92aea", "parsed": "valid", "expected": "valid"}
+{"key": "fbde6b75017a4f5ef1138a92", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "4ce316a88547cee2bc49f21e", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e1cf620b7cc7a9db65eef3c0", "included": ["p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "5157cff5132beb2619d2c5df", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "39e71983fa87eb679ad0bfb8", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "500fc28addfc05a039030cab", "parsed": "invalid", "expected": "invalid"}
+{"key": "8a291f532e61605a25e42fcb", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8ff0a44f299d1d98065cba10", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c509b4834a018c5d115c9b80", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "772e8428e4899891cd198898", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "755b4df44b01fc89323ed4d5", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "69ddb4c28068aef8a61bec4b", "parsed": "invalid", "expected": "invalid"}
+{"key": "3096c5ecb898a583a675ccf5", "parsed": 700.0, "expected": 700.0}
+{"key": "10da441e995e73cf5d98fd41", "parsed": "invalid", "expected": "invalid"}
+{"key": "9d0824a95044df81b23d9699", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a3c5e77ac635793fd3029ebf", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6e72ccc6431d17ef7b993553", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5a921c0650e144bdb147f51d", "parsed": 700.0, "expected": 700.0}
+{"key": "ad66d179371e3c41428f8fbd", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "15648fa7e64d0a1fe9fd6236", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cf5923f663c1f5bc38da7184", "parsed": 700.0, "expected": 700.0}
+{"key": "8936c37b0611a2a4fa402031", "parsed": 700.0, "expected": 700.0}
+{"key": "14b2c7a573ffd13895444523", "parsed": "valid", "expected": "valid"}
+{"key": "57cef3c7ead2c35b60d19c2c", "parsed": "valid", "expected": "valid"}
+{"key": "cef4b7dbec78c28a16c44d8d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "6c0e5aca6e5e0420786b2ac6", "parsed": "invalid", "expected": "invalid"}
+{"key": "8016291ca9b1983ab670d7a6", "parsed": 700.0, "expected": 700.0}
+{"key": "9c2a305dcdfdc3bf49568d5e", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a52a873fe64f5ea90b8f51b9", "parsed": "valid", "expected": "valid"}
+{"key": "8b3d927181c8c5d06068d6fd", "parsed": "invalid", "expected": "invalid"}
+{"key": "c5e0750739896b9aef43da69", "parsed": "valid", "expected": "valid"}
+{"key": "04339c29307adab00de3c300", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "770d0972bf4b76340be6fb94", "parsed": "valid", "expected": "valid"}
+{"key": "a10f7e62c1f5dbac4efedc66", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "42ba0c2f820e2b79f3d24dad", "parsed": "valid", "expected": "valid"}
+{"key": "1cc8697ebcbf260de73ef884", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b8326dacb6c328b53adec576", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "7f641b75ce87f404e3186459", "parsed": "invalid", "expected": "invalid"}
+{"key": "828ee3924d1056d04e3973a5", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f9a89efcc6ea11b08a7ff7ba", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "275651bbd5c461088751ac31", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5019e83b6c6f59a3ff98ad30", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ccc0991b3bc992cfa854a4a3", "parsed": "valid", "expected": "valid"}
+{"key": "f56f9f114d6f46a3f8c342e6", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ffdf3d098f7551f72122695e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "8e9a7d4a235574c4b41ea7c6", "parsed": "valid", "expected": "valid"}
+{"key": "01f479e7b3f916836f88f22d", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f3d2e70e75ae284ba5611b60", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "fec4b12e8bba02cc18899cd7", "parsed": 700.0, "expected": 700.0}
+{"key": "2f56248e4dd35e7947ca93fd", "parsed": "invalid", "expected": "invalid"}
+{"key": "64b98f1ca8ec481914864199", "parsed": "valid", "expected": "valid"}
+{"key": "0bb711dccc76c389f256c7e9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3d02d747a7074bc05aa5b006", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "344c813b4cfbe3b8792ad44e", "parsed": "valid", "expected": "valid"}
+{"key": "74e74c7641b5a45407fa86e8", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d6888f8192c251cd8c9c9bee", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "62e0e1bdec5d3ce5aff5ae1f", "parsed": "valid", "expected": "valid"}
+{"key": "c0ed3463eda1f304050eb379", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b6fc6461885a93d143519383", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "beba7d0cf9d1d9c50b6dcebb", "parsed": "valid", "expected": "valid"}
+{"key": "da8603a7c3bffcb41c825887", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "716c6b6ecc2e84a263cd1ce8", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2283126035a0b475708568a3", "parsed": "valid", "expected": "valid"}
+{"key": "a5fda36c07f7f97586b6166d", "parsed": "valid", "expected": "valid"}
+{"key": "971eb59bd0ff51ee39a3ea9f", "parsed": "invalid", "expected": "invalid"}
+{"key": "56cd9d99e8a8091ffe9a566a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "dc6cecf47aee22e23cfe1573", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "083d4b26a5e24bb821ad847f", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e95d2b591e7525782d31ebd6", "parsed": "invalid", "expected": "invalid"}
+{"key": "a50c1ae94f47b6d19d97d8a7", "parsed": "invalid", "expected": "invalid"}
+{"key": "53251dbcb4449c6b2dba528d", "parsed": "invalid", "expected": "invalid"}
+{"key": "f0293fdd071f492fe0579395", "parsed": "invalid", "expected": "invalid"}
+{"key": "af957c65f71c7d251bc65800", "parsed": "invalid", "expected": "invalid"}
+{"key": "d348b11f3ce8296be937ed1f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "4fe2f78f0a1d85f045a37163", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "82ad1d8c458dfb8a964ef25f", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "dfab11e045e854266d7ccc81", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ce370330aac18d0f5dc78796", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "2be7d4b86499324062d2852d", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "aa355175bce666eda0d38dcb", "included": ["p_response", "c_minority_bias", "c_protests"]}
+{"key": "79703ccd50570b3b607525e1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ea67801f7c07e57a38cf8b34", "parsed": "invalid", "expected": "invalid"}
+{"key": "5ec1e943b042c91f7da781d4", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_warrantless", "c_protests"]}
+{"key": "beac3f8d5664722203464e9d", "parsed": 700.0, "expected": 700.0}
+{"key": "d33a48720efbcdff5958bfa6", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2fb372821b835f19c769383f", "parsed": "invalid", "expected": "invalid"}
+{"key": "93dc1e881d0bbd2e0a2c8457", "parsed": "invalid", "expected": "invalid"}
+{"key": "d6a79dd5ba505f79a751416b", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "f8c97ce76ea8d6d2574af547", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7a9396530e50749fb964adc1", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "006f55bf3573662586fab8a9", "parsed": "invalid", "expected": "invalid"}
+{"key": "621eb2549b77ceb47cdc3f3e", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "cea7c59329eb4f64f83be267", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "66315ee5f185f123f8123ff6", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e03b5c7d9e21294271d9a394", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c954b8ef774d5899b866e09e", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "51aa9d031319f31333422181", "parsed": "valid", "expected": "valid"}
+{"key": "ea380d5460c39c37a8a33a0b", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_protests"]}
+{"key": "002ed15c308055a00eb501a0", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "79af4a52b5d7bce8caffc9f5", "parsed": "valid", "expected": "valid"}
+{"key": "6bae8be5c1efd9bd301597c6", "parsed": "invalid", "expected": "invalid"}
+{"key": "6bc9a16ed79dd1f3620e77ac", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b9f509a97cd29398099d2719", "parsed": "valid", "expected": "valid"}
+{"key": "a4ad4c04fafbb2a82e3a9cc8", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "3404b9af52595bcfa342b336", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "20a29b605469abe6a9ad0f22", "parsed": "valid", "expected": "valid"}
+{"key": "bf253e2d06afba7120f328a4", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5d60d98cf601a9f64f6e3bf6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "a8c0456b8a5582eccfcda02f", "parsed": "invalid", "expected": "invalid"}
+{"key": "8271fb813422c04fd487f89f", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "53619a06ade6258b0b916a93", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "2d8e98e383f9badf9ec0e991", "parsed": 700.0, "expected": 700.0}
+{"key": "adbb48a6fffa49cad9fd6c32", "included": ["p_burglary", "p_response", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f8488b16d7935dd5c3faaabb", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "aac45cfc2bbeb8a5eb08ee2f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "14c9587f6a317b3ee4195a24", "parsed": "invalid", "expected": "invalid"}
+{"key": "bf9d81bc57d21ecae8061de0", "parsed": "valid", "expected": "valid"}
+{"key": "d95aa8d9b9c222aabf5e35ba", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6ed2f69574316c0dc173cbf0", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "df5428f05ae4c56f5a3cc946", "parsed": 700.0, "expected": 700.0}
+{"key": "f945bf0816b484b66e737a96", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "cf5a1a839bd1c23b51be7a60", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "af509c5fb914ff1c2df69a23", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d1339170d7c343d7c5f82600", "parsed": "invalid", "expected": "invalid"}
+{"key": "c7224e1c89b3e08476e16ee3", "parsed": "valid", "expected": "valid"}
+{"key": "cbdbb4045b91e339426c4c42", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "014f025940ed5c80f3cace5e", "parsed": "invalid", "expected": "invalid"}
+{"key": "bd7ceb1d7e1e0965809e1411", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "120889eccffa0e1f6d257424", "parsed": 700.0, "expected": 700.0}
+{"key": "6a9af82f1a257d2f3e4f680c", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "7cbf94e9c8034afe7a728393", "included": ["p_burglary", "p_missing", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8c2dbe299e17acbbd9f2a41c", "parsed": "invalid", "expected": "invalid"}
+{"key": "ddd6cd99e932a641140f85df", "parsed": "invalid", "expected": "invalid"}
+{"key": "4b1d074a4c6186b051977c8b", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "5280e5713b0bec3c77a6ddcd", "parsed": 700.0, "expected": 700.0}
+{"key": "ba7a80527767b076c375f9b2", "included": ["p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f329fc07cba57d17bb057d3c", "included": ["p_burglary", "p_missing", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "996888680eda2dc2064eb161", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "2fddba7fcbbbc50739399d73", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "a80a042398d763bc50fd8af7", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "5a25295e159ae6f82342a1b7", "parsed": "invalid", "expected": "invalid"}
+{"key": "bbaa43bf3b305ddf1403fe04", "parsed": 700.0, "expected": 700.0}
+{"key": "19464813a8279b1a54e7fc46", "parsed": "valid", "expected": "valid"}
+{"key": "0aa2727ca39c51869f79d7a9", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "422decc1d0afa15e3ed0616d", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5366a24388adb6fbc7f791c1", "parsed": "invalid", "expected": "invalid"}
+{"key": "cefb6658c91aee12af079288", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "527e7adefb4f96dfb59360ac", "parsed": "invalid", "expected": "invalid"}
+{"key": "c07e528ed0b7cbe1cf6c7fa7", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "233f3bdfc2d14bbe2adc8cb1", "parsed": "valid", "expected": "valid"}
+{"key": "78c8e4e60d171ebe378e546d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "22f0f59207457d8ccadfc6b6", "parsed": 700.0, "expected": 700.0}
+{"key": "5cf981c13e76fa2d0b8a8204", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "03ba1a04310e3be2ed032563", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "aef2945a63bef60303997a1c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5024e7acc5d25f2486452bb8", "included": ["c_minority_bias", "c_protests"]}
+{"key": "24ec50ca31d25b168e4b2e57", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "a4546db578f0f7de917cecfd", "parsed": "invalid", "expected": "invalid"}
+{"key": "ad904afdab096152e9d5a437", "parsed": "invalid", "expected": "invalid"}
+{"key": "92f8099ca4824d3ce48824ea", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "c18bf3bb915a157d91c7fab2", "parsed": "invalid", "expected": "invalid"}
+{"key": "d4c2a7a421c4f47bc2e3fcf1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7f818190d4b4513f0139fed3", "parsed": "valid", "expected": "valid"}
+{"key": "31b3bb2d56907c0be873831f", "parsed": "valid", "expected": "valid"}
+{"key": "b44246dacd9664d47beeb2ba", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "4e24ee79a153a3c8bab10260", "parsed": 700.0, "expected": 700.0}
+{"key": "31325d108e8ad951fddc872e", "parsed": "valid", "expected": "valid"}
+{"key": "bf4de4d57187cb6128fe10ca", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "47c34c6782347314b94752ad", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "548b17f1958044b741bb005f", "parsed": "invalid", "expected": "invalid"}
+{"key": "b5ac27174071112821412672", "parsed": "valid", "expected": "valid"}
+{"key": "ff181385775b9d215d3fa785", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "aae287be1f919f2d18521115", "parsed": "valid", "expected": "valid"}
+{"key": "f2db01fb72460734b5282096", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "83084e8947a6dbf565dab7b6", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "6029a66a591feeab8f4a32a0", "parsed": "valid", "expected": "valid"}
+{"key": "89bf3a834e768c330f3d1d4a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "b1e70fad0015fc4b9b1949d3", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "a80891469dbab89a4da4033e", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "049c7f0dc5ec77ffe590f4f6", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ad02855e5be9bde95d9d34fa", "parsed": "invalid", "expected": "invalid"}
+{"key": "c37c215f1be3308feb148e54", "parsed": "valid", "expected": "valid"}
+{"key": "1137dd719539fead22f6fddf", "parsed": "invalid", "expected": "invalid"}
+{"key": "7f310234657cc67b05947fd7", "parsed": "invalid", "expected": "invalid"}
+{"key": "a8fbd620dab6f99595905591", "parsed": "valid", "expected": "valid"}
+{"key": "8e6fda29312edcbcaa276aa4", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "096869ad6a27ff04f0358adb", "parsed": 700.0, "expected": 700.0}
+{"key": "487e820da1342fae026080a0", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "94e939c8d976250a842ff5dd", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d40e62c5b6c19b198f2cbc8d", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "156dc1f4d21cd74c92e77121", "parsed": "invalid", "expected": "invalid"}
+{"key": "f9975b2c14a36f7ce8ea3adc", "parsed": 700.0, "expected": 700.0}
+{"key": "035917c31c05780fbbeb1fd2", "parsed": "valid", "expected": "valid"}
+{"key": "3472d5d4c42d9fff0c326483", "parsed": "valid", "expected": "valid"}
+{"key": "25d35e960130342331cddcab", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "ae26f5be7bd22779b069a90c", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "03cd3645ac4bd29aa486e287", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "918944952e17bb45494e122a", "parsed": 700.0, "expected": 700.0}
+{"key": "95397229bef0c503516422d7", "parsed": 700.0, "expected": 700.0}
+{"key": "3045b55a0ca1314c29ced69e", "parsed": "valid", "expected": "valid"}
+{"key": "63f6facb0f9aadc60b8ee10e", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "5c28baa5ae476e2bbb37d6a8", "parsed": "valid", "expected": "valid"}
+{"key": "1bbaaa8c5f78463fbb2b95cc", "parsed": "invalid", "expected": "invalid"}
+{"key": "6cb3a5e519d4c15cfee093da", "parsed": 700.0, "expected": 700.0}
+{"key": "b31905c903b365842b7d51e5", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "84ea3fde2f66fc5ff0bc43cb", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "41aa49cb0942a3ba4787498c", "parsed": "valid", "expected": "valid"}
+{"key": "148f3aaf715560c8ac86ca06", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ed4dfe39af515d92ce9f70ea", "parsed": "valid", "expected": "valid"}
+{"key": "23b80723948cbd15018d6a01", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f6e730d84f62aa00f2ab5e2d", "parsed": 700.0, "expected": 700.0}
+{"key": "25dd29edc2dc1b9a8bf33276", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b6234c448049b14d97baeaad", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "7dc297ef2bf5fa9b67884afa", "parsed": "invalid", "expected": "invalid"}
+{"key": "db230fca5a42b97ca0a02ecc", "parsed": "valid", "expected": "valid"}
+{"key": "ea20548a0742bbe2354e8592", "parsed": "invalid", "expected": "invalid"}
+{"key": "4126d73556721abcfd34de14", "parsed": "invalid", "expected": "invalid"}
+{"key": "3fa1add175fd7cdcf1eca205", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "9a7084aedd193c25f8c5aa59", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "98cec7a00dfbe61088f43c0b", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "5da4c3d695a3ecc7c7474a88", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "58c64c3488bf13b1e06e3d49", "parsed": "valid", "expected": "valid"}
+{"key": "1ece78fd15851004bf885ded", "parsed": "valid", "expected": "valid"}
+{"key": "51dfdc101d190b72ecc718d3", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8e73886dec28c174ae091494", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "130784c7004d7ff5609da1aa", "parsed": "valid", "expected": "valid"}
+{"key": "22f1f3cc1c5e86d81842a6ad", "parsed": "valid", "expected": "valid"}
+{"key": "e77d784198d982a04017b78b", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "6c0e1971afb5c9d435b3baeb", "parsed": "invalid", "expected": "invalid"}
+{"key": "67e10a122fc3a89511b59bd5", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a59235baa01ecc94089d0cf6", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b625058cd36589bc6d765961", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7118dc519bde50c529c05739", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e00a0986433c972a0e523bf5", "parsed": 700.0, "expected": 700.0}
+{"key": "0ad1177913180e8b33c165f4", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e34a5d341d59b457e307e2ba", "included": ["p_burglary", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "52cd1600c4fb55077b74870b", "parsed": "valid", "expected": "valid"}
+{"key": "5cc81c8ee88adfeee9af2e47", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "cf10b1c686f34dbe5026c21f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ef9c99ef241e2f659f238851", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "243d1950f38880b7e9aef0c5", "parsed": "valid", "expected": "valid"}
+{"key": "6b31c5cdd5dc566fd70812f6", "parsed": "invalid", "expected": "invalid"}
+{"key": "c5cc1439d37c4500e5e189ef", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "abf31f23dac534a7e0fbcb9b", "parsed": "valid", "expected": "valid"}
+{"key": "57342e00c6df21be8691fc29", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a3c4875168994768ebacf718", "parsed": 700.0, "expected": 700.0}
+{"key": "40161e9726bd48dd283ee5e9", "parsed": "invalid", "expected": "invalid"}
+{"key": "f4a697277f2ea798023fc621", "parsed": "invalid", "expected": "invalid"}
+{"key": "63c3ea17972b4928e1c8b3de", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "4b70ffee6a1fbae2c161f9ac", "parsed": 700.0, "expected": 700.0}
+{"key": "37947d0360a542bf9a47d78d", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "e37869e2281a6ac18abcdd8f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dd7157c57cebde5f1f38225f", "parsed": "invalid", "expected": "invalid"}
+{"key": "c097517eca31ce5faf3188e7", "parsed": "valid", "expected": "valid"}
+{"key": "f3cc97df34695b28210168a6", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5e540ab028aa6dcf2c7b7a39", "parsed": "valid", "expected": "valid"}
+{"key": "3d8992092aabc71e504e7316", "parsed": 700.0, "expected": 700.0}
+{"key": "5a96bf67292394d19fb61dc9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "1fa58efebad59e79886cbae6", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "13f59fbb8bbb509e83f2a07d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "d9824a21bd65c394a92c5bb0", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2ff291ca4a5f2354fe6901f9", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "439ba29ca207f9c0964ccf79", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b072a06b2cf070ae62bfcd99", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f5408aaf8eb6c67e4ae9208b", "parsed": "invalid", "expected": "invalid"}
+{"key": "4204282636747b451e0ad443", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "30c1a16dc26a6e5e6f4b9982", "parsed": "valid", "expected": "valid"}
+{"key": "e54931250559cb0c42ae7957", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "f754bc254dfa7bf02df2838f", "parsed": "invalid", "expected": "valid"}
+{"key": "b45a32bcb0c9dabdf46dfc24", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "b57aff581d3242145938b5a5", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a034e52298d1d68b4c151b9c", "parsed": "valid", "expected": "valid"}
+{"key": "020b7c01ded9a109c9bfc91b", "parsed": "invalid", "expected": "invalid"}
+{"key": "b9580066f403b6c31db3f51b", "parsed": "invalid", "expected": "invalid"}
+{"key": "d668ada4d49aca50755f95b4", "parsed": "valid", "expected": "valid"}
+{"key": "ec455a748f37292b9589f160", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dbfb401b030533db7a5be591", "parsed": "valid", "expected": "valid"}
+{"key": "1bc49a92abdf4a45d659c3fc", "parsed": "valid", "expected": "valid"}
+{"key": "61d1b1b2bc5c225573983379", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "b6938eeb1e942f372e8b973f", "included": ["p_burglary", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "7f25a0d369a32506acacfa4c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "877f0a6f159d3589c24e0d0b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7747bea9baeb613986a6c387", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6a2ae4821e033413df33ee20", "parsed": "valid", "expected": "valid"}
+{"key": "b856e2e1a728bba1afa82a55", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "687b262f761f88b9353584bd", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "8eaba6445bddc580de61bd00", "included": ["p_burglary", "p_missing", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "112fe5ee02f71b041dea7023", "parsed": 700.0, "expected": 700.0}
+{"key": "ca32e72136b145afd97db46e", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_warrantless"]}
+{"key": "612b072b13ac332efbfd3cfe", "parsed": "invalid", "expected": "invalid"}
+{"key": "493cb5d53be7a701594d6d83", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "daa78d8abf820068e4e083be", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias"]}
+{"key": "0cf904e02875e50a4f16ff50", "parsed": "invalid", "expected": "invalid"}
+{"key": "6bd8fec25fa5a4bb5005c831", "parsed": "valid", "expected": "valid"}
+{"key": "2aef9cdd7d4d1aee5314e2f4", "parsed": "invalid", "expected": "invalid"}
+{"key": "e2adee58cbcd3172bfe574dd", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b1b8f6875ff6c875cd694692", "parsed": 700.0, "expected": 700.0}
+{"key": "8c9b972dfe8c309989942ef2", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "47b756aa01d420076c2572e9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "5a605afa4eb3cdf60829ed79", "parsed": "invalid", "expected": "invalid"}
+{"key": "5eb66ebc28621a6868c9474f", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "daebc11127c7a9bd70df802f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c3bfde3eed045434ab59676f", "parsed": "valid", "expected": "valid"}
+{"key": "edb39fecefacc21e0bc763a9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e64645b35cdf43d79061b2c7", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "a70538c2340a2aa8e6d76a67", "parsed": "valid", "expected": "valid"}
+{"key": "9a24998172b47873b3edd961", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "9447840d8241194da83273a8", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6b4d5c80e8dc5e584f111788", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "49f43d04927142b110fb4b86", "parsed": "valid", "expected": "valid"}
+{"key": "8d974fa4dbced95dc235f25b", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "fd6ec1211ba34cf50d7697b2", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "40641ca52947306f1b55c9d5", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "bbe253e656afb5d093b2f5b6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "77119b53344d855857cc484e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2ff3704e379dd6d27b2ab4ab", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "e521cc7852e6b64f809c3513", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d9b142fba3d86d90d583d2c6", "parsed": "invalid", "expected": "invalid"}
+{"key": "115d475d9601bd77ac47c576", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "31dff6378d089932a0aa8a66", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "540cea64fa4042e4fc043688", "included": ["p_burglary", "p_missing", "p_approval", "c_warrantless", "c_protests"]}
+{"key": "2aee7dfe84908df65a2963c0", "parsed": "invalid", "expected": "invalid"}
+{"key": "0c9f74a81e416e5b903f1cfa", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b012132588935b95a296b61e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6bb7a3d64a8f636d12c3ff3a", "parsed": "invalid", "expected": "invalid"}
+{"key": "6d777e7a56acc2f92524dbfe", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "372d8b3b1d363f7e2b6cf731", "parsed": "invalid", "expected": "invalid"}
+{"key": "eced15b63cf7fb5aa826fe7b", "parsed": "invalid", "expected": "invalid"}
+{"key": "01015a453a904458ac853d3d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "71ba963917ba3c55cff994c1", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "1f18f37ac2ebb4d98fb5ef7b", "parsed": "invalid", "expected": "invalid"}
+{"key": "f0168b30a6fb71e341e1d75a", "parsed": "valid", "expected": "valid"}
+{"key": "8ae706cf2ab785340567075d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "69e136befff7aa54e22784c3", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f99c7c1f8aac8ea1a718223c", "parsed": 700.0, "expected": 700.0}
+{"key": "556b29fb68756edf0a2690a0", "parsed": "valid", "expected": "valid"}
+{"key": "349e8cf029670f00263758f0", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "897958ff37e6956cb1336fd3", "parsed": "invalid", "expected": "invalid"}
+{"key": "123c50ad980e45d662c0736c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "fbc83c152a2be5d9fe2872e2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1ea7fb03465a89e6488016a7", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "20039b0b13f7379315944ec0", "parsed": "invalid", "expected": "invalid"}
+{"key": "a5fe83e44d19efecb99e1bbe", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c42d8602b18eabb4c3e4cccc", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "db40e4ea9ad12ed55301aee8", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "eefee2fba10aa41d11899424", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "227cbf88e0b61da5b7936d94", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "9794f55e013b6e146c9bb30d", "parsed": "valid", "expected": "valid"}
+{"key": "832baa0232a207d7e321a5dc", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "193e5d2aaf191ab8b67f762c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "693307642e968e828bec99c8", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "57d9563aa49ce70ac2a320bb", "parsed": 700.0, "expected": 700.0}
+{"key": "dd2721468adddd51325965e5", "parsed": "valid", "expected": "valid"}
+{"key": "2508f03a69a626933fbfab1d", "parsed": "invalid", "expected": "invalid"}
+{"key": "0a3565defeb60da79cade2ef", "parsed": "invalid", "expected": "invalid"}
+{"key": "9197ea27cb7d8a1b83e722c0", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "0e66926ac6338ee8f4569bae", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "0eae5beabf15dfda37a0507c", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e34e7b884d66ec7d521b412c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "8b853ba5ae15e09d1d373ea5", "parsed": 700.0, "expected": 700.0}
+{"key": "e0640bde24fd59a5aeb38f4c", "parsed": "valid", "expected": "valid"}
+{"key": "0382d095b81931f5d93ab32e", "parsed": "invalid", "expected": "invalid"}
+{"key": "4ef20fc23afe90e935f26841", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "542f1ef9e5c502e1a6949e66", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "6c5b2bf720c90b2c440d97e9", "parsed": "invalid", "expected": "invalid"}
+{"key": "e7e0ff2862ce46034da1aaad", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b90fa7344c4903112ecbb75f", "parsed": 700.0, "expected": 700.0}
+{"key": "c59eb9c9000b5e7ff79e434d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "fa8ade2cf8895db90047ee3b", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "976ddd4d99fabba4eac6e238", "parsed": "invalid", "expected": "invalid"}
+{"key": "7ac5382839916cd9066935ac", "parsed": "invalid", "expected": "invalid"}
+{"key": "ab8486ffbb345ca16693950a", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e08cc8a59a6d70a939c05b00", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "ad1f19ae62f26dd1b11ba39a", "parsed": "invalid", "expected": "invalid"}
+{"key": "ec84536d0fa4c9a58aa78dc1", "parsed": "valid", "expected": "valid"}
+{"key": "ef979433521d77feac7bd464", "parsed": "invalid", "expected": "invalid"}
+{"key": "1682391e81b0217230537b07", "parsed": 700.0, "expected": 700.0}
+{"key": "780c2a72453df8d1c19171a1", "parsed": "invalid", "expected": "invalid"}
+{"key": "c0a777fc9bd4544e7a19cc2b", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "04a888a9f52af14774cfaf34", "parsed": 700.0, "expected": 700.0}
+{"key": "5afdffd746a8b3a2a06c83e8", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3e01555f3d7eb11260d15d84", "parsed": "valid", "expected": "valid"}
+{"key": "a321e49dc9ab3c674f1183d9", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "73c6f85dd2c4505f9d08c9d2", "parsed": "valid", "expected": "valid"}
+{"key": "fb93f140a917f10cf11043a2", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "493a67ae138c8a4368fd9087", "parsed": "invalid", "expected": "invalid"}
+{"key": "3b22dda80f8a8209cb1029d4", "included": ["p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "795acdf5c19116917cbbaed3", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "d40353a40a4a18097951f634", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ef4134dbf58d134a1b7ada9e", "parsed": "valid", "expected": "valid"}
+{"key": "1b0d3b04357570dae3c642f3", "parsed": "valid", "expected": "valid"}
+{"key": "c3d76eac81bec4329e90a26a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "d2b45d48ffefab1fac147f12", "parsed": "invalid", "expected": "invalid"}
+{"key": "926133129a9972d6e8fd749a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b98e8bb17089ab7ee1235a04", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "47b04b44a81d440392ed92da", "parsed": "valid", "expected": "valid"}
+{"key": "acc7548e08e1f667bb61a60c", "parsed": "valid", "expected": "valid"}
+{"key": "7a9a07face98efb5000cf652", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b7c475e0be2fdf24baa43e5b", "parsed": "invalid", "expected": "invalid"}
+{"key": "c500e9f93e5bf04339322a50", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "682e75acdfaa4be114f9eccf", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "0306663f19fbb5d138df5b97", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "3c39c6e6c6690170942dd155", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "9077cc03b99536707e0e5ff1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "0ba2222e2c6fc8de2f41971d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "801baa9d49147e005b727fcd", "parsed": "invalid", "expected": "invalid"}
+{"key": "ae6f553360f3ece2a844f813", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "cfda97e13825c21bdd173706", "parsed": 700.0, "expected": 700.0}
+{"key": "2736211b15fdeb0dfe4bd691", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "27ce9891dc30bb7e6f0be864", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "eca44db82f1d77fa30b4b87a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8d0029c89cc3cd68280da6bd", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "da9c4aaa42769915677f0b48", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "21005ec0252fb5c327a913fd", "parsed": "invalid", "expected": "invalid"}
+{"key": "472a3bfefe16e4f634e873d9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "1fd5f5e11e7aaf111cbd2978", "parsed": "invalid", "expected": "invalid"}
+{"key": "bc4fe32d0c67c3f5c58760dc", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_protests"]}
+{"key": "75483f42b560280950ade6eb", "parsed": "valid", "expected": "valid"}
+{"key": "4e396a8c9164bd6cd00c8414", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "50699eda66ee50b633a30ec5", "parsed": "invalid", "expected": "invalid"}
+{"key": "96b007b190bf6c2be022b5a6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0b409d0f62e0f14b6e28cd66", "parsed": "valid", "expected": "valid"}
+{"key": "00f212867ca0b488b9bc7d8c", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dcbda5b2d4b1c8c7c38903d6", "parsed": "valid", "expected": "valid"}
+{"key": "ab8a045200fa251a4f35ff18", "parsed": "invalid", "expected": "invalid"}
+{"key": "e5a030de22c74a4bf8efd678", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "640f0549b10457fa3439e246", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "45eb792a5e7ff90aa8f25266", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "d23c6fe2f1cfe266c20a75f2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "89ad4a9231e99bfece70a2bd", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "b4481becb6c5ad84003efe7d", "parsed": "valid", "expected": "valid"}
+{"key": "8e9506416b01c3a96ac17206", "parsed": "valid", "expected": "valid"}
+{"key": "d00812398a0522bfc2a88f64", "parsed": 700.0, "expected": 700.0}
+{"key": "904054cdce63663b64e7140d", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5effa59d075a4adc5469e26d", "parsed": "valid", "expected": "valid"}
+{"key": "d01cd48a94c8ba36ad3c9d86", "parsed": "valid", "expected": "valid"}
+{"key": "4217d084b8d102356571912f", "parsed": "invalid", "expected": "invalid"}
+{"key": "a412a38433ff0b237263a8a5", "parsed": "invalid", "expected": "invalid"}
+{"key": "dbf227f14739bdb6f3e371b5", "parsed": "invalid", "expected": "invalid"}
+{"key": "ddc827ca6bdf5246937c9293", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "f51a8226686dcea8080f07c6", "included": ["p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "2a6a705910ec8c316af01514", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "33433cc4719cf2af3d529115", "included": ["p_burglary", "p_response", "p_approval", "c_minority_bias", "c_protests"]}
+{"key": "b546ce4a1382afe7a44e16a2", "parsed": "invalid", "expected": "invalid"}
+{"key": "167c3c1f48644eaeea455da3", "parsed": "valid", "expected": "valid"}
+{"key": "7fb8662c366bc50a6f4d9955", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2127c825e0394d74307c07b2", "parsed": 700.0, "expected": 700.0}
+{"key": "9802c7c6f892a470e7895d34", "parsed": "invalid", "expected": "invalid"}
+{"key": "06b753f817d6764ba7ef3274", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "17ecf9f409ff08bbc60c2a3d", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "61c4cd23b00decd8364cc207", "parsed": "invalid", "expected": "invalid"}
+{"key": "953f117bc5436f9e1a8ed495", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "986b850467407bf669d55700", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "331e15133db754028808f708", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "4560efbbde48bfbd4a8fc88f", "parsed": "invalid", "expected": "invalid"}
+{"key": "1d038c930f372a738e367297", "parsed": 700.0, "expected": 700.0}
+{"key": "e0d49c6edebf0b4c0322cd44", "parsed": "invalid", "expected": "invalid"}
+{"key": "a549b8f4ef05d8ebd8798852", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6ae60f7e4f6f770b9a48811c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "df54a9dea31064a6ac530d03", "parsed": "invalid", "expected": "invalid"}
+{"key": "3823e47fdc65b18e13670678", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "19ba6a77cdb6bf22dda2425a", "parsed": 700.0, "expected": 700.0}
+{"key": "28e4c90b57e16443321f7d93", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "bd604089201c69317482b58a", "parsed": "invalid", "expected": "invalid"}
+{"key": "9cf4226c14237cde2d2885e4", "parsed": "valid", "expected": "valid"}
+{"key": "687113565bc59add57a0787b", "parsed": "valid", "expected": "valid"}
+{"key": "1f11ba1ff1f554dd4c777260", "parsed": "invalid", "expected": "invalid"}
+{"key": "6793dac42ccc02b5333827d7", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "d4c8600126abd808bc1dc0c0", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "eca9c45ed6114565de232fbd", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c7393cbadf2fc510a20338c0", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "864fff5df34a9317a331f7f4", "parsed": "invalid", "expected": "invalid"}
+{"key": "9bf17d07aeefe25c68c1520c", "parsed": 700.0, "expected": 700.0}
+{"key": "e624b581490afc7fd3226ca0", "parsed": "valid", "expected": "valid"}
+{"key": "cc1ead80c139a82dcb971c3e", "parsed": 700.0, "expected": 700.0}
+{"key": "62c6bc449a2ff369f91238a7", "parsed": "invalid", "expected": "invalid"}
+{"key": "58d98831551cd19ff56a3eff", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "260a540f8fe9e7d64a26a1e8", "parsed": "invalid", "expected": "invalid"}
+{"key": "94c807c593f48445eb0b8ee5", "parsed": "valid", "expected": "valid"}
+{"key": "36ba3ebb242953c36cbdcfb7", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "59cce3c547d952ce8696a679", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "89ae6c14d479ceebdb4e4343", "parsed": "valid", "expected": "valid"}
+{"key": "1ae08381a34edfc1ca698a32", "parsed": "invalid", "expected": "invalid"}
+{"key": "a44be266ccd4f7f53abb2ef1", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "8c49e182f55494a56070f5ec", "parsed": 700.0, "expected": 700.0}
+{"key": "1eb66f65609c77089c8e13ba", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "23fda2e2adc31786a065c697", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "126acd3917dfb456fdfddb9d", "parsed": "valid", "expected": "valid"}
+{"key": "fa8db1ac927320b19750c973", "parsed": "valid", "expected": "valid"}
+{"key": "ef036304acfdab8dab0af4e6", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dfd9e2b6e446c9c4593d38ab", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6d08dd1e21f516ea58a13158", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "35b2b41b64802ffcb2c6a95a", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ba3350200e414e9e950846e7", "parsed": "valid", "expected": "valid"}
+{"key": "9dfeb1401177ac38b97be53a", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "a44d3c05cdfd6ca45a957f08", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "e0ad62dc34bec4e498df40fd", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "08a403422e03765b5c556683", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1df888fbcd81e7730e9128b8", "parsed": "invalid", "expected": "invalid"}
+{"key": "e73324dd674dca18f2e5cbec", "parsed": 700.0, "expected": 700.0}
+{"key": "7c4294fe5eb60f282edc4c47", "parsed": "valid", "expected": "valid"}
+{"key": "383cf4a7fc369c92f2d1c9cf", "parsed": "invalid", "expected": "invalid"}
+{"key": "8d92672b847cee79d333209c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "8e6dd72a8bf4b2766bd5b20f", "parsed": "invalid", "expected": "invalid"}
+{"key": "605867db8dc0ebba67793959", "parsed": "invalid", "expected": "invalid"}
+{"key": "638fb0ee037dfe4341229947", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "5d7306859955475269e42d91", "parsed": 700.0, "expected": 700.0}
+{"key": "3718bc733ac915793eee30d0", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "80458cd4d7b5f39ce798b8b1", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "9582e02971387ede7ac31128", "parsed": "valid", "expected": "valid"}
+{"key": "41f8d3dbbf1e6eba29da9891", "parsed": 700.0, "expected": 700.0}
+{"key": "ed86b6764acdb6cc89a12c0b", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "29ae9c2f92030d6dd89f59e2", "parsed": 700.0, "expected": 700.0}
+{"key": "aae6c6d65c8df7bba84986a0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "db57b6ea341119deb51e2366", "parsed": "invalid", "expected": "invalid"}
+{"key": "95eb8201f54fbe32f1b838d4", "parsed": "valid", "expected": "valid"}
+{"key": "21787775c8e7b8c62cc3ba35", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "3f48427fa01f77a4be77ccd1", "included": ["p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "30f398da9e3179fa77f626e6", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "ddbb3800418d212c587dd96c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2033ee0fdcaac293c610c243", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "0778d7c6a51201c461aeebba", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "9df7acc6898009893ae16df0", "parsed": "invalid", "expected": "invalid"}
+{"key": "719303ac7662a13eec0fda74", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "2e9709f4afee1e9ad0d19334", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1973a23b3ffb9c06ebf2ad20", "parsed": "valid", "expected": "valid"}
+{"key": "81f1eeebb0349fb18b136824", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "46efee3ebd71788e854895d6", "parsed": "valid", "expected": "valid"}
+{"key": "13e95401e0bf3de4a4987386", "parsed": "valid", "expected": "valid"}
+{"key": "a6d7c15f3ef857b406fa6740", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1d477962fe5a6e84505c2f40", "parsed": 700.0, "expected": 700.0}
+{"key": "d59ce301818bba06393b15e8", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a3ae81be2dd433575638792f", "parsed": "valid", "expected": "valid"}
+{"key": "54a623ede6eb2a807c13ccd6", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "6b4bc4d10b7ff8426a6ebeda", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "b9d0fbf7ddf57db693e1e062", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "5e21656deb29466f15ceaef9", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "e5456139df1a91ca24bc8ef1", "parsed": "valid", "expected": "valid"}
+{"key": "0923821bb3922e782623d2d0", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "d21d66c01e3d090b75ade666", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "fb041f39f089c2c09b17e49e", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5f9926d3b3e8c9e63f815380", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "0d4f5e6ffd5bb20584b4b3bd", "included": ["p_burglary", "p_missing", "p_response", "c_protests"]}
+{"key": "c73196c382f5771a826efc53", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "048d04189bbccfdf9e918ddf", "parsed": "valid", "expected": "valid"}
+{"key": "efb65388438a14e8cc76747f", "parsed": 700.0, "expected": 700.0}
+{"key": "c8e26fc5fc2942d0f6973de3", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "496ac16f770e08c65f67ab25", "parsed": "invalid", "expected": "invalid"}
+{"key": "91047e1de440ff4f4d12cdb0", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3bf5e766a4a6d226fb4231ef", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7672308ef3a92f0f60497fad", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "59ba2ee9f489857d5bfa107e", "parsed": "invalid", "expected": "invalid"}
+{"key": "98a86796d8ba0534459cf358", "parsed": "valid", "expected": "valid"}
+{"key": "884d67be3cfef959ecac8eea", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "8a534ea746298ba5fcf06141", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "79fe7e372a3ccd8fa296ce67", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5f1565aaeac41dd39e41aab5", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "c4997430f92411db91eda5b3", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e948fd41756c266195689e37", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "f2fdf3d43ff66a39f6515f47", "parsed": "invalid", "expected": "invalid"}
+{"key": "e266580fb7a04d227a5fff5c", "parsed": "valid", "expected": "valid"}
+{"key": "cadd3ce15b390296128ca2af", "parsed": "valid", "expected": "valid"}
+{"key": "2f4edcd865ba73389301baf3", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "e039232f589e86538e1bab06", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "e65528b1df5ef512e892fcf4", "parsed": "valid", "expected": "valid"}
+{"key": "dd8a423910066b22727ed795", "parsed": 700.0, "expected": 700.0}
+{"key": "569600282d264c931c14820c", "parsed": 700.0, "expected": 700.0}
+{"key": "cffe3e7b29f27ee52a8aa112", "parsed": "valid", "expected": "valid"}
+{"key": "74e20f1cfb1c4a46485480cd", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c18c71cce808309c9f302488", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "64120580ea07769d62c12223", "included": ["p_burglary", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ac45c34e3c179b710aad5792", "parsed": "valid", "expected": "valid"}
+{"key": "1b16fa546a5f7f7c131c99a1", "parsed": "valid", "expected": "valid"}
+{"key": "7e902c6f06c8b8dfc46c1ce3", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "21820c49243f62deea3e3e93", "parsed": "invalid", "expected": "invalid"}
+{"key": "66f87279679cfd81946b2ef8", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "53b14f1cfd33856202b2a495", "parsed": "valid", "expected": "valid"}
+{"key": "9ed48585e7e41732647d3944", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "371876248b9cbab55b346ee3", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "ab20e2eff3e22d8ea8650a37", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "12b0204f3e2eb4427721c114", "parsed": "invalid", "expected": "invalid"}
+{"key": "1e2f0323a9c69b1636dcad59", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8e251b9494525e789c915252", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "90d10d7c6ec313c3c520b4fd", "parsed": "invalid", "expected": "invalid"}
+{"key": "f5f9e2bb8f3f9e8ed6e4c4a2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c1a650c5866d820397ad8b87", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f65831309d2e668d73ade03c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2a32e62f3d1225d6367d1df6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "aa50c5d774c5336b09f427f3", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "580b6685cc543518f373b03d", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b7281379c1e3383ea2e4ef8c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d901abcc467ca67973c09dfe", "parsed": "valid", "expected": "valid"}
+{"key": "d2cf2eba49151d3f497619dc", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "60b581645a10c3e0313048d0", "parsed": "valid", "expected": "valid"}
+{"key": "463cbff5a1ab37b217ebc920", "parsed": 700.0, "expected": 700.0}
+{"key": "46bfb6e79487979903022905", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f9cadf66083ac7e673c274b5", "parsed": "valid", "expected": "valid"}
+{"key": "09df1c131405faca47437313", "parsed": "invalid", "expected": "invalid"}
+{"key": "1cb6aaabf52f5a8f9fdb6dd8", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "4e8152093ffa5d2c2a402a8b", "parsed": "valid", "expected": "valid"}
+{"key": "b0e14b3258040ea096f1e32d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "48727da7a9ac5a096eed7898", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "6268f8d369bed9919309e198", "included": ["p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "406bf332b496db33a0885044", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "bcf445112210adbd5e7cb759", "parsed": null, "expected": 700.0}
+{"key": "dfee47bd7c7495f5513860ec", "parsed": "valid", "expected": "valid"}
+{"key": "3f7d3ff64ccef96f8b3ca450", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "9a9225d0a979952a0b071a91", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "26c744fed9271c4939b98129", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "7d2f7a9d14b258d113959cda", "parsed": 700.0, "expected": 700.0}
+{"key": "9bcd45e0c45718fd4b4adb6c", "parsed": "valid", "expected": "valid"}
+{"key": "83b085801fa788d86dc9e17d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d498ee8cf63138c7a7b09457", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7a0403fd6734eaa41183429d", "parsed": "invalid", "expected": "invalid"}
+{"key": "d7d5f24091b296e608d22669", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6b545a1711236a350bc7566d", "parsed": "invalid", "expected": "invalid"}
+{"key": "cef95e39c5d5e94ec9a1877e", "parsed": "valid", "expected": "valid"}
+{"key": "6551fa04a70efb413758370f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "15f80ef22fc3e9cd6036bf30", "parsed": "invalid", "expected": "invalid"}
+{"key": "92ac947148019ff02e195c7c", "parsed": "valid", "expected": "valid"}
+{"key": "770f6feb84fd1c49e6149267", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "4cffe054c311a3c810085cb2", "included": ["p_burglary", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "32ae704fd156f10f28f98be1", "parsed": "valid", "expected": "valid"}
+{"key": "3d12756de94a0ecdf141a8b9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "1c866115e9b907de4be12399", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7d86d1d634976b5546f999d5", "parsed": 700.0, "expected": 700.0}
+{"key": "c7b4001be6f4a62084743840", "parsed": "valid", "expected": "valid"}
+{"key": "4e705755719c5e5baa9191b4", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "60234ac82bb63ee35af44deb", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "80e02666c55e2a708c50214d", "parsed": "valid", "expected": "valid"}
+{"key": "7bff7aec4b76b4949cb325a0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d84abe8c5de917adeff17f6f", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "6211eb79deb03bef9865ee4a", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "8c4b53075f917d6b33de0359", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "df93d23bf5562686ebfa364f", "parsed": "valid", "expected": "valid"}
+{"key": "0a13e75fad7a59ab26dbb427", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "60eb66da2160147581a8cbab", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "fe94de3f4bd0cf85088aa577", "parsed": "invalid", "expected": "invalid"}
+{"key": "370102e23f33dabdd838e233", "parsed": "invalid", "expected": "invalid"}
+{"key": "6de1dcd3f16a2fd35e273da3", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "bce982893bf9b7abbb2d4fe7", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "715801c218d25089babe337e", "parsed": 700.0, "expected": 700.0}
+{"key": "a8dbd4cbc3cd939dd623e2d3", "parsed": "invalid", "expected": "invalid"}
+{"key": "c62a34ddc4f247d94c36cbb6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "f66e555c3f4d76c78bf9b6b0", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "82667ec3aab7112056a5ba3a", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "24f94fc39f8734ec7227457a", "parsed": "invalid", "expected": "invalid"}
+{"key": "61551409e6e2ad4e9b5c9ed5", "parsed": "valid", "expected": "valid"}
+{"key": "adf65e11e721c6f9a67e8632", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ae4a22a9b41bf923eb220751", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d98508308032285ac3094309", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "fe65e86747acad92a6040e7e", "parsed": "invalid", "expected": "invalid"}
+{"key": "ee0bb5b9901600834a38a3c4", "parsed": "valid", "expected": "valid"}
+{"key": "e9981fff0e9d32a5239e5456", "parsed": "invalid", "expected": "invalid"}
+{"key": "b3cd81bf98ce78cc3b00ae3c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "bd20e3500b2837f2a90469ca", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3cfc4eff1a9c41825fd88cbd", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "463b9c7054db96cd3ff0e3b8", "parsed": "invalid", "expected": "invalid"}
+{"key": "474785df29d3486f3437387c", "parsed": "valid", "expected": "valid"}
+{"key": "4d76880ee951538cf31e5745", "parsed": "valid", "expected": "valid"}
+{"key": "091f52bc967a475b7530238f", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "5ef5d0a46273590efb666309", "parsed": "valid", "expected": "valid"}
+{"key": "62de4f6714bba66a85981ff6", "included": ["p_burglary", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "0989b89a84888cb285a4fac9", "parsed": "valid", "expected": "valid"}
+{"key": "4a58c22b5235ae8a9383ff53", "parsed": 700.0, "expected": 700.0}
+{"key": "632c83c24eef81134dff964b", "parsed": "invalid", "expected": "invalid"}
+{"key": "1fd7dabb772a084f6018e3bd", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "8e6a5e247977b4b7678948ad", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ed2f5363869d32f9bf7899f5", "parsed": "valid", "expected": "valid"}
+{"key": "66e2a95ba6e97f497b944734", "parsed": "invalid", "expected": "invalid"}
+{"key": "89e2c76e83b091fe99869390", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "762ca4a8231ef6d25f397012", "parsed": 700.0, "expected": 700.0}
+{"key": "0eafe941c05b4a7ace074b37", "parsed": 700.0, "expected": 700.0}
+{"key": "bfbd5690d2d46371c2085d65", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "53816dc205a5fdb9baadd723", "parsed": "valid", "expected": "valid"}
+{"key": "193e3e42f939dd6775af53f9", "parsed": "valid", "expected": "valid"}
+{"key": "c8ba951d5feb45a995b5701b", "parsed": "invalid", "expected": "invalid"}
+{"key": "1f64209d1bec1d6233bcf240", "parsed": "valid", "expected": "valid"}
+{"key": "d2dded611af8ddb0649e507f", "parsed": "valid", "expected": "valid"}
+{"key": "a24f958916b09f97229db0d9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b1aec2c5a543f8cc26b0bec7", "parsed": "valid", "expected": "valid"}
+{"key": "280a3ae94c911328455fc59d", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f364841b95f286ced58365aa", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d8c1dfc89182fb131f6a8342", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "eaa791a5747ace97ef77771a", "parsed": "invalid", "expected": "invalid"}
+{"key": "6e293e1924ee9d2e6b481c03", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a21b81a4fa2888bbf91a4ba0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "acad331e375964c92fb6c011", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2d721551edbb8832ed288d16", "included": ["p_burglary", "p_missing", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "62291103474850d83baa492c", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "90da228f8f7c08b3fc2b8e62", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "b3fc3434291b4cbb76f8f25b", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "70dd72c9c757baf169e64acc", "parsed": "invalid", "expected": "invalid"}
+{"key": "5a1bd55ab40e0522ada4cb9f", "parsed": "valid", "expected": "valid"}
+{"key": "3830f1a0735cb237e72789b0", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "0b5a006538e6ec33c35342d1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "f22bfd22917782a5427a91a3", "parsed": "invalid", "expected": "invalid"}
+{"key": "48afb625a1dd5403fbd07049", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "357d0fef01c89ef549240372", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "79163c03fb0ddb1163c19c0a", "parsed": 700.0, "expected": 700.0}
+{"key": "3557dbd26ecf5695d6dc32e3", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e488727c85de3c8a0959eb68", "parsed": "valid", "expected": "valid"}
+{"key": "3c0af9716dc0632f2bc03b33", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b128a30982488195d7748f8c", "parsed": 700.0, "expected": 700.0}
+{"key": "a867f4fd74d0cb85293ddebd", "parsed": 700.0, "expected": 700.0}
+{"key": "11578994559b60a22abc4990", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "4bcf28f96ac454d622a15786", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d887f67b20e4c194a45fe2e6", "parsed": 700.0, "expected": 700.0}
+{"key": "fcddc42d98ca8fcae299b776", "parsed": 700.0, "expected": 700.0}
+{"key": "e3cdfaa26fee0c76fade17ff", "parsed": "invalid", "expected": "invalid"}
+{"key": "2e4c1a8289cc8d254dc47ad8", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "b933a7fdfec63124413ddd9b", "parsed": "invalid", "expected": "invalid"}
+{"key": "5bb83cd8e267d0d6219c484d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "c86656087e11dd50d236b113", "parsed": "valid", "expected": "valid"}
+{"key": "11948f481771820664fa43e9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0530922df505b4822835e809", "parsed": "valid", "expected": "valid"}
+{"key": "188ba8e0583012da740df2bc", "parsed": "invalid", "expected": "invalid"}
+{"key": "f6f05893df4649210f41dbee", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9fa86887c163754cf7fb579a", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "eca0a3bc119e60509ecd7cee", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "d0107db436a2c41369fba719", "parsed": "invalid", "expected": "invalid"}
+{"key": "c8ab6b8046e5e7acd4024cc1", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "578fa49df5a607ca31bf483e", "parsed": "invalid", "expected": "invalid"}
+{"key": "940ff5cd6a52481db876d78b", "parsed": "valid", "expected": "valid"}
+{"key": "8b03ac2b6de7d16759cca548", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2f8a81882e8c79a9be6ebbb5", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6045ec981f66fe9e0a49fd74", "parsed": "invalid", "expected": "invalid"}
+{"key": "b6ab8fd9e7b383be0220d15c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5ee9c5985e2148ec165bee93", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "f080fd17c75b34b0c4661cae", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "37483cc133444ecdd2317c00", "parsed": 700.0, "expected": 700.0}
+{"key": "13f44ab8b576d393fa2e1604", "parsed": 2.3, "expected": 7.578947368421054}
+{"key": "9a30a948cdbb2627895158e5", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b76270b155176673a097426f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f75476fa8e7382e36c5fade5", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3cc0d4a0a853d316150154ab", "parsed": "valid", "expected": "valid"}
+{"key": "451d644c26feeea25ecf172a", "parsed": "valid", "expected": "valid"}
+{"key": "af792015a19051bba824abf4", "parsed": 700.0, "expected": 700.0}
+{"key": "2ea4120131c608ee1c9db9cc", "parsed": "valid", "expected": "valid"}
+{"key": "cdec164078b22291506ba25d", "parsed": "valid", "expected": "valid"}
+{"key": "6d53239cc7144c462c377615", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "a6a2be5998276eaf0e7df23b", "parsed": 700.0, "expected": 700.0}
+{"key": "9b6b691b6e1a9fed658f0b7a", "parsed": 700.0, "expected": 700.0}
+{"key": "d0c9ac37b9d3bbaa8820135a", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "4b03dffa0dd46d5be124db16", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "17729f60de3d8ec3932ca69c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "1927942983bffec7a44d5349", "parsed": 700.0, "expected": 700.0}
+{"key": "99f7501388cf3eb9ebc818b0", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e3b824a381847311d52edea1", "parsed": 700.0, "expected": 700.0}
+{"key": "1680bd3906886ec61ba6ffe5", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "846a1af544be54e1796a73fa", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "2661324a06c5de8397b7c272", "parsed": "valid", "expected": "valid"}
+{"key": "3634844a71cf8526323f7238", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "e09199953fb1ba54ab678937", "parsed": 700.0, "expected": 700.0}
+{"key": "d3f96b1f96301ec301730864", "parsed": "invalid", "expected": "invalid"}
+{"key": "629817355237121f34c78523", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "88e9ac93612478401b9a0957", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "08b2947fdd62906582854cd0", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d3854c51de6e5e9b9c95d8cd", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b9b2c9776f0ce91f6cc690bb", "parsed": "valid", "expected": "valid"}
+{"key": "f28afc1c7ada638ea040388b", "parsed": "invalid", "expected": "invalid"}
+{"key": "e52f573472667a17e8802137", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged"]}
+{"key": "0f78725b92a7adb290f19ade", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "99534cd6ec51dcfaeff55c19", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2dd1222018963079220d6f45", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "739ba6f11aba9ca232f67109", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "085a1aa5d5426421c03267d5", "parsed": "valid", "expected": "valid"}
+{"key": "a2126340143d84cf0afe8c97", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "176bd6f4d95bb76bae721db7", "parsed": "invalid", "expected": "invalid"}
+{"key": "7447fbc9a987f702660524d8", "parsed": "valid", "expected": "valid"}
+{"key": "daf11a859ad2f0dfabaffa85", "parsed": "invalid", "expected": "invalid"}
+{"key": "9081c99dee22060ce387a699", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "06a9ec65051e18f65bf3a8ea", "parsed": "valid", "expected": "valid"}
+{"key": "e17a67717f0d01c7d7af8871", "parsed": 700.0, "expected": 700.0}
+{"key": "512132f322c3090a3450f448", "parsed": 700.0, "expected": 700.0}
+{"key": "7e7f69f2b6fb29dd525ea0ec", "parsed": "invalid", "expected": "invalid"}
+{"key": "ef166c448924f88f787c5c91", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "719f061018658d5bb09c7002", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "85f5e7b089ed12cde26e58ec", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "e2e64e5771a79b7a6566fe1d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "3cbf9746af13b0182f57ef4d", "included": ["p_burglary", "p_response", "c_wrongly_flagged", "c_protests"]}
+{"key": "ddab68227180091260fdf809", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "30660b0fe2ce4299b2d118d8", "parsed": "valid", "expected": "valid"}
+{"key": "24001af162dfa79636ca3679", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7893d76eed2d9e387fda380b", "parsed": "valid", "expected": "valid"}
+{"key": "15e5d72ba6f3ddbe6b3b8177", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c1a3f8d80cdf39bf8f715723", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a8f15c386bf21f8e2a60adc1", "parsed": "invalid", "expected": "invalid"}
+{"key": "9e751925309802bec617d97a", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "4aeacf1be7ddd70c6278a0f1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "c2d5c396dc5c3b3f541729d2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8436743b6a97228adb28fd36", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "45f0f95f491de3ea823b2fa4", "parsed": "valid", "expected": "valid"}
+{"key": "d166889a7132a1df6a8e7fc0", "parsed": "invalid", "expected": "invalid"}
+{"key": "fdb81e25965a855c99be1fbf", "included": ["p_burglary", "p_missing", "p_response", "c_protests"]}
+{"key": "26945b1a1655118b73803217", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "9b4c036ecbcfdc3c60fad602", "parsed": "invalid", "expected": "invalid"}
+{"key": "6720da2d95056d86ba7a88b8", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c12fe0d911a7a0edd7e0c8a7", "parsed": "valid", "expected": "valid"}
+{"key": "ec78138f9dd14ef9bf8edcd4", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "750a0f24e4bfe58758308c4a", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6a194c118200fcd5665a87f1", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2a80572d41bb66d024e58052", "parsed": "valid", "expected": "valid"}
+{"key": "76bd0828dfc460b016b2cd3b", "parsed": 700.0, "expected": 700.0}
+{"key": "d3709f98ea9b48620c1c7628", "parsed": "valid", "expected": "valid"}
+{"key": "d087002023a9e93fe6b66e17", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "acaa9aefbd98e8571ca6e232", "parsed": 700.0, "expected": 700.0}
+{"key": "1cf4a8ac047059a1cb82ab26", "parsed": "invalid", "expected": "invalid"}
+{"key": "2fca7285bcf2a2f15abcbb32", "parsed": "valid", "expected": "valid"}
+{"key": "987e8f1f6aef2b5c01523817", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "80df3bb066521f3951527ff6", "parsed": "valid", "expected": "valid"}
+{"key": "cbd4a6ac0a90854e55ed9310", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1539048a998c08dd6a8a91ea", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "95d266cc93bf90db5e317623", "parsed": "invalid", "expected": "invalid"}
+{"key": "c03507e6c9c7bef817ed1097", "parsed": "invalid", "expected": "invalid"}
+{"key": "a6c8594affd6467f833d592a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8880f10de366868ff5e1c46a", "parsed": "valid", "expected": "valid"}
+{"key": "c8453a6af9cdfe48e253a94c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "a0403a83c163dbd71ce81281", "parsed": "valid", "expected": "valid"}
+{"key": "cd38368add7a48e0a1bbf760", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "78f220304040924b5d63507b", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "219e426b6307ce0c804f0b6f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "74ba06007523557291c3296a", "parsed": 700.0, "expected": 700.0}
+{"key": "5491ac1c9d66613d01537c06", "parsed": 2.3, "expected": 7.578947368421054}
+{"key": "d5cdb6fb7f4d5b2a217c4ceb", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "86eb7b16a2c242afdec1dab1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "fef038dbc6b7ebd656fa450f", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "bd7531cdb7997802667f272a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f9179cbefaa7cb2b8e2e77b4", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7f75b10469615ce2cb052832", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "dccede72d756518e877f1b08", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "54974e313b9a2e50183747c1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "3a74be37b15a4ada3763f6f1", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "8b75003699cae0848d3a70c1", "parsed": 700.0, "expected": 700.0}
+{"key": "6cdecebfebe3843c0eebff15", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1f7ee8ae85294ad83f125faf", "parsed": "valid", "expected": "valid"}
+{"key": "97630f019013c12168825860", "parsed": "valid", "expected": "valid"}
+{"key": "29cc69574ff6784cfec16409", "parsed": "invalid", "expected": "invalid"}
+{"key": "a70d1b5084be497f6b7aad9e", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "181f0c62763cac3a828c4792", "parsed": "valid", "expected": "valid"}
+{"key": "13c8475625697197b385916a", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "23b4d97bb5d9df66353b3c9f", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "f2e2f691b90487d2c33945fc", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "82fa2baa01f7a7cb5a6076be", "parsed": 700.0, "expected": 700.0}
+{"key": "ce118e8aa91369686840ee9a", "parsed": "valid", "expected": "valid"}
+{"key": "9436ff7091058235ccf0c868", "parsed": 700.0, "expected": 700.0}
+{"key": "7c1194d961cba28127d33837", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "6ad40e1ca754b8a96b803794", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "45712aa298be9baa668e3776", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "a57a27187e47c251bb566a82", "parsed": "valid", "expected": "valid"}
+{"key": "03f46cb1e07df0bd6992cfe6", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "9b54e440beb0c24af3e7ceec", "parsed": 700.0, "expected": 700.0}
+{"key": "05a9a7ac13eb3f6eaf88dfa7", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "7a1ded54e0ff13ebb4fa8d02", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e020acee61ba8b0393e25811", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "db0dadd14d63699870e7c2ee", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "3dbfb9da289d19960007ec88", "parsed": "invalid", "expected": "invalid"}
+{"key": "84cc86e2d88a11949a927181", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "2a3f7696d775cdd4d0eb6cb6", "parsed": "invalid", "expected": "invalid"}
+{"key": "080c237554df11dea89ccd5a", "parsed": "invalid", "expected": "invalid"}
+{"key": "01a90c782e2b2a9992f6317e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "835090ab14f6d92903a88a6d", "parsed": 700.0, "expected": 700.0}
+{"key": "f26ff31b862d8c5df3496905", "parsed": "valid", "expected": "valid"}
+{"key": "730ead5ceea1967c656387e3", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "99ee1781858122c1c193b8fc", "parsed": "valid", "expected": "valid"}
+{"key": "cb23561c4434da470c8c09df", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1773a917d54527424645e223", "parsed": "invalid", "expected": "invalid"}
+{"key": "bb0b486623f5681c711b442d", "parsed": "invalid", "expected": "invalid"}
+{"key": "7bafbc691a4a69f66835ad37", "parsed": "valid", "expected": "valid"}
+{"key": "ef0deb5dfb7a997c986305e0", "parsed": "valid", "expected": "valid"}
+{"key": "9e2024aab40c7befd608a612", "parsed": "valid", "expected": "valid"}
+{"key": "474e74b16ad2fd9fecee8a19", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "0124ed104dd3a87c5f1f0814", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dd248e408a0128ebac6382ab", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "1036c4df6ae90b413a037807", "parsed": "valid", "expected": "valid"}
+{"key": "e15907079ecf694d593ddc0c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "3fa0ab740ab40cf65d951a97", "parsed": "invalid", "expected": "invalid"}
+{"key": "6410c99ff8bb9bbbdd3d6cf2", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "634eeefe694283402cbccf4d", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "b78a25ce9bcd2bb8c825dabc", "parsed": "invalid", "expected": "invalid"}
+{"key": "6e27c22c6205f461d9b5f36c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "cc383d20987878f4bc076b7f", "parsed": "invalid", "expected": "invalid"}
+{"key": "369501f9f0f5111a28e119f8", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "23e38a0308568d06f6390e33", "parsed": "invalid", "expected": "invalid"}
+{"key": "0f8b50845d76f1effc032b3b", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "de0fe997835028fd40ff592f", "parsed": "valid", "expected": "valid"}
+{"key": "5b2617e9575e4576e0a615c0", "parsed": "valid", "expected": "valid"}
+{"key": "79fdab8e4821d38500b006c6", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1e3442a2195d446a332aa03d", "parsed": "invalid", "expected": "invalid"}
+{"key": "3c451bf55b3c16a4b28602ac", "parsed": "valid", "expected": "valid"}
+{"key": "3644ae1c5449c1c993be2e30", "parsed": "invalid", "expected": "invalid"}
+{"key": "d6c50ed02f2a76b94cf5c845", "parsed": "invalid", "expected": "invalid"}
+{"key": "ad37dbff7995b9b59ba0256e", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "18f37385765286035b1dde8e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "d7d6694940b82b95cbe3d950", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "de1660a2e7505d9093a90cfc", "parsed": "invalid", "expected": "invalid"}
+{"key": "08a33e8f2ed49e7dd6c9cbaf", "parsed": 700.0, "expected": 700.0}
+{"key": "c5f7f5abd947958b4d775dac", "parsed": "valid", "expected": "valid"}
+{"key": "8cfd3c8d8ed17306198ed7ed", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "bb92f33be5eef568f7056159", "parsed": "valid", "expected": "valid"}
+{"key": "02edf4e262bd715150b6baef", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b0077f8aa7e49b721cc3ef72", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3aa919f0abb82de84fe72159", "parsed": "valid", "expected": "valid"}
+{"key": "aab45214c8993235b32ce605", "parsed": "invalid", "expected": "invalid"}
+{"key": "3b898167b23ea17ff6f0904c", "parsed": "valid", "expected": "valid"}
+{"key": "77cda9ff40826eed351adc6a", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "c1afdb9945b243cd5afe40be", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "04c9ff399763edbf6f148b02", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "7ce04bd390b27907f596196d", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "1c7bee8ccbefb73076e949dc", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "950f04f480d3469d4eff3814", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "5e9a7dcca2e8ca6e5db90e1b", "parsed": "invalid", "expected": "invalid"}
+{"key": "ce4edbeabd8dc42c10994e5f", "parsed": "invalid", "expected": "invalid"}
+{"key": "ddb1820ddca81ccfbc29b4ca", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7e2d5b778b05f4565d6060ee", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "2881580f8e5d744533ea7f87", "parsed": "invalid", "expected": "invalid"}
+{"key": "193860e183e75d16c7b0d258", "parsed": "invalid", "expected": "invalid"}
+{"key": "9331709305d82cc680c0392f", "parsed": 700.0, "expected": 700.0}
+{"key": "dd6dd42091ca1976b01678a2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ac5372345ebe78d0da797562", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "809ba62553827aaed5d57ec3", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "aa1b95b5a8d884419a7dad8d", "parsed": 700.0, "expected": 700.0}
+{"key": "1cfc05651ebb1d38b5138ed6", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5db94413b7f25e11293100e7", "parsed": 700.0, "expected": 700.0}
+{"key": "1d9047b62911a4f808ee024c", "parsed": "invalid", "expected": "invalid"}
+{"key": "bbf1ab536e82a11043b35fbd", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "3ce5de5ff034d905a3103903", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "dae8525e84b1000f6b5813b9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3166863c31bd964e06952f9e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "4527ca8cf64f708832b073bf", "parsed": "invalid", "expected": "invalid"}
+{"key": "fea9448585be1785731d38d9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c7a20b6a29eaca9968f00947", "parsed": "valid", "expected": "valid"}
+{"key": "252a2754b5026c4ee4d385c0", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a8b9ea3fd98d0f6f42ac0149", "parsed": "valid", "expected": "valid"}
+{"key": "17dee1535e6183b2ddabe0e2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "846e26acbd4e5c3af70d91fb", "parsed": "invalid", "expected": "invalid"}
+{"key": "f179ba0b9aca134d12070f88", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "7873160b2f5b84e260c12291", "parsed": "valid", "expected": "valid"}
+{"key": "7c488e64224cd1275bd8e874", "parsed": "invalid", "expected": "invalid"}
+{"key": "f6d1f8ee2c39af83d62b99a2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dd5f8908e9038846bc501851", "parsed": "invalid", "expected": "invalid"}
+{"key": "15983632f13c3b17f55185d7", "parsed": 13.0, "expected": 12.85893588685003}
+{"key": "0983260c27b9404d167c6909", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0deee93d0712a067748de239", "parsed": "invalid", "expected": "invalid"}
+{"key": "30d4000fba8ca3291b92766c", "parsed": "invalid", "expected": "invalid"}
+{"key": "3a3fd4441c4f9fd88716765c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "4c15e4443b1ddb8d3892d71d", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "0a410631e07a4f19a9422592", "parsed": "valid", "expected": "valid"}
+{"key": "aacbfdd093194666586899fd", "parsed": "invalid", "expected": "invalid"}
+{"key": "192469205c31851a5d8f4b50", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "60260a0452bcd1c4505544b9", "parsed": "invalid", "expected": "invalid"}
+{"key": "dcb5d43ac23f599782d3cdff", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "ce7195fb0136fd7d255e5443", "parsed": "invalid", "expected": "invalid"}
+{"key": "f4ac66728a069bcd650119f7", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "1e619713e64ba5a4b971469d", "included": ["p_burglary", "p_missing", "p_approval", "c_warrantless", "c_protests"]}
+{"key": "c44a2626470bd9603016e658", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "28b5154513788c44f638e2aa", "parsed": "invalid", "expected": "invalid"}
+{"key": "25fdf8b2be551abc0a8d44d7", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e56aabdfefeeb5745bac9ce3", "parsed": 700.0, "expected": 700.0}
+{"key": "5d19129a1b814bc9fedbf3fb", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dfb50961174a6d5bdc2dedf9", "parsed": "invalid", "expected": "invalid"}
+{"key": "2156af9ba856ec032332b826", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e47b5080d15aa0c8a18b8df2", "parsed": 700.0, "expected": 700.0}
+{"key": "594f126076875cddcb33b8a5", "parsed": "invalid", "expected": "invalid"}
+{"key": "718a77d3061cfe454591d6e1", "parsed": 700.0, "expected": 700.0}
+{"key": "2c016c7abf0a37c2d2bc0f3a", "parsed": "valid", "expected": "valid"}
+{"key": "eb0cac4e63bff0649b3711a8", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cd0853aac51a2d83b9b37b69", "included": ["p_burglary", "p_missing", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7ef7d15666a74efcdd4c1c27", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "a6e6906b84f71d75ed2cdd3c", "parsed": 700.0, "expected": 700.0}
+{"key": "4e0632daf0473ea3b03bd1fc", "parsed": "invalid", "expected": "invalid"}
+{"key": "8e7d771ee4c9429ababc2e65", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "981e700250eb73f040102c11", "parsed": "valid", "expected": "valid"}
+{"key": "d41f5b0aa53e5e6f0cdc0007", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5cd68f03c95f33f7d281b2c0", "parsed": "valid", "expected": "valid"}
+{"key": "005be3ac87643b87ae251d97", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "030d787e4253e165542372ef", "parsed": "valid", "expected": "valid"}
+{"key": "cfc317df4c4889f608be1cc9", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "33db1ef3bb4012d3f0e63b80", "parsed": "valid", "expected": "valid"}
+{"key": "7fa89b7267eab96f9b771a75", "parsed": "valid", "expected": "valid"}
+{"key": "c03f53e2694150e676463e62", "included": ["p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "bb4e0b1d32bb6430a7940f76", "parsed": "invalid", "expected": "invalid"}
+{"key": "b44da3709ffd79d764da0a46", "parsed": "invalid", "expected": "invalid"}
+{"key": "d7e737b6baffa9f94420d719", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "5e2cf999c0a8365e6180b6a1", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b97f8709c043cd7469f951e6", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3ed206b17cf6e70bc7b61dca", "parsed": "valid", "expected": "valid"}
+{"key": "cb610c659180162df664e630", "parsed": "invalid", "expected": "invalid"}
+{"key": "3fca7eb8e71133280968d23e", "parsed": "invalid", "expected": "invalid"}
+{"key": "4516a71740285f78180334c6", "included": ["p_burglary", "p_missing", "p_response", "c_protests"]}
+{"key": "2a0d21b35fd5257898d5d194", "parsed": "valid", "expected": "valid"}
+{"key": "1b929296ddb5afcf863fbe07", "parsed": "invalid", "expected": "invalid"}
+{"key": "437953e9264c385d77f1a3a3", "parsed": "valid", "expected": "valid"}
+{"key": "7a320fb38e2399301807eb2a", "parsed": "valid", "expected": "valid"}
+{"key": "1515c4721fa6de75d68e2a25", "parsed": 700.0, "expected": 700.0}
+{"key": "6f6f7bad3f0e53656ca1e109", "parsed": "valid", "expected": "valid"}
+{"key": "1dd625594d93ef99343a5a9d", "included": ["p_burglary", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "58e952d23e79fd2d277197de", "parsed": 700.0, "expected": 700.0}
+{"key": "431ae3ea5fb3423f6ca83239", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "2abd0900d308e4ee005083c3", "parsed": "valid", "expected": "valid"}
+{"key": "074576cff5198973af592115", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "56f34d97fddcd16b56d4a8ea", "parsed": "invalid", "expected": "invalid"}
+{"key": "7e1a64bb798937dfa8543e9f", "parsed": 700.0, "expected": 700.0}
+{"key": "cb26c9bbaf00172b8e233815", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "41fb7e9e7d28d471c9b1023d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "95bce6201c31fa2b4683a70d", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "7abeb1a388ce49ca66527679", "parsed": 700.0, "expected": 700.0}
+{"key": "4c9745eb0358a54175fda516", "parsed": "valid", "expected": "valid"}
+{"key": "4c0c7206036980b606f7c195", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "c9d441bc650cfebbdcd14c18", "parsed": "valid", "expected": "valid"}
+{"key": "351ec3e9487f0cc2de7311d2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "db7a8c3ae7adb400aab0f60e", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6ffec5fb5b71f199f4c26ef0", "parsed": "valid", "expected": "valid"}
+{"key": "16477ee7bff1c59d6ce24ebe", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "90e24feccaf5fcf756d8d2c2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "79b973ef0d391681246dbaad", "parsed": "invalid", "expected": "invalid"}
+{"key": "a94871359cdfdb61e4192de6", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "f7e93162f202709452341d71", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "a491213538815f3737332363", "parsed": "valid", "expected": "valid"}
+{"key": "33cbdd5cd2cf594b89769b8f", "parsed": "valid", "expected": "valid"}
+{"key": "b122700fd899183a414e7a31", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b1d094da6a72107e21b4407b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "202d0780ee7b3a27eaca1a5c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "76faf0339b7f7199bbfefda5", "parsed": "invalid", "expected": "invalid"}
+{"key": "bc8323d1b107aa013487136e", "parsed": "invalid", "expected": "invalid"}
+{"key": "69af51f7948b5c88512b59ea", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "421fed229a65667ed66d8756", "parsed": "invalid", "expected": "invalid"}
+{"key": "0920aeb496e902b519ba1ec9", "parsed": "valid", "expected": "valid"}
+{"key": "a3d3feab3fbf88f0bcc19010", "parsed": "invalid", "expected": "invalid"}
+{"key": "240c5fcb148ee345139c66b5", "parsed": "invalid", "expected": "invalid"}
+{"key": "f298be0c3f5271a3d29c3d01", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "3242daf1ce28a887b7283af1", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "ac71c480606698a4eaa3dd7a", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_warrantless"]}
+{"key": "5424ef4a362d500f199e7366", "parsed": "valid", "expected": "valid"}
+{"key": "c622971f6f6e4c35806f4b3c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "02e9f3ff7c64217977466337", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7fb1badfcadc66523635bd42", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b436a4e3dc0ebb9c5e9d8300", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "2288a11e42c51e77d67644a0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "7b6734d927db28ec408b0048", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "de99a31c02a05c059e951b5c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "139da7ef025dde1a08e5bcb7", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8f6c9b87e06c4e03506436f7", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "3f7bcf381cbafde31feb88cb", "parsed": "valid", "expected": "valid"}
+{"key": "170f2a982341a5b0bd6df787", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "696761043aefd6e549755f37", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "f5c74a693c48adedf932b238", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6693c9c0e1cdbacf046e4ff5", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "839f62a03391e4b1256ab4ec", "parsed": 700.0, "expected": 700.0}
+{"key": "08dbc109f515a40c53004830", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1e80b146209acd47336697fe", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5be4efe3d3b72afae11426c7", "parsed": "invalid", "expected": "invalid"}
+{"key": "d7b6c5e5b4636e02b95f06f3", "parsed": "valid", "expected": "valid"}
+{"key": "e72344306b820c5993394114", "parsed": "invalid", "expected": "invalid"}
+{"key": "4fe84d03b7ac155304a7182e", "parsed": "invalid", "expected": "invalid"}
+{"key": "3d973787a44ba24fd37dbb3f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "61d1daa193b738974e853e5d", "parsed": "invalid", "expected": "invalid"}
+{"key": "495d584f19d3311d191efa0a", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "ca2ef40bd053f7e6d7b0a2e4", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "649fa8786546813c2e8e2b7a", "parsed": "invalid", "expected": "valid"}
+{"key": "c43efa6316adb4e871c338c8", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "bbe03e15373ead12fc03d3f6", "parsed": "valid", "expected": "valid"}
+{"key": "be867c035ba8cb4a907c4ec1", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "3b9eb428a6c95f0063f6d48f", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7747d9fd982ca2d741b01fc2", "parsed": "invalid", "expected": "invalid"}
+{"key": "53d3a0567be5945d0ab7b0ec", "parsed": "invalid", "expected": "invalid"}
+{"key": "34193dd8ac25f6afb8365925", "parsed": "valid", "expected": "valid"}
+{"key": "a65bb30d27ac571874aa6ecd", "parsed": "valid", "expected": "valid"}
+{"key": "745fe50c28196b9706aeb492", "parsed": "valid", "expected": "valid"}
+{"key": "a1f8544ab507b9ebe6ecc4db", "parsed": 700.0, "expected": 700.0}
+{"key": "e359b1152b00bc85e14207c0", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "19a5758929058c21b443fc92", "parsed": "valid", "expected": "valid"}
+{"key": "f635343a9e6926cb00d9bf30", "parsed": 700.0, "expected": 700.0}
+{"key": "9d450d818adeabb3d54accc5", "parsed": "valid", "expected": "valid"}
+{"key": "920ab939ffa3efe61063411b", "parsed": 700.0, "expected": 700.0}
+{"key": "8c5a7cce8fbfb1cf631345f6", "parsed": "invalid", "expected": "invalid"}
+{"key": "02d1b71cee97e10dc09bcd9c", "parsed": "valid", "expected": "valid"}
+{"key": "09f28fda5b1d39d1e0ea5956", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "9045e7e2aa38b09cf7d59e1e", "parsed": "invalid", "expected": "invalid"}
+{"key": "9d2e4c64b52bb573e15707e5", "parsed": "valid", "expected": "valid"}
+{"key": "792d820c91623b247827f283", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ae485a876fa9cbeab9b7e543", "parsed": "valid", "expected": "valid"}
+{"key": "10f533da70ad77adb680582b", "parsed": "invalid", "expected": "invalid"}
+{"key": "48086fce1ad958a4fc4e2dbf", "parsed": "valid", "expected": "valid"}
+{"key": "6b1c25e3c426554d057223e9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "26ef6cbcf5805dfcb3778220", "parsed": "invalid", "expected": "invalid"}
+{"key": "1f403499c55b7ae381d82301", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "7fa797b38e20587d7fe8885f", "included": ["p_burglary", "p_missing", "p_approval", "c_warrantless", "c_protests"]}
+{"key": "f1c52fa98e1063c8e0ff8578", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "666a83bd50ed97f8ae977f58", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "17b49c2b0c2cf09bcf96cb16", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "33db034a9b93318def5a63c3", "parsed": 700.0, "expected": 700.0}
+{"key": "d0b2c79f37c24d59ab548276", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "4c29de6df69b446357b3a849", "parsed": "valid", "expected": "valid"}
+{"key": "05c277b6dce883d6c413fa84", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2d1ab2f31f7c06d9d02f13c1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f434153601f03bde2ee95c4b", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "eb913c9947b45dc30b0dd111", "parsed": 700.0, "expected": 700.0}
+{"key": "3a70bbf42551d7d12b4e4cf5", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2aa5d3931692c35c65b571ec", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e36b05b32ae2128f15ca8c7e", "parsed": "invalid", "expected": "invalid"}
+{"key": "d7a032c7e706724344a654e1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "f39cee051f68b33ec6376908", "included": ["p_burglary", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "04e245e7f6b2767ea534b98e", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "4da4d340811a3c05f540f24d", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "134cda213131cbf4a7c360f5", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d30ef39f2ce37bc541c29b6a", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "67d514b0452070d44d9ec51c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "08561863c7cc1414f6e96d41", "parsed": "invalid", "expected": "invalid"}
+{"key": "95ba952de4e2b555b6fbd268", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7ceb02d49b38a1e046e77d7b", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3b67a9395549c81e930c9d2a", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "380b70508f752b493c7f8ffe", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "1d9ab7ecfd0665151150dfd6", "parsed": "valid", "expected": "valid"}
+{"key": "264055b3a44eddaf9794204e", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "61d3164ee75f620ae366da0a", "parsed": "invalid", "expected": "invalid"}
+{"key": "953d93f5deb30d43be11960d", "parsed": "invalid", "expected": "valid"}
+{"key": "f698283447403fb245fcae26", "parsed": "valid", "expected": "valid"}
+{"key": "a7cb3c0340a4f4f5bbf3d5ff", "parsed": 700.0, "expected": 700.0}
+{"key": "6baf8def4e6ca5049e13c0e1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "44b49007206c82a0af912217", "included": ["p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8e770cc10fc0071a5454e4ad", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "28403c012a21d7defc48229f", "parsed": "valid", "expected": "valid"}
+{"key": "c0488c2897b84d38798ec2d0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1da01dda38897f2604044c3f", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "9c5fab9342ea3f046fc06944", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "f4488d0158a90c5f190eae69", "parsed": "valid", "expected": "valid"}
+{"key": "986524fd1c0f2f034ce977ad", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "8639f4f1e0fee7450d6fafec", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b33a8be9d2d6578f411c29c3", "parsed": "invalid", "expected": "invalid"}
+{"key": "c36f27a9d60998948fc0c6a7", "parsed": "invalid", "expected": "invalid"}
+{"key": "8c3dcc39daf8e3118ff4d62e", "parsed": "valid", "expected": "valid"}
+{"key": "30ffebe8152dcc110d3637a5", "parsed": "invalid", "expected": "invalid"}
+{"key": "17ef365b082aa70f383fc7c0", "parsed": "valid", "expected": "valid"}
+{"key": "ff1d3a783d24e3ca358f5f8a", "parsed": "invalid", "expected": "invalid"}
+{"key": "7297d8c3a2aae5a1a949cd66", "included": ["p_burglary", "p_approval", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "bb59f7c584a5086e1ab9635c", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6c38cbb0f318bc426797f4ab", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "db7f4541f6f49d26dcca9299", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "53bb789afd62ade1af7ca5a6", "parsed": "invalid", "expected": "invalid"}
+{"key": "6614ef2fa7541f41109e8250", "parsed": "invalid", "expected": "invalid"}
+{"key": "40c58f81fb0b8c36055ad4da", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9944fefd2c4ec70e844e8695", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2c0eeb8f7c2be25840c30e71", "parsed": "valid", "expected": "valid"}
+{"key": "4ff0f5c3788b208302e80cfb", "parsed": "invalid", "expected": "invalid"}
+{"key": "31264609bb5aa477bac04068", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1bc8ce6476d22a479a8bc320", "parsed": "invalid", "expected": "invalid"}
+{"key": "d8e8aadc39de20b5ed7b89be", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3477376c454bf945cba0e552", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a8f1c2cb4f4b2e5fce8fe973", "parsed": 700.0, "expected": 700.0}
+{"key": "e9a1e0b0d2866ed1269f217f", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "65d9f381a2f1a08a881db72c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e6d4fa4494a7551b9e6c298d", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "19a2df63c92d4d78601a5b99", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "dca8f10ed224536efe82e3cc", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless"]}
+{"key": "ac001e80fea3e186bff15e57", "parsed": "invalid", "expected": "invalid"}
+{"key": "3918d58c8cf92c47cf6dda3c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "eb0676dc0b01c83e7b9b23d2", "parsed": "valid", "expected": "valid"}
+{"key": "5e1260411413dcd38df6c023", "parsed": "invalid", "expected": "invalid"}
+{"key": "2a4af44fc5aa9d9888488808", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "c85d38caea0818d317713c64", "parsed": 700.0, "expected": 700.0}
+{"key": "773df4cf9f0f72c6694689e9", "parsed": "invalid", "expected": "invalid"}
+{"key": "1984cf2e269a0eb05c9e94b3", "parsed": "invalid", "expected": "invalid"}
+{"key": "49f2dd21907480b2097296f1", "parsed": "invalid", "expected": "invalid"}
+{"key": "4054aec6c558a597007a47e9", "parsed": 700.0, "expected": 700.0}
+{"key": "a9150ada444a31d59b48f283", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "ea657dfca7f205f136705087", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c197e6aca00a52f4cde491be", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a849c6bdee46ea183c6c3a3e", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "c6c1b42126fe604d5d54e183", "parsed": 700.0, "expected": 700.0}
+{"key": "fe5ff7d13fe56888d051a3f6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "ecf2bd2d1a16f158274312c9", "parsed": "valid", "expected": "valid"}
+{"key": "7c7f50bfa2ddcae1d7a54683", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3fba34835528d409d9261b5b", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "ee5d2f4ea917029a2eebff1b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6c14f2c799431c58189d0f6f", "parsed": 700.0, "expected": 700.0}
+{"key": "79834ca65d5311dab598c13c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d39fc8a66423cbe2e8582d2e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "1243bfae86f75c16f7240c2e", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "7be76aa9c31e89219fa4da7a", "parsed": 13.0, "expected": 12.85893588685003}
+{"key": "67737895dbfccf37a7c48b21", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "fbb94b4d6a044d38d8ca1879", "parsed": "invalid", "expected": "invalid"}
+{"key": "3d744e1e9086d3ea0b807bea", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "bf423d132a01e0aa81534e57", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b0a6d8054e17b487ecf860bf", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "edca13f5dd14deaa59c15a08", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3c2a4be757f87a80fdfa4b1e", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "4bdcd06998ed7a208283165d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e22a3cdd7f4f32184573371d", "parsed": "invalid", "expected": "invalid"}
+{"key": "53ef64ec106e5f27693c0bf3", "parsed": 700.0, "expected": 700.0}
+{"key": "9cdccd1a921f0094223dec31", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "32b3adedd63f1a5edad8509b", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ef1013ad50a41ed8d15d049a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "910f43601989338485828998", "parsed": "invalid", "expected": "invalid"}
+{"key": "2820e4672e46dc8f50f9a064", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "e4e90243d8a0e687e4d305f0", "parsed": "invalid", "expected": "invalid"}
+{"key": "7464d20901481640399354c0", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ab158e455fd167c702dd4eaa", "parsed": 700.0, "expected": 700.0}
+{"key": "203f64d52283c70f9d56661d", "parsed": "valid", "expected": "valid"}
+{"key": "aa871a7893c678f7892f260c", "parsed": "valid", "expected": "valid"}
+{"key": "c83d7384f8a9fe5e459d3c4e", "parsed": "valid", "expected": "valid"}
+{"key": "cc8ce2efce9830e9d188e539", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ee12b611c2ab6164bef558d6", "parsed": 700.0, "expected": 700.0}
+{"key": "e65db907ac587c2a0ca76290", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3664c23277e16dc5586cd9d2", "parsed": "invalid", "expected": "invalid"}
+{"key": "c5fdad4f8a57de49efa84dbb", "parsed": "valid", "expected": "valid"}
+{"key": "440d6447f8d77bf557b193f8", "parsed": "valid", "expected": "valid"}
+{"key": "c30598a50f5193130e09d769", "parsed": 700.0, "expected": 700.0}
+{"key": "6cdd9d38899f0cdaaba543bf", "parsed": "invalid", "expected": "invalid"}
+{"key": "7f996f46b7fb556f669e071e", "parsed": "invalid", "expected": "invalid"}
+{"key": "177b1fe94cbdc947a166a8c5", "parsed": "invalid", "expected": "invalid"}
+{"key": "8328db94df31a945bdd668f7", "parsed": "invalid", "expected": "invalid"}
+{"key": "7acf78090a168b6f01c0d698", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "22af0ac7f2aad94c55b40cfe", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "bda004ee461bab2b950cce8f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f20c3bc7c59bcbe362b84835", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "736c9406818a2662ba0a85e7", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "050322a99ac8931ab5642420", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "bd20855396bc5b0a30e55cac", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "c27519f2fd66e4226c6f955b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "de17cf7225ac10098b330d5b", "parsed": "invalid", "expected": "invalid"}
+{"key": "4023162f0e49260917467fae", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d98e4766ae2aeeaec37dac0e", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "f1566a446f14b103ab7a99ff", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dadf743e1d657beb4e821b5b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "30d59501d675fc4e500168f2", "parsed": 700.0, "expected": 700.0}
+{"key": "78d1bc9dbb52e1a41236155c", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "142913cf345554bb04865e94", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0b5ce32aa31ff944475e1650", "parsed": "invalid", "expected": "invalid"}
+{"key": "865501f1dd1586b7e82b3996", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2ff0306b5342436a0a94dc4d", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "ed7870209366a5b80ea2b0d9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "ab82ad444afb4ddc78f98ca9", "parsed": "valid", "expected": "valid"}
+{"key": "d1af7c7645d2f0491d63c624", "parsed": 700.0, "expected": 700.0}
+{"key": "754b31960a031e0017b8f2ef", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "9974447b894164d2fec82a81", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "923457019a8c935b1fac6825", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged"]}
+{"key": "0fd612d2a4ac5cb10d575dfb", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "5878d076dba197c5bb799812", "parsed": "valid", "expected": "valid"}
+{"key": "9898d0674a377597f0b4454a", "parsed": "valid", "expected": "valid"}
+{"key": "e6fb2204088237a2e6f3481e", "parsed": "invalid", "expected": "invalid"}
+{"key": "20544a3cc57d680a56e2fa00", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "e2769b1b7a0b68fb3e4a6bed", "parsed": "invalid", "expected": "invalid"}
+{"key": "04b833488cfc4c9353b1f22d", "parsed": "valid", "expected": "valid"}
+{"key": "5f11eb044ce0ba444a44ba9f", "parsed": 700.0, "expected": 700.0}
+{"key": "c9db7e23652cab67f18c0904", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "9fc39ec902399a4c296d503e", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5f51b327b938bf8b82d31580", "parsed": "valid", "expected": "valid"}
+{"key": "aa9a5e6eb4fbe762c3fb8904", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "341d03fc09b79a43e4ed594a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6463b3ebf6f3c641f2209846", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "0878098ca8799aeed9018491", "parsed": "valid", "expected": "valid"}
+{"key": "8732aa9af256d923d1132953", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "265d5251d67510a3466cff07", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f92fae24c9b12d74c951cc50", "parsed": "invalid", "expected": "invalid"}
+{"key": "eeebb6a62288604de4514acd", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "028f68133f90f57d7c5924fa", "parsed": "valid", "expected": "valid"}
+{"key": "87845f6a6b0c98fef1e17329", "parsed": "valid", "expected": "valid"}
+{"key": "0e37c48631c5fe13879903e8", "parsed": 700.0, "expected": 700.0}
+{"key": "e40bccddbbab7dedd1a0fe25", "parsed": "valid", "expected": "valid"}
+{"key": "e6d72a1fba73766028f54cce", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "55c117fa263459def3eb7241", "parsed": 700.0, "expected": 700.0}
+{"key": "cfbb16703eeca2ad4126d2d6", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "2d401aee379e493e1414d020", "parsed": "valid", "expected": "valid"}
+{"key": "df4529cba711c4794a9c7856", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f50ef9129d6fc6e52c41fec2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3c94d6cd010d828f1abe10c2", "parsed": "invalid", "expected": "invalid"}
+{"key": "cda6d1cbe9f393b0f101e55b", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "baee72a03ee64a64505041ec", "parsed": "invalid", "expected": "invalid"}
+{"key": "33819754a8e2c0c2ea010584", "parsed": "valid", "expected": "valid"}
+{"key": "bcdfd8792b6869825a39880f", "parsed": "invalid", "expected": "invalid"}
+{"key": "949e7c2326f9f888fb9d9726", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b18c4f943a511b2dcca28f15", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "0576444dc5b7579ecb2684e3", "included": ["p_burglary", "p_missing", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1e2da0deb163e2daaa7c92a2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "e50286faaf7ab37fc67e76d7", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "b9ae116633478f1ceaa46b82", "parsed": "invalid", "expected": "invalid"}
+{"key": "1c855a75a5867fa0955892b8", "parsed": 700.0, "expected": 700.0}
+{"key": "49db2523a7b0eae7ad418b00", "parsed": "invalid", "expected": "valid"}
+{"key": "520b571e8dc627adb69a440d", "parsed": "invalid", "expected": "invalid"}
+{"key": "032a5bf926756fb9a37cdb10", "parsed": "invalid", "expected": "invalid"}
+{"key": "2d34e60b757d2d8247e5092f", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "fd486d0f45404cf4e49d1810", "parsed": 700.0, "expected": 700.0}
+{"key": "23f32c50d8d000e095af67e7", "parsed": "invalid", "expected": "invalid"}
+{"key": "21abcb68e288eb9c7204cdc9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e72b2de86880ade187ce55e5", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5309b93ba385158c7500b581", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9db2542ead35bd8dccc71b1a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "b39a37ccf7b5d72361908d3b", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "e3d629728d9127435644ab0c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7e466d080f4c7f33b1b80d5c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "445cd263c64d2dfa7b9d0df4", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6f9635a9517aa30509fe92ea", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b2f6015cf18fcc0e16c7af70", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d2385dc4373c4dfcf2c009f1", "parsed": "valid", "expected": "valid"}
+{"key": "3cd3b7696517327a593ac782", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "56b8dbb32446630d1e73b80d", "parsed": "valid", "expected": "valid"}
+{"key": "e1200fcf212a9d91c3c07994", "parsed": "invalid", "expected": "invalid"}
+{"key": "f4013f01b702ad9e0ab01fde", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "5d17b7cd1c077326a4b85c69", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "da5d959b48e5b3e9a1367445", "parsed": "valid", "expected": "valid"}
+{"key": "a104826f19a541755699cf25", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "780349af6f49e6f59c72679f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2748fb0241e568ff0928467e", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "231c27592283ea98235fe073", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2f2f571c076a690a78fa4699", "parsed": "valid", "expected": "valid"}
+{"key": "7c574ec1fe87966478d40824", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9eee8f54d4facfa63eab19ba", "included": ["p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "568eb77e814c995c9c63a3ff", "parsed": "invalid", "expected": "invalid"}
+{"key": "05eab807092e3b6d1ef1aa80", "parsed": "invalid", "expected": "invalid"}
+{"key": "623e76c153efdaae0aba351a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "db2c16cd24342cd82f716045", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "5d264ac488717100cbe302c1", "parsed": "invalid", "expected": "invalid"}
+{"key": "dc014a31005b31fea46d8762", "parsed": "valid", "expected": "valid"}
+{"key": "b2f538e97d86cfc03b8b1acb", "parsed": "invalid", "expected": "invalid"}
+{"key": "216a7c9231b74819c1c73865", "parsed": 700.0, "expected": 700.0}
+{"key": "1ef35ddd69bbe0e2ae7c161b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ac8da5098f975a37dc9af5df", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "beb94fea27174a42f0a25daf", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "a1282db94e676988738c114b", "parsed": "valid", "expected": "valid"}
+{"key": "68ca45e5aff46031f77e7ec1", "parsed": "valid", "expected": "valid"}
+{"key": "9e16d67708338c9a6ec7a039", "parsed": 700.0, "expected": 700.0}
+{"key": "f8de7c41fab3c593bf1cf74f", "parsed": "invalid", "expected": "invalid"}
+{"key": "9158cdce000b8efa28f69e4b", "parsed": "invalid", "expected": "invalid"}
+{"key": "ba3078dc747bdd05ad0da84d", "parsed": "valid", "expected": "valid"}
+{"key": "e5ec7e3345e758c329d3c6fb", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3fc2171085e7e0268a457f15", "parsed": 700.0, "expected": 700.0}
+{"key": "7be4462bf2af2bae95ad370e", "parsed": "invalid", "expected": "invalid"}
+{"key": "50a080a4868b1a5bc3a99ef2", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "fd16175524b1780ab011bba1", "parsed": "valid", "expected": "valid"}
+{"key": "9743bc789af859a9007191d7", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "310c9c42e37747a1201f5c5d", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "8c56704481639e450135a790", "parsed": "invalid", "expected": "invalid"}
+{"key": "2ad1530b94a2e7a1b0d48347", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1d08fab118003b71fd1f642e", "parsed": "invalid", "expected": "invalid"}
+{"key": "c185ecfdd1c814f3b51a8f99", "parsed": "invalid", "expected": "invalid"}
+{"key": "fc4e8222eac1314809101507", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d3462b4874e6bc1855fe3efb", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c858300ec393f9564a05389a", "parsed": 700.0, "expected": 700.0}
+{"key": "1d904120255d90ad659cba32", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "0179f45e09fea24d16d95eca", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "266d4b36c9bbc63f9c1591e8", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "8cbb248c773e942af9363fa9", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "2f8b4dca087c021a16f79c59", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a0276f45a6d30aae9e1053c4", "parsed": 700.0, "expected": 700.0}
+{"key": "1735a8eb12be8d1b46ede17c", "parsed": "invalid", "expected": "invalid"}
+{"key": "fb39d8f2f068ef4ae7e26002", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "c27c30b12bb180200e3cf492", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "44fcad8cbeeef48f14bee48b", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "aebc0f2326d8f8a67c135acc", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b016ce83c22b2a5e84945a9f", "parsed": "valid", "expected": "valid"}
+{"key": "a69768fcd082373c277f97cc", "parsed": "invalid", "expected": "invalid"}
+{"key": "8d5804c7877c0a628e4a738d", "parsed": "valid", "expected": "valid"}
+{"key": "1de61127c77716d7e0567028", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "fd97eb5fd8b1bf5bdd416409", "parsed": "invalid", "expected": "invalid"}
+{"key": "51a0e8ade4d1b6eb01641e6f", "parsed": "invalid", "expected": "invalid"}
+{"key": "60e074b770f11ed6f5ccd173", "parsed": "invalid", "expected": "invalid"}
+{"key": "35e3e0fda16673fb41c57172", "parsed": "valid", "expected": "valid"}
+{"key": "245f4d4d8bf1f31341f4727f", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "2e3fc9632c94c0ea6c314711", "parsed": "valid", "expected": "valid"}
+{"key": "d096a0d49a9588857f709432", "parsed": "invalid", "expected": "invalid"}
+{"key": "ada37fa48b462e2ac1876933", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "fca880199ea0c5e67f9872e2", "parsed": 700.0, "expected": 700.0}
+{"key": "1e6e250f459fd471d16a5bb0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b378a0b0fc1897e17c67777b", "parsed": "invalid", "expected": "invalid"}
+{"key": "c51ecd9b2045cbd57bd75980", "parsed": "invalid", "expected": "invalid"}
+{"key": "78cafb95aa25c3d89fd17cc7", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "84c259db6de49ce6eb14b142", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "f440e254bb9d441570076033", "parsed": "invalid", "expected": "invalid"}
+{"key": "32f2731b2d6043b2eebc2bd2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b44342e56d8d545fc2e7a08f", "parsed": "valid", "expected": "valid"}
+{"key": "c2abb69eb101777219b74d66", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "939a7e4b5a9b2df4fbe554fa", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "bc553dd9cd1f61b250733021", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "f5b4d737f286ef30d9911286", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "b0e78a11da3f2a33d240c254", "parsed": "valid", "expected": "valid"}
+{"key": "205be78318d7b9b858e1b26e", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless"]}
+{"key": "3768ae07faa67e7b4d898480", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "9ad42b1a7e68c614dff30be3", "included": ["p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "8b1cb402e14f8ea64aeecb79", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "10c195547cc98e7ada766839", "parsed": 700.0, "expected": 700.0}
+{"key": "36596bc5b02b7a05bef969c1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1a44f760bc1ed8de5707dab4", "parsed": "valid", "expected": "valid"}
+{"key": "4c4cbf9ebc3a6d139395548c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "8911446b52c2c2a25a971755", "parsed": "invalid", "expected": "invalid"}
+{"key": "f3623bb4705345fd99771183", "parsed": "valid", "expected": "valid"}
+{"key": "ac4ada483a1f7c49679eedc8", "parsed": "valid", "expected": "valid"}
+{"key": "d4c8097ec2848531febcd301", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "90aabe9fe802cb3ca781714c", "parsed": "valid", "expected": "valid"}
+{"key": "14d29c35edc1ca1853cf000b", "parsed": "invalid", "expected": "invalid"}
+{"key": "4e189158bcadd86bffab2bca", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "1a9c23bfb741865fbc358047", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cfdb55e80993bc4685b87433", "parsed": "invalid", "expected": "invalid"}
+{"key": "efa6ca7cd57ee18145857974", "parsed": 700.0, "expected": 700.0}
+{"key": "a316fa4bf085931bc517866e", "parsed": "valid", "expected": "valid"}
+{"key": "55ea8f09ebe08c1d0f2a64ab", "parsed": 700.0, "expected": 700.0}
+{"key": "00c2b4e9bf5cb4d4d99a9482", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "f5deaa38058fde1b41c50a2a", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "2b53c6ba05867b5fb5088830", "parsed": "invalid", "expected": "invalid"}
+{"key": "9de06dff0b72f4e21fbddff5", "parsed": "invalid", "expected": "invalid"}
+{"key": "694c5bba112be7bb85adac07", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "84b2700383d8b63d9a1835df", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "7c9dfb83e43fa51a905afa2b", "parsed": 700.0, "expected": 700.0}
+{"key": "28138aed5e9a37f33f65f10a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "dceb9025939e3d55d72e1147", "parsed": "valid", "expected": "valid"}
+{"key": "148d737aad82537c74ad5589", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "fbd784a394d65df616b62831", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "76965e242bd2a9b36e2cf7f5", "parsed": "valid", "expected": "valid"}
+{"key": "8ccf4b30eacf6abad859cfe9", "parsed": "valid", "expected": "valid"}
+{"key": "e3249ad3827b64fc25dd1fa4", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cdca6df0a2a58f61e3652eb9", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "6c29597fe85d7e482ca451e2", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "70c623d26dacec7c412cb954", "parsed": 700.0, "expected": 700.0}
+{"key": "1579c5c5836677593670d426", "parsed": 700.0, "expected": 700.0}
+{"key": "fbaef0566bfd58a8b192b8f3", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c91ccbedee22b8774298baa1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "614b1bb5963056207c2c8a21", "parsed": "valid", "expected": "valid"}
+{"key": "639d5d1f5be82c1160934b39", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "523fa9380cacf86016b3a1c6", "parsed": "valid", "expected": "valid"}
+{"key": "58d93f3214374def98118d95", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "90dbf2f8270e33038f17c9ca", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "006cb58afaad06611b5374e2", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "aeafa2abfaf779fe028cd924", "parsed": "invalid", "expected": "invalid"}
+{"key": "83346b61cbfcaf04af0689ed", "parsed": "invalid", "expected": "invalid"}
+{"key": "aff6aa59faabf3e28150fa67", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c495258e929f81235e643b97", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "97f0d0a36cf76121913c0756", "parsed": "valid", "expected": "valid"}
+{"key": "f4b92295080e8389378ef79b", "parsed": 13.0, "expected": 12.85893588685003}
+{"key": "b9db76fdbdd75f92cbffccb0", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "f73e0503854ce2cb37cda9be", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "f120d52adb8a1c16ef465717", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "5c1cd5990a772619a7155a6f", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "4cae315c3952bad6861cbc41", "parsed": "invalid", "expected": "invalid"}
+{"key": "2b435d864968f3cfd9c9faca", "parsed": "invalid", "expected": "invalid"}
+{"key": "f099fede6028746391c3813d", "parsed": "valid", "expected": "valid"}
+{"key": "4713a55d217ad2755d3445ac", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "a2655a832fc1b28daa0f02b3", "parsed": "valid", "expected": "valid"}
+{"key": "150a612ade7b17d66a805337", "parsed": "invalid", "expected": "invalid"}
+{"key": "26c82700a0dfad0e9818ac48", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "48ea54878f53efdcde99ae7f", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "0081ac8a2c831a6a331714f4", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cf38b7870e98f5ac907b4916", "parsed": "invalid", "expected": "invalid"}
+{"key": "b9a2cedeb88e2aa6b999695b", "parsed": "invalid", "expected": "invalid"}
+{"key": "178ba3012ce38e0f0d0510c5", "parsed": "invalid", "expected": "invalid"}
+{"key": "f5d0a08ad3f99055f5e3521e", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias"]}
+{"key": "485af4a6b54ae095a9daedc0", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "eec36aa542308954484311bd", "parsed": 700.0, "expected": 700.0}
+{"key": "04086fd0274a5d7a11704bb5", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a9d6ff95583ed6e19947312e", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "411725744514377334b9c355", "parsed": "invalid", "expected": "invalid"}
+{"key": "96a5866da1ce8a77e4cd8473", "parsed": "invalid", "expected": "invalid"}
+{"key": "c771276d7eac423195a5719a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "4a441de4df78591e30844236", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "65e4cdeaba9f735a905bdd5c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "23097fcc10d3c98cdbf95e27", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "92c89d66164dbcb051e3aae6", "parsed": "valid", "expected": "valid"}
+{"key": "50fa5c5f96bc1849895e4386", "parsed": "valid", "expected": "valid"}
+{"key": "6468db1828f155cb33603ce1", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2f6bd7e304a3dbe6d236e9ba", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e1f7f38d9e6759a11b5c82cb", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "d8fc46fc486e4e9107867484", "parsed": 700.0, "expected": 700.0}
+{"key": "3fef58e7b8f371cb51146a7e", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "cd2d0f5b74094aff148e0d81", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "49284d3b9d3569316834a0c8", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "550906b518bc3b8e389dc84b", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "7ad13957e1af3d4e8f2756b8", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "cfe2b807b4bbc1771610dffd", "parsed": 700.0, "expected": 700.0}
+{"key": "acff62e93b386f76eee259cf", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "485ab77936b62a7ca4df4408", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d40ef553b8c79ef927460740", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "8505f539bdf93fe3a7836b70", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "2526034cef6ceb09d8aa34fc", "parsed": "invalid", "expected": "invalid"}
+{"key": "5f2a4560dd2487647395544a", "parsed": "valid", "expected": "valid"}
+{"key": "5d419e14c9600ed74b54e3a2", "parsed": "valid", "expected": "valid"}
+{"key": "7422ca08170b6ffe227e424b", "parsed": "valid", "expected": "valid"}
+{"key": "399ca3eb925849687bf518b3", "parsed": 700.0, "expected": 700.0}
+{"key": "0a6074d50a8df9c2114012a9", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6272dae5758fc7e10d3eaf19", "parsed": "invalid", "expected": "invalid"}
+{"key": "46a02c96047a11235dc2baff", "parsed": 700.0, "expected": 700.0}
+{"key": "20a543b3d1b11c1cddf9bca1", "parsed": "valid", "expected": "valid"}
+{"key": "3d0ff5952b174f06c9f26dda", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "325edc8ed095f112ea73e859", "parsed": "invalid", "expected": "invalid"}
+{"key": "81415127e34289795c3d3df2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "2daeafa59497cbd23806ce60", "parsed": "valid", "expected": "valid"}
+{"key": "3cb150b78bf8c5e825721fd1", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "cd0d6c52d94968f2f4816c32", "parsed": "invalid", "expected": "invalid"}
+{"key": "8c3cfd1c841c8b6255da54cb", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "87e44028323b98c26b5417de", "parsed": 700.0, "expected": 700.0}
+{"key": "88dc37d66c13c96a5e6eeb1a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "d9d4f2a52dbe7a9b10bfc4b5", "parsed": "valid", "expected": "valid"}
+{"key": "cbb8093ed2c74e81761d062d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_warrantless", "c_protests"]}
+{"key": "0a265ed33b185e02661c84d3", "parsed": "invalid", "expected": "invalid"}
+{"key": "f50cc4ce7f9a9a52026461fe", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "601e6d00b7d5916f798f974c", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1a70177df977fe0afee9e031", "parsed": 700.0, "expected": 700.0}
+{"key": "c9800cdbd8bea23a91e0f7f2", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "346ca2e111eb2f5248885500", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3c274e8f74308dd925230587", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "64ae897d29b22608954eecf1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e9c5b8fa450f76fe78ae4c67", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e977f717c7d258352a1e6cbe", "parsed": "valid", "expected": "valid"}
+{"key": "90b512084fb1bd4d3d364cbf", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "d3981d2169a71fd9ed59c38b", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "56419eeccac66c429035b256", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "06b00e41337aa50fdb327c1b", "parsed": "valid", "expected": "valid"}
+{"key": "abe098f5aebba0db09890f36", "parsed": "invalid", "expected": "invalid"}
+{"key": "dbf0ee688204df0ae39474d9", "parsed": "valid", "expected": "valid"}
+{"key": "5d8440458dd6c4fec716e8ac", "parsed": "valid", "expected": "valid"}
+{"key": "8b42028c795780d0e6b6b9d9", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "686bcf6b6be0e9609e70a7f1", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "e3da15afae2539939e8ca520", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6ad2939f36632e66fdd9391f", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "14a29a358a5aa7564ed6ad01", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "eb13b9f9d7440fa1d8160944", "parsed": "valid", "expected": "valid"}
+{"key": "0089926ba486c72e97984486", "parsed": "invalid", "expected": "invalid"}
+{"key": "edfedaabdeb346757c6ae1e2", "parsed": "valid", "expected": "valid"}
+{"key": "b3227a3ecfb03633497eeeb2", "parsed": "valid", "expected": "valid"}
+{"key": "b2ed9be9f99996734378534e", "parsed": "invalid", "expected": "valid"}
+{"key": "699cb1034ead1098daaacbd2", "parsed": "invalid", "expected": "invalid"}
+{"key": "607f2e69b5415c64a8d94810", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "d1e66d6ac52a7bc253dd84cf", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "95671a6dfd9fdf94bf33b72e", "included": ["p_burglary", "p_missing", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "1af32aecd0f80d259903305b", "parsed": "valid", "expected": "valid"}
+{"key": "830381941c167427961f9ddd", "parsed": "invalid", "expected": "invalid"}
+{"key": "e3d04d7294915cff5f32896c", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "8a1abf4886b986909a665cb4", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "0856255c752ffcc589113700", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3379cef4bd0eae5cdc0de6e7", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9c0657461b0ec243593dc15f", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "4ad4876bfb025fbc88b478ef", "parsed": 700.0, "expected": 700.0}
+{"key": "5648e0c7b6d728558d88a4d1", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0ce2ce6039fde04e8fcbb50b", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0e44c7b026e011747a91aaac", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "31826ad385d88da07c75af5c", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "7d97440eaa5e283a7e422434", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "380a4556f6e07c6075ae4d73", "parsed": 700.0, "expected": 700.0}
+{"key": "40f8469f1c7c7252416780ee", "parsed": "invalid", "expected": "invalid"}
+{"key": "7a62daefc8c73602c4460e91", "parsed": "valid", "expected": "valid"}
+{"key": "28a3c8e549defc55c986d7cd", "parsed": 700.0, "expected": 700.0}
+{"key": "b1dcc3a5cfe797ea2226003f", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "769fa53fcfae37dd25958629", "parsed": "invalid", "expected": "invalid"}
+{"key": "9f7d1e546807d3e2abbd4e9a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "c60bd8c9fe76d6c9558ee7f6", "parsed": 700.0, "expected": 700.0}
+{"key": "4c1eb4ae2ba917a30c260720", "included": ["p_missing", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "62d47c539d65a6c95cd96fdb", "parsed": "invalid", "expected": "invalid"}
+{"key": "55f6539520f0c8190c7f5a82", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "31111fc9f4752e4ad02cab81", "parsed": "valid", "expected": "valid"}
+{"key": "576942c09c30aa64ecababfe", "parsed": 700.0, "expected": 700.0}
+{"key": "77d362929c70387282bd57b7", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7d9c6bab2b90431b55bd5ca6", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b42109d8b04e0ef22e1ded5b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a76f475f081f48f57e95f79f", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "334b4c2ec0c802913a29089f", "parsed": "invalid", "expected": "invalid"}
+{"key": "0c38c71ec0621a6fcb3dbf0b", "parsed": "invalid", "expected": "invalid"}
+{"key": "de870f24e9a564f11ea48d23", "parsed": 700.0, "expected": 700.0}
+{"key": "6e4cbe56d089aa7baf9ce429", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "97edaecf761014edf86795a9", "parsed": "valid", "expected": "valid"}
+{"key": "f77e5a2de99179e9c0fe3b21", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "e9eee451a034410c25109763", "parsed": "invalid", "expected": "invalid"}
+{"key": "1900829aea3c8e13cae7ad98", "parsed": "valid", "expected": "valid"}
+{"key": "19d3ac11a034f3e0faa2997c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "6c6d94bfc1adbb4d79f8493e", "parsed": "valid", "expected": "valid"}
+{"key": "204d93b52f34db79fc759b7c", "parsed": 700.0, "expected": 700.0}
+{"key": "fa84d26b6ccfad0627d53f4f", "parsed": "valid", "expected": "valid"}
+{"key": "004466cc2fd3dff86801dbbb", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "bd15ef5cc12c993683f131b6", "parsed": "valid", "expected": "valid"}
+{"key": "9dbac2c0aac201375d290cdd", "parsed": "valid", "expected": "valid"}
+{"key": "3ea7c0243ba96861fd55143e", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "4ef3df0156a4a610a774a3d5", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "773278bb15a1855ccaad2bae", "parsed": "invalid", "expected": "invalid"}
+{"key": "10cfccefef3ab055fb08872e", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "c4adf36649a8aaa88e64daf6", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "a7c73bb1ccbd784ddff2478b", "parsed": "invalid", "expected": "invalid"}
+{"key": "d9f203e7826a5dc38b91e226", "parsed": "invalid", "expected": "invalid"}
+{"key": "ea5e61671502aceaa64beebf", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_protests"]}
+{"key": "f6908d4ff936b043f16d88d2", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "13e61db323312bb9396971cd", "parsed": "valid", "expected": "valid"}
+{"key": "75642ba611844c8fc3a58751", "parsed": "invalid", "expected": "invalid"}
+{"key": "99022142c48f0411ab0ce8e7", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b2f7211c4328519a32c03385", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "8d4b330cdac1948c05ffe274", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "abe96ee9a5811c1fa0ed7823", "parsed": 700.0, "expected": 700.0}
+{"key": "555dbf380845930347c0e0c7", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "ac54e0ced872126e9448ff2c", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "0deb5ac452bdc973042037e1", "parsed": "valid", "expected": "valid"}
+{"key": "70931c44ee3de3a177d3a3ea", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a9d4d5fec784bcd2f3266bce", "parsed": 700.0, "expected": 700.0}
+{"key": "7644989f879698ba1f07f7f3", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "11a24312e5a2c2a937434e05", "parsed": "valid", "expected": "valid"}
+{"key": "9703cd02e8753972a6f9f0bc", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "15c85cbfb9be8f3bf9b5f9f4", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "11609c014dfa70053f8add0d", "parsed": "invalid", "expected": "invalid"}
+{"key": "dee40c0b970d7ffb13bca049", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e6d4ed9012314790d1a754ac", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "5bb28e1e77e19aaaa8f05611", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5aed7129a306f21de48529c2", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "834232efe1e4ef4a2e69e645", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "2090b8047c996e510cbdd294", "parsed": 700.0, "expected": 700.0}
+{"key": "e0933ef51ac712dd554f4dc5", "parsed": "invalid", "expected": "invalid"}
+{"key": "bdf76a8bc75d72727e18be50", "included": ["p_burglary", "p_missing", "p_response", "c_protests"]}
+{"key": "30ed2b4887f3180148d7cdff", "parsed": "valid", "expected": "valid"}
+{"key": "b52705cc32d5622514f4c7f3", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "1a9e2db744c66baf115448a5", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "e6be2672029271acb493c0db", "parsed": "invalid", "expected": "invalid"}
+{"key": "bd8e3705094047a33d9d0da2", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "724a69e22ed07dfa4060d146", "parsed": "valid", "expected": "valid"}
+{"key": "05a3a2fb1ff895f5388c8166", "parsed": "valid", "expected": "valid"}
+{"key": "52c4084a036cbc1814595457", "parsed": "valid", "expected": "valid"}
+{"key": "205c6d5b5455b682b6d31eda", "parsed": "invalid", "expected": "invalid"}
+{"key": "887c0f7475f552267a282f4f", "parsed": "valid", "expected": "valid"}
+{"key": "6a6ae3f677a634b518f28498", "parsed": 700.0, "expected": 700.0}
+{"key": "72ada573b84a0c9d51a7345a", "parsed": 700.0, "expected": 700.0}
+{"key": "89a464304f2dee04e6b89b36", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a9f4049fbf78de5b22e4fab0", "parsed": 700.0, "expected": 700.0}
+{"key": "add3d98ff9d22767bd2ff6c5", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "e2e944ce602285b485545a4e", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ba1b60e82ac384a9b0da0362", "parsed": "invalid", "expected": "invalid"}
+{"key": "fce28417d6d3922b4e17f951", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "3cd828b16c3d700e2b2fc77e", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "6af7a9aaeec079f332272278", "parsed": 700.0, "expected": 700.0}
+{"key": "c1b421ef71f1cea0ee86c277", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "3edec7cfb90153218e60ff60", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "21e11743efa81d9486b9f2fc", "parsed": "invalid", "expected": "invalid"}
+{"key": "f0d856626ceaa59b80d0ac23", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e6da1bafedf0bef4a1614472", "parsed": "invalid", "expected": "invalid"}
+{"key": "060d9dc5fad9238d67f56ebb", "parsed": 700.0, "expected": 700.0}
+{"key": "602cb838c9b66c5cce6c905a", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "c339c5ce2ce79d145550dc02", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "9f321c09369b0eff3978892a", "parsed": "invalid", "expected": "invalid"}
+{"key": "d23b17221a86a4b26936cf21", "parsed": "invalid", "expected": "invalid"}
+{"key": "06b4034248fdd56ea25d9638", "parsed": "invalid", "expected": "invalid"}
+{"key": "980e413c2cb64635a27bad3c", "parsed": 700.0, "expected": 700.0}
+{"key": "640f611a47863cdff3fc82fe", "parsed": "invalid", "expected": "invalid"}
+{"key": "0ae668e09939e88c572c797c", "included": ["p_burglary", "p_missing", "p_response", "c_minority_bias", "c_protests"]}
+{"key": "f699e394958564d7de0eef34", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "52d0564720841db0afd9bc6d", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "fd03c5311b5d40430461e2c3", "parsed": "invalid", "expected": "invalid"}
+{"key": "391d20790e7799fadeb8b0c7", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "5d572f0f3d467af426f176c4", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "1705f4b91c92d3f60347bf54", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "5f8da44a96d37242a2d902b4", "parsed": "invalid", "expected": "invalid"}
+{"key": "8cfdde3150e3cb62a0f621de", "parsed": 700.0, "expected": 700.0}
+{"key": "e05be92059c8780a1948d622", "included": ["p_burglary", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ad0456ea63a62b32045a2711", "parsed": "valid", "expected": "valid"}
+{"key": "bb023365410e8d85355000a5", "parsed": "invalid", "expected": "invalid"}
+{"key": "cd30ac685a3b1789f05e5c76", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "b8daf622f0ec339ed36ada7f", "parsed": "invalid", "expected": "invalid"}
+{"key": "51b19f4e378775c13e5a4c4a", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "0e16937c420ef1274bdc32e0", "parsed": "valid", "expected": "valid"}
+{"key": "3bba1f175019c9a40742dfc8", "parsed": "invalid", "expected": "invalid"}
+{"key": "f652e33f3b5566b139ac1c12", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "f89f945bf166b3030345804e", "included": ["p_burglary", "p_missing", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ecd078da09f418dc13edca98", "parsed": 700.0, "expected": 700.0}
+{"key": "e7d7d781392b91d88c645d07", "parsed": "valid", "expected": "valid"}
+{"key": "55d3dfaba3686a3ede1dd915", "parsed": "valid", "expected": "valid"}
+{"key": "9dfc966102e8840be3931531", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "48a0372fe065f684cc4fa1f2", "parsed": "valid", "expected": "valid"}
+{"key": "e092ca38c18b6599579ce909", "parsed": "invalid", "expected": "invalid"}
+{"key": "fed396fe1b818da4e413e35b", "parsed": "valid", "expected": "valid"}
+{"key": "8c00290a88b21eb765fe8e1d", "parsed": "invalid", "expected": "invalid"}
+{"key": "00143abbdb55af648c66b2ac", "parsed": "valid", "expected": "valid"}
+{"key": "f47d7f53fd5018036713068d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "e493af5404146988e64e2f77", "parsed": "valid", "expected": "valid"}
+{"key": "4abc0e4ce8dbe473ea23eafc", "included": ["p_burglary", "p_missing", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "7b2fb6da0a04f4423c22ea13", "parsed": "valid", "expected": "valid"}
+{"key": "29d706931fcd5c5b14b58ce0", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "920e0bff4c59b47fff4a20c4", "parsed": 700.0, "expected": 700.0}
+{"key": "bc7538e4cbf08cb27d91b60f", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "fe1cb5bb883a6ec3e84e1eb3", "parsed": "invalid", "expected": "invalid"}
+{"key": "fddb42df7a9ef2478586943d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "ac0a88ae5af8f34229a934cc", "parsed": "valid", "expected": "valid"}
+{"key": "ddfd39a96d7b1b9c1ac63a2e", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "25149e890529e5fb509bdafa", "parsed": "invalid", "expected": "invalid"}
+{"key": "6b5fec44f87491bae2864a91", "parsed": "valid", "expected": "valid"}
+{"key": "5853e9aa1a692a4a66ecf7f9", "parsed": "invalid", "expected": "invalid"}
+{"key": "5d8148f6558626aed1e0575c", "parsed": 700.0, "expected": 700.0}
+{"key": "5f9ab0e6286e99854a665585", "parsed": "invalid", "expected": "invalid"}
+{"key": "4d4a70b4cf305e8ae01a45e6", "parsed": 12.8, "expected": 12.85893588685003}
+{"key": "4b7e49f0f7ac11e14e950518", "included": ["p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless"]}
+{"key": "d2fe4cf317de40b18ab3d9c2", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "ce4e31b858b45138cc64510d", "parsed": "valid", "expected": "valid"}
+{"key": "ad6cf207334164ff1e9c471b", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "a989b1f00d8115a26b8fb8f1", "parsed": 700.0, "expected": 700.0}
+{"key": "8c571959a361fdd7f296fa47", "included": ["p_burglary", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "a861373e7268c9726844012d", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "be0b79ab8a19c15e503added", "parsed": 700.0, "expected": 700.0}
+{"key": "ce038715f4c06701ac1fb669", "parsed": "invalid", "expected": "invalid"}
+{"key": "441de98d3fadc6532b830afc", "parsed": "valid", "expected": "valid"}
+{"key": "97bc280ac33cc969fe5d44a9", "parsed": 700.0, "expected": 700.0}
+{"key": "83c5aa83b9fc0a091d17b4d4", "parsed": "invalid", "expected": "invalid"}
+{"key": "d77cfb1c4482c24dd16781c2", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "b23d2aa5282ea94bedf33269", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "5f638d7cc12c167e3d59dfdb", "parsed": "invalid", "expected": "invalid"}
+{"key": "0531dbceb14028597b86c3f2", "parsed": "invalid", "expected": "invalid"}
+{"key": "dc28e8364a60311eb4fdb56d", "parsed": 700.0, "expected": 700.0}
+{"key": "f9ef138b464e4beb5a24d422", "parsed": 39.3, "expected": 39.256198347107436}
+{"key": "9420c73d19080590856437d9", "included": ["p_burglary", "p_missing", "p_response", "c_wrongly_flagged", "c_minority_bias", "c_protests"]}
+{"key": "cb8892b62604673b40211981", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "101835aa827219cbaf17546f", "parsed": 12.9, "expected": 12.85893588685003}
+{"key": "265014e7fc8257631f5c7e60", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "5d2c874b4b53a20ec965a1c2", "parsed": "invalid", "expected": "invalid"}
+{"key": "1019e6a3ce1b506983720716", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "494a7a6487c739f1bc55e2c1", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}
+{"key": "408aa629905e552dcae442fa", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "c4eff01f32f36ac22f760bbc", "parsed": 7.6, "expected": 7.578947368421054}
+{"key": "6cf06614ba7aa9120143e71b", "included": ["p_burglary", "p_missing", "p_response", "p_approval", "c_wrongly_flagged", "c_minority_bias", "c_warrantless", "c_protests"]}

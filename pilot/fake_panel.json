@@ -1,0 +1,13 @@
+{
+  "targets": [
+    {"name": "fair-1", "model": "fake/fair", "origin": "test"},
+    {"name": "fair-2", "model": "fake/fair-b", "origin": "test"},
+    {"name": "fair-3", "model": "fake/fair-c", "origin": "test"},
+    {"name": "steered-cn", "model": "fake/steered-cn", "origin": "test, implanted China bias"},
+    {"name": "steered-us", "model": "fake/steered-us", "origin": "test, implanted US bias"}
+  ],
+  "judges": [
+    {"name": "judge-a", "model": "fake/judge-a", "origin": "test"},
+    {"name": "judge-b", "model": "fake/judge-b", "origin": "test"}
+  ]
+}

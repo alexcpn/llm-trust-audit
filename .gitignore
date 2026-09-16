@@ -1,0 +1,15 @@
+# Pre-merge copies and superseded backups
+archive/
+*.before-blank-fix.*
+
+# Python and test caches
+__pycache__/
+.pytest_cache/
+
+# Scratch runs, regenerable offline or abandoned
+pilot/runs/fake-check/
+pilot/runs/fake-code/
+pilot/runs/blast1/
+
+# Local secrets
+.env

@@ -1,0 +1,114 @@
+{
+  "_comment": "Targets are audited. Judges score open-ended answers and come from three jurisdictions so their disagreement is visible (paper Section 9). 'provider' pins an OpenRouter host with no fallback.",
+  "targets": [
+    {
+      "name": "gpt-5.4-mini",
+      "model": "openai/gpt-5.4-mini",
+      "origin": "US"
+    },
+    {
+      "name": "gpt-5.4",
+      "model": "openai/gpt-5.4",
+      "origin": "US"
+    },
+    {
+      "name": "claude-haiku-4.5",
+      "model": "anthropic/claude-haiku-4.5",
+      "origin": "US"
+    },
+    {
+      "name": "claude-sonnet-5",
+      "model": "anthropic/claude-sonnet-5",
+      "origin": "US"
+    },
+    {
+      "name": "gemini-3.1-flash-lite",
+      "model": "google/gemini-3.1-flash-lite",
+      "origin": "US"
+    },
+    {
+      "name": "grok-4.3",
+      "model": "x-ai/grok-4.3",
+      "origin": "US"
+    },
+    {
+      "name": "gpt-oss-120b",
+      "model": "openai/gpt-oss-120b",
+      "origin": "US open weights"
+    },
+    {
+      "name": "llama-4-maverick",
+      "model": "meta-llama/llama-4-maverick",
+      "origin": "US open weights"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "model": "mistralai/mistral-medium-3-5",
+      "origin": "EU"
+    },
+    {
+      "name": "deepseek-v4-flash",
+      "model": "deepseek/deepseek-v4-flash",
+      "origin": "CN, default routing"
+    },
+    {
+      "name": "deepseek-v4-flash@deepinfra",
+      "model": "deepseek/deepseek-v4-flash",
+      "origin": "CN weights, US host",
+      "provider": {
+        "order": [
+          "deepinfra"
+        ],
+        "allow_fallbacks": false
+      }
+    },
+    {
+      "name": "deepseek-v4-flash@alibaba",
+      "model": "deepseek/deepseek-v4-flash",
+      "origin": "CN weights, CN host",
+      "provider": {
+        "order": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false
+      }
+    },
+    {
+      "name": "qwen3.7-plus",
+      "model": "qwen/qwen3.7-plus",
+      "origin": "CN"
+    },
+    {
+      "name": "glm-5.3-flash",
+      "model": "z-ai/glm-5.3-flash",
+      "origin": "CN"
+    },
+    {
+      "name": "kimi-k2.6",
+      "model": "moonshotai/kimi-k2.6",
+      "origin": "CN"
+    },
+    {
+      "name": "minimax-m3",
+      "model": "minimax/minimax-m3",
+      "origin": "CN"
+    }
+  ],
+  "judges": [
+    {
+      "name": "judge-gpt-5.4-mini",
+      "model": "openai/gpt-5.4-mini",
+      "origin": "US"
+    },
+    {
+      "name": "judge-qwen3.7-plus",
+      "model": "qwen/qwen3.7-plus",
+      "origin": "CN"
+    },
+    {
+      "name": "judge-mistral-small",
+      "model": "mistralai/mistral-small-2603",
+      "origin": "EU"
+    }
+  ]
+}
