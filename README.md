@@ -1,5 +1,17 @@
 # LLM Trust Audit
 
+## Why I did this
+
+I wanted to find out whether we could replace costly coding tools such as Claude Code and Cursor with an open harness like opencode, running open-source models through OpenRouter.
+
+That question has two halves: the harness and the model. The harness is a separate project. This repository is about the model: can an open-source model be relied on for real work, and where can it not?
+
+Chinese models are the obvious place to look, because on political topics they visibly follow Chinese content rules. It would be easy to stop there and rule them out. But a model from any country can lean in ways that suit its maker or its government, so this audit does not assume any country is the problem. Models from the US, Europe and China are tested the same way: change one detail that should not matter, and measure what changes.
+
+The model experiments cost \$27.58 in OpenRouter fees, plus a good deal of Claude and Codex usage to design the tests, build the harness and analyse the results.
+
+## What is in this repository
+
 Black-box audits of LLM endpoints. Change one detail that should not matter, such as the country in a request, the customer asking for code, or the company serving the model. Then measure what changes: refusals, silent non-answers, steering, and the security of generated code, run against hidden tests in a sandbox.
 
 | Where to look | What it contains |
