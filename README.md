@@ -41,7 +41,7 @@ Two runs sent 12,060 requests to ten model endpoints. They tested everyday work,
 > | Qwen | Qwen3.7 Plus, a general model | Qwen3 Coder, Qwen 3.6/3.7 |
 > | MiniMax | Not tested | M3 |
 >
-> Mistral Medium 3.5, by contrast, is Mistral's current coding model: it replaced Devstral 2 in Mistral's own coding agent.
+> Mistral Medium 3.5, by contrast, is the model Mistral currently uses in its own coding agent, in place of Devstral 2. Its 14.9% broken-code rate here comes almost entirely from one repeated mistake in a single task, not from general weakness across the tests.
 >
 > For current capability, price, and speed comparisons of these models, see [Artificial Analysis](https://artificialanalysis.ai/models). It measures capability, not the behaviors tested here. Its headline scores can combine several hosting companies, so check the figures for the host you will actually use.
 
