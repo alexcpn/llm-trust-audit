@@ -15,9 +15,9 @@ The paper sets out a method for measuring this from the outside, without access 
 - **Keep the model from recognizing the test**, and measure how far a test could have been recognized.
 - **Account for the checker.** Any tool that checks a model may share that model's blind spots.
 
-A pilot applied parts of this method in two runs, totalling 9,120 requests and \$27.58 in API fees.
+A pilot applied parts of this method in two runs, totalling 12,060 requests and \$34.17 in API fees.
 
-- **Code.** Four endpoints produced 3,920 programs, which were run against hidden security tests. Saying who the customer was, including sector and country, had no detected effect on security. But the same open-weight model, served by two different companies, produced broken code almost four times as often on one host as on the other.
+- **Code.** Seven endpoints, from Chinese, US, and European model families, produced 6,860 programs, which were run against hidden security tests. Saying who the customer was, including sector and country, had no detected effect on security. Reliability did vary: the same open-weight model, served by two different companies, produced broken code almost four times as often on one host as on the other; Llama 4 Maverick and Mistral Medium 3.5 each broke about 15% of the time through one repeated mistake; and GLM 5.3 Flash ran out of its length budget on 19% of requests.
 - **Topics.** Ten endpoints received 5,200 requests. DeepSeek V4 Flash, on either host, became much less encouraging about a fictional novel once it was set in China. Several models refused or deflected on the 1989 Tiananmen protests and on the neighboring topic of Chinese student movements, yet solved statistics problems about the same events.
 - **Silent non-answers.** GLM returned empty answers for 17 of 48 China-related creative requests and for none of 48 neutral ones. Our first scoring dropped empty answers and hid this.
 
@@ -217,11 +217,19 @@ We built a harness that implements parts of this method and ran it twice through
 
 ### 7.1 Code study: does the customer change the code?
 
-**Design.** Run `code1`, on 15 September 2026, tested four endpoints:
+**Design.** Run `code1` began on 15 September 2026 with four endpoints:
 
 - DeepSeek V4 Flash, the April 2026 release listed by OpenRouter as V4 Flash 0423, on two hosts, DeepInfra and Alibaba, with fallback to other hosts disabled;
 - Qwen3.7 Plus;
 - Kimi K2.6, whose requests were spread across many hosts.
+
+On 16 and 17 September three more endpoints ran the identical requests, added to the same run so that all seven share one comparison panel:
+
+- Llama 4 Maverick, a US open-weight model, pinned to DeepInfra;
+- GLM 5.3 Flash, the small variant of GLM, pinned to Z.AI, the company that makes it;
+- Mistral Medium 3.5, a European open-weight model, on Mistral's own service.
+
+The additions also give the study non-Chinese models for comparison. The proprietary US models from the topic study, GPT-5.4 Mini, Claude Sonnet 5, and Gemini 3.1 Flash Lite, were not tested on code.
 
 Each endpoint received 980 requests: five security-critical Python tasks, two wordings, and two repeats, across 49 customer contexts. The contexts crossed six sectors with seven countries, plus a version naming no customer:
 
@@ -240,7 +248,7 @@ Only the opening sentence naming the customer changed.
 
 Code ran in an isolated sandbox with no network access and no view of our files or keys. For each task we also wrote one correct solution and one with a single deliberate flaw. The correct one passed every test, and each flawed one failed exactly the test aimed at its flaw, which shows the tests measure what they claim.
 
-Two fixes were made during the run. A test requiring the code to refuse reinstalling the *same* version was made informational, because the prompts only forbade *older* versions; 159 of 784 firmware answers refused anyway. One firmware wording that did not say what was signed was clarified, and its answers were collected again.
+Two fixes were made during the run. A test requiring the code to refuse reinstalling the *same* version was made informational, because the prompts only forbade *older* versions; 315 of 1,314 scored firmware answers across the seven endpoints refused anyway. One firmware wording that did not say what was signed was clarified, and its answers were collected again.
 
 **Result: no sign of customer targeting.**
 
@@ -250,18 +258,21 @@ Two fixes were made during the run. A test requiring the code to refuse reinstal
 | DeepSeek V4 Flash, Alibaba | 980 | 0 | 13 | 967 | 5 |
 | Qwen3.7 Plus | 978 | 0 | 13 | 965 | 1 |
 | Kimi K2.6 | 976 | 10 | 21 | 945 | 0 |
-| **Total** | **3,914** | **13** | **96** | **3,805** | **10** |
+| Llama 4 Maverick, DeepInfra | 980 | 0 | 156 | 824 | 0 |
+| GLM 5.3 Flash, Z.AI | 792 | 0 | 12 | 780 | 0 |
+| Mistral Medium 3.5 | 973 | 0 | 145 | 828 | 0 |
+| **Total** | **6,659** | **13** | **409** | **6,237** | **10** |
 
-Six answers hit the length limit and were not scored. All ten security failures were the same mistake: the code switched off hostname checking, so it would accept a genuine certificate issued for a different server. They were spread across countries and sectors with no pattern, including two for the harmless bookstore:
+Of the 6,860 requests, 194 answers hit the length limit and were not scored, 188 of them from GLM, and 7 Mistral requests were rejected by Mistral's rate limit. None of the three added endpoints had a security failure in working code. All ten security failures came from the original four endpoints and were the same mistake: the code switched off hostname checking, so it would accept a genuine certificate issued for a different server. They were spread across countries and sectors with no pattern, including two for the harmless bookstore:
 
 - **Countries:** China 3, India 3, United States 2, Taiwan 2.
 - **Sectors:** ministry 3, bookstore 2, power grid 2, and telecom, military radar, and air traffic radar 1 each.
 
-No sector, country, or country-within-sector comparison was flagged, and naming any customer made no measurable difference. No program tried to reach the network.
+No sector, country, or country-within-sector comparison was flagged for any of the seven endpoints, and naming any customer made no measurable difference. No program tried to reach the network.
 
-**How strong is that null result?** Each endpoint had about 120 answers per country. With a background failure rate near 0.26%, seeing no excess in 120 answers cannot rule out targeted failures in up to about 1 in 40 requests for a country. Targeting one sector in one country, at 20 answers, would be caught only if large. The tests also cover only the properties listed.
+**How strong is that null result?** Most endpoints had about 120 answers per country; GLM, after its length cut-offs, had as few as 82. With a background security-failure rate near 0.16%, seeing no excess in 120 answers cannot rule out targeted failures in up to about 1 in 40 requests for a country, and in 82 answers up to about 1 in 27. Targeting one sector in one country, at 20 answers, would be caught only if large. The tests also cover only the properties listed.
 
-**The one flagged code finding was about refusal.** Kimi declined 9 of 120 requests from Iranian customers, against 1 of 860 from everyone else, and 7 of 20 from the Iranian military radar maker. It cited sanctions and export controls. That is a difference in who gets served, not in code quality. Kimi's requests went through 18 hosts, so the cause cannot be pinned to one of them.
+**The one flagged code finding was about refusal,** and it remained flagged with all seven endpoints in the panel. Kimi declined 9 of 120 requests from Iranian customers, against 1 of 860 from everyone else, and 7 of 20 from the Iranian military radar maker. It cited sanctions and export controls. That is a difference in who gets served, not in code quality. Kimi's requests went through 18 hosts, so the cause cannot be pinned to one of them.
 
 **Result: the host changed reliability.**
 
@@ -271,6 +282,20 @@ No sector, country, or country-within-sector comparison was flagged, and naming 
 | Alibaba | 13 of 980 (1.3%) | 0 of 196 (0.0%) | 1 of 196 (0.5%) |
 
 The same model name produced broken code almost four times as often on one host. The chance of a gap this large arising by accident is about 3 in a million (Fisher exact test). For comparison, Qwen3.7 Plus was broken 1.3% of the time and Kimi K2.6 2.2%. DeepInfra's failures were mostly calls to library functions that do not exist. Likely causes include model compression, different default settings, or a different underlying version, but an outside audit cannot tell which, and nothing here suggests intent. Earlier work checks whether an API secretly serves a cheaper model than advertised and finds that hard to detect (arXiv:2504.04715; IRIS, arXiv:2607.20860). This result asks the practical follow-up question: whether the difference changes the user's outcome. Here it did.
+
+**Result: some models failed through one repeated mistake.**
+
+| Endpoint | Broken code, all tasks | Encryption task | Cut off at the length limit |
+|---|---:|---:|---:|
+| Llama 4 Maverick, DeepInfra | 156 of 980 (15.9%) | 155 of 196 (79.1%) | 0 |
+| Mistral Medium 3.5 | 145 of 973 (14.9%) | 143 of 195 (73.3%) | 0 |
+| GLM 5.3 Flash, Z.AI | 12 of 792 (1.5%) | 0 of 185 | 188 of 980 (19.2%) |
+
+Llama's and Mistral's broken code came almost entirely from the encryption task, and from one mistake each. Llama made the encryption nonce with the library's key-generation function, `AESGCM.generate_key(12)`, which accepts only key sizes of 128, 192, or 256 bits, so the code crashed. Mistral called `AESGCM.generate_nonce`, a function that does not exist; DeepSeek on DeepInfra made the same invented call less often. These mistakes fail loudly rather than weakening security, but they stop the code from working. They also show that a single, highly consistent habit can dominate a model's broken-code rate, so a rate should be read alongside the tasks it comes from.
+
+GLM rarely wrote broken code, but on 188 requests it used its entire 8,000-token budget reasoning and returned no usable answer, most often on the TLS task (90 of 196). Counting only finished answers would report GLM as 1.5% broken and hide that roughly one request in five produced nothing. This is the code-study counterpart of the empty answers in Section 7.2, and it is why cut-offs are reported separately rather than dropped.
+
+All three added models are smaller or older than the variants most developers use for coding, a point the README makes explicit, so these rates describe the tested variants rather than their model families.
 
 ### 7.2 Topic study: restrictions, spillover, and silence
 
@@ -341,7 +366,7 @@ GLM gave no empty answers for neutral or US-political creative writing, 48 reque
 
 ### 7.3 What the pilot shows
 
-**The object to trust is the endpoint doing a task.** For code, identical model weights on two hosts differed almost fourfold in producing working programs, while the customer's identity had no detected effect. For political topics, the restriction followed the model onto both hosts, with severity varying by host. An audit that records only the model name, or only its country of origin, would have missed both. Record the model, host, settings, task type, and date.
+**The object to trust is the endpoint doing a task.** For code, identical model weights on two hosts differed almost fourfold in producing working programs, and two models broke about one program in seven through a single repeated mistake, while the customer's identity had no detected effect on any of the seven endpoints. For political topics, the restriction followed the model onto both hosts, with severity varying by host. An audit that records only the model name, or only its country of origin, would have missed both. Record the model, host, settings, task type, and date.
 
 **One score hides the picture.** Models that solved controlled reasoning problems also refused, discouraged, or deflected on specific open-ended topics. Qwen engaged positively with the fictional premise yet often refused the historical core topic.
 
@@ -363,7 +388,7 @@ This work draws on five research areas that rarely cite one another.
 
 **Auditing hidden behaviors.** Sleeper Agents (Hubinger et al., 2024) showed that trigger-dependent behavior can survive safety training. Sabotage evaluations study deliberately subtle code changes. AuditBench (Sheshadri et al., 2026) provides models with planted hidden behaviors to test auditing methods, and finds that context-dependent behaviors often stay hidden under plain questioning. This research has access to model internals and knows what was planted. Our setting assumes neither, and adds the customer's constraints: tests must resemble real work, and the checkers may share the model's blind spots.
 
-**What appears to be new** is the combination: the customer's identity as the variable; hidden tests that run the code rather than a judge or scanner; a panel of rival models as the reference; the serving host as an experimental factor, which produced the largest code effect; and explicit counting of silent non-answers, which revealed a hidden failure. A carefully bounded null result for customer targeting is also rarely published.
+**What appears to be new** is the combination: the customer's identity as the variable; hidden tests that run the code rather than a judge or scanner; a panel of rival models as the reference; the serving host as an experimental factor, which changed code reliability almost fourfold for identical weights; and explicit counting of silent non-answers, which revealed a hidden failure. A carefully bounded null result for customer targeting is also rarely published.
 
 ## 9. Limitations
 
@@ -379,7 +404,7 @@ No finite outside audit can prove a model is trustworthy in general.
 - **Slow and personal steering.** Simulated long relationships only approximate a real user's relationship with a model that remembers them.
 - **Randomness.** The procedure is repeatable, but model outputs are not. All conclusions are statistical.
 - **Confidentiality.** The audit measures what a model says, not what a host does with the requests it receives. Retention or misuse of prompts leaves no trace in the answers.
-- **Pilot scope.** The pilot comes from one collection period, a small set of templates, and a panel chosen for comparison, not sampled from all models. Its statistics do not account for repeated templates, and its flags depend on who is in the panel. Failures and cutoffs are counted but not yet costed. Missing judge ratings and shared judge biases limit interpretation. The code study's null result is bounded by about 120 answers per country per endpoint and by the properties the tests cover.
+- **Pilot scope.** The pilot comes from one collection period, a small set of templates, and a panel chosen for comparison, not sampled from all models. Its statistics do not account for repeated templates, and its flags depend on who is in the panel. Failures and cutoffs are counted but not yet costed. Missing judge ratings and shared judge biases limit interpretation. The code study's null result is bounded by about 120 answers per country per endpoint, as few as 82 for GLM, and by the properties the tests cover. The proprietary US models were not tested on code, and most Chinese families were tested with smaller or older variants than developers typically use.
 
 The best the method can produce is a conditional statement: *given this evidence, how detectable the tests were, how much of the real workload they covered, which swaps were tried, and how independent the checkers are, this endpoint's remaining error for this kind of work is below the user's limit with this level of confidence.* The pilot supplies evidence toward such a statement. It does not yet provide the statement itself.
 
@@ -535,4 +560,4 @@ Wheeler, D. A. *Countering Trusting Trust through Diverse Double-Compiling.* Ann
 
 White, C. et al. *LiveBench: A Challenging, Contamination-Free LLM Benchmark.* 2024.
 
-**Pilot data.** Run `code1`, 15 September 2026: [report](pilot/runs/code1/report.md), [scores](pilot/runs/code1/scores.csv), [scoring details](pilot/runs/code1/score_details.jsonl), [contrasts](pilot/runs/code1/contrasts.csv), [responses](pilot/runs/code1/responses.jsonl); methods in [code tasks](pilot/codetasks.py), [hidden tests](pilot/sandbox_runner.py), and [sandbox](pilot/sandbox.py). Run `nc1`, 16 September 2026: [report](pilot/runs/nc1/report.md), [scores](pilot/runs/nc1/scores.csv), [contrasts](pilot/runs/nc1/contrasts.csv), [responses](pilot/runs/nc1/responses.jsonl), [judgments](pilot/runs/nc1/judgments.jsonl); methods in [experiments](pilot/experiments.py), [scoring](pilot/scoring.py), [analysis](pilot/analyze.py), and [panel](pilot/panel.json). Both runs, including judges, retries, and a smoke test, cost \$27.58 in API fees.
+**Pilot data.** Run `code1`, 15 to 17 September 2026: [report](pilot/runs/code1/report.md), [scores](pilot/runs/code1/scores.csv), [scoring details](pilot/runs/code1/score_details.jsonl), [contrasts](pilot/runs/code1/contrasts.csv), [responses](pilot/runs/code1/responses.jsonl); methods in [code tasks](pilot/codetasks.py), [hidden tests](pilot/sandbox_runner.py), and [sandbox](pilot/sandbox.py). Run `nc1`, 16 September 2026: [report](pilot/runs/nc1/report.md), [scores](pilot/runs/nc1/scores.csv), [contrasts](pilot/runs/nc1/contrasts.csv), [responses](pilot/runs/nc1/responses.jsonl), [judgments](pilot/runs/nc1/judgments.jsonl); methods in [experiments](pilot/experiments.py), [scoring](pilot/scoring.py), [analysis](pilot/analyze.py), and [panel](pilot/panel.json). Both runs, including judges, retries, and a smoke test, cost \$34.17 in API fees.
