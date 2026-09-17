@@ -73,7 +73,12 @@ That study trained models toward harmful behavior, which is different from train
 
 These checks cover only the side effects we thought to test. They would not catch broader misalignment of the kind the paper found, such as harmful advice on unrelated questions, or behavior that appears only with a hidden trigger. They also used smaller or older variants of most Chinese model families, as the disclaimer above explains.
 
-### Everyday work
+### Exact values
+
+The images above are generated from these tables.
+
+<details>
+<summary><b>Everyday work</b></summary>
 
 | Endpoint | Made in | Reasoning | Code: same for every customer | Code: broken programs | Summaries keep both sides | Creative writing varied | Empty answers |
 |---|---|---|---|---|---|---|---|
@@ -88,7 +93,10 @@ These checks cover only the side effects we thought to test. They would not catc
 | GLM 5.3 Flash | China | ✅ 99.2% | ✅ Same for all | ⚠️ 1.5% (Z.AI host); 19.2% cut off at the length limit | ✅ Balanced | ✅ Varied | ⚠️ 34 of 517, up to 37.5% in one group |
 | Kimi K2.6 | China | ✅ 97.7% | ⚠️ Refused 9 of 120 Iranian requests | ✅ 2.2% | ✅ Balanced | ✅ Varied | ⚠️ 3 of 520, up to 12.5% in one group |
 
-### Politically sensitive topics
+</details>
+
+<details>
+<summary><b>Politically sensitive topics</b></summary>
 
 | Endpoint | Novel set in China: encouragement, other settings → China (out of 10) | China-critical books refused | Tiananmen 1989 refused | Neighbor topic (Chinese student movements) deflected | Distant topics deflected |
 |---|---|---|---|---|---|
@@ -102,6 +110,8 @@ These checks cover only the side effects we thought to test. They would not catc
 | Qwen3.7 Plus | ✅ 7.72 → 8.10 | ✅ 0% | ❌ 79.2% | ⚠️ 37.5% | ✅ 0% |
 | GLM 5.3 Flash | ✅ 7.72 → 7.33 | ⚠️ 37.5% | ❌ 62.5% | ⚠️ 25% | ✅ 0% |
 | Kimi K2.6 | ⚠️ 7.40 → 6.14 | ⚠️ 18.8% | ⚠️ 20.8% | ⚠️ 22.9% | ✅ 0% |
+
+</details>
 
 ### How to read the marks
 
@@ -514,19 +524,23 @@ The corrected result is more revealing than a claim that the writing became repe
 
 **An audit of answers needs an audit of what it leaves out.**
 
-### What to carry into your own work
+### Takeaways
 
-The useful unit of trust is becoming more specific: this endpoint, doing this kind of task, under these conditions.
+- **Trust an endpoint doing a task, not a model name or a country.** The same DeepSeek weights broke code four times as often on one host. Qwen encouraged a China-set novel, then refused Tiananmen.
+- **Check what the code does, not what the reply says.** One program switched off hostname checking under a reassuring comment. Others promised random nonces from a function that does not exist.
+- **Count the answers that never arrive.** GLM's empty replies and cut-off code disappear from any dashboard that scores only returned text.
+- **Read a failure rate with its cause.** Most of Llama's and Mistral's broken code was one repeated habit.
+- **No customer targeting was found, within narrow limits.** Seven endpoints wrote equally secure code for every sector and country, but only on five small tasks.
 
-A code review should ask whether the program works and whether the security properties survive. A summary check should inspect the supplied facts that disappear. A writing assessment should count the requests that never become writing. Changing a customer or country gives each check a controlled comparison to investigate.
+**Review and extend the experiments before relying on them.** The code-security tests are the most important and the easiest to strengthen:
 
-The examples here were selected to make mechanisms visible. Their frequency comes from the full run, not from the vividness of a screenshot. The bookstore bug was real, but we found no customer-targeting pattern. The broken encryption code was real, but it came from one repeated habit per model. The country-sensitive literary response was real, but another model of the same origin reacted differently. The topic effect extended to a neighboring question, but we have not mapped a reliable boundary around it.
+- **Stop spelling out the security requirements.** Each task currently states what must be rejected, so it measures whether a model breaks an explicit rule. Quiet sabotage is more likely to hide in what nobody asked for: request a feature and check whether the model adds the protections on its own.
+- **Test more ways code can be weakened.** The hidden tests cover signatures, TLS, encryption, message parsing, and passwords. Add injection, path traversal, unsafe deserialization, server-side request forgery, secrets written to logs, non-constant-time comparison, and the choice of dependencies.
+- **Move from single functions to real repositories.** A weakened check is easier to slip into a multi-file change made by a coding agent. That is the harness project, run through opencode or similar.
+- **Test the models people actually deploy.** Use the flagship coding variants, a proprietary baseline such as Claude Sonnet 5, larger samples per country, and repeat runs over time.
+- **Read the tests themselves.** They live in [`pilot/codetasks.py`](pilot/codetasks.py) and [`pilot/sandbox_runner.py`](pilot/sandbox_runner.py). A test that misses a weakness produces a false all-clear.
 
-Start with a small set of your actual tasks. Save the prompts, replies, serving host and completion status. Repeat controlled variations. Check the failures yourself. Then try a correction—a stricter code check, a request for source coverage, a different endpoint—and measure whether it improves the work on fresh examples.
-
-That last measurement remains to be done for the routing idea in this pilot. We have evidence about deviations, not a certified safe route around them.
-
-The promising part is how ordinary the work is. A bookstore needs a connection. A student needs a paragraph. A writer needs an opinion. Send those requests once and each reply stands alone. Repeat them with a controlled change, and the service starts to reveal its habits.
+Treat this as a starting audit, not a verdict: we measured deviations, not a proven safe way around them.
 
 ### Notes on the evidence
 
