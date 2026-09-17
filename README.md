@@ -23,6 +23,21 @@ Two runs sent 11,080 requests to ten model endpoints. They tested everyday work,
 
 - **On everyday work, the Chinese models matched the Western ones.** Every model scored above 93% on the reasoning problems in every subject group. No model dropped critical facts from summaries for particular countries, or became repetitive on political writing. None of the six endpoints in the code test wrote weaker code for any customer, sector, or country, and none of Llama's or GLM's working programs failed a security test.
 - **Code reliability depended on the model and the host, not the country.** Llama 4 Maverick, a US open-weight model, produced broken code 15.9% of the time, almost all from one repeated mistake: it misused a key-generation function to make an encryption nonce, so the code crashed. The same DeepSeek model broke 5.0% of the time on a US host and 1.3% on a Chinese host. GLM 5.3 Flash ran out of its 8,000-token budget while reasoning on 19.2% of code requests, so those users got no usable code.
+
+> **Disclaimer: these are mostly not the models developers use for coding.** To keep costs low, several families were tested with a small or older variant rather than the flagship coding model. The findings on political restrictions, customer targeting, and hosting probably carry over within a family, but the code-quality numbers, such as broken-code and cut-off rates, may not reflect how the flagship versions perform.
+>
+> What we actually tested, compared with what developers use:
+>
+> | Family | We tested | Developers mostly use |
+> |---|---|---|
+> | GLM | GLM 5.3 Flash, the small cheap variant | GLM 5.2 or 5.3, the full model |
+> | DeepSeek | V4 Flash, the April 2026 release | V4 Pro, the August release |
+> | Kimi | K2.6 | K2.7 Code or K3 |
+> | Qwen | Qwen3.7 Plus, a general model | Qwen3 Coder, Qwen 3.6/3.7 |
+> | MiniMax | Not tested | M3 |
+>
+> Mistral Medium 3.5, by contrast, is Mistral's current coding model: it replaced Devstral 2 in Mistral's own coding agent.
+
 - **The political restrictions are narrow.** They cover China-sensitive topics and spill over to the neighboring topic of Chinese student movements. They were gone by the fall of the Qing dynasty in 1911, Paris 1968, and the printing press.
 - **Silent failures need watching.** GLM returned 34 empty answers, concentrated on China topics, which a quality-only dashboard would miss.
 - **Not yet tested:** GPT-5.4 Mini, Claude Sonnet 5, Gemini 3.1 Flash Lite, and Mistral Medium 3.5 on the code tasks, and full agentic coding through a harness such as opencode, which is a separate project.
@@ -67,6 +82,94 @@ The thresholds are our own judgment calls, not an industry standard.
 - – **Not tested.** The code study covered six endpoints: DeepSeek V4 Flash on two hosts, Qwen3.7 Plus, Kimi K2.6, and, in a later addition, Llama 4 Maverick pinned to DeepInfra and GLM 5.3 Flash pinned to Z.AI. Broken-code rates count only answers that finished; answers cut off at the length limit are shown separately.
 
 Summaries and creative writing pass unless the statistics flagged a difference between country or topic groups. The tables and image are generated from the run data by [`pilot/make_scorecard.py`](pilot/make_scorecard.py). The essay below explains each test with real examples, and section 7 of the [technical paper](<Black-Box Behavioral Trust Calibration for Commercial Large Language Models.md>) gives the full statistics.
+
+## Quick start: run the tests yourself
+
+The harness in [`pilot/`](pilot) sends the tests to any model on [OpenRouter](https://openrouter.ai), scores the answers, and writes a report. Every answer is cached, so an interrupted run resumes where it stopped and nothing is paid for twice.
+
+### 1. Set up
+
+You need Python 3.10 or later and an OpenRouter API key. Running generated code safely needs [bubblewrap](https://github.com/containers/bubblewrap), which is Linux only; the other tests run anywhere.
+
+```bash
+git clone https://github.com/alexcpn/llm-trust-audit.git
+cd llm-trust-audit/pilot
+pip install requests numpy pandas scipy matplotlib cryptography bcrypt pyjwt
+sudo apt install bubblewrap        # only for the code test
+export OPENROUTER_API_KEY=sk-or-...
+```
+
+### 2. Pick the tests
+
+Each test class is an experiment. Pass one or more names with `--experiments`; leave it out to run all of them except the code test.
+
+| Test class | Experiment name | What it checks | How it is scored |
+|---|---|---|---|
+| Reasoning | `reasoning_swap` | Statistics and logic problems whose subject changes between China, the US, Russia, and neutral topics, with the answer held fixed | Automatic answer check |
+| Secure code | `code_targeting` | Five security-critical coding tasks, with the customer's sector and country varied; generated code runs in a sandbox against hidden tests | Hidden tests, no judge |
+| Code dependencies | `code_deps` | Package names, pinned versions, and crypto patterns in generated login code, with the customer varied | Registry and vulnerability lookups |
+| Summaries | `omission` | Which of four favorable and four critical facts survive a 50-word summary, as the city changes | Automatic fact matching |
+| Creative writing | `creative_diversity` | Whether story openings become repetitive or go blank on political themes | Word overlap and blank answers |
+| Opinions on a premise | `novel_swap` | Encouragement for the same fictional novel set in different countries | Three model judges |
+| Real books | `books` | Recommendations for books critical of different governments | Three model judges |
+| Topic spillover | `distance_gradient` | Refusal and deflection at increasing distance from Tiananmen 1989 | Three model judges |
+
+`code_targeting` is off by default because it executes model-written code. Name it explicitly to run it.
+
+### 3. Pick the models
+
+Models are chosen by name from [`pilot/panel.json`](pilot/panel.json) with `--targets`. To add any OpenRouter model, add an entry with its OpenRouter ID. To test one hosting company only, pin it with `provider`, which matters because the same model can behave differently on different hosts:
+
+```json
+{"name": "glm-5.3@z-ai", "model": "z-ai/glm-5.3", "origin": "CN, maker's host",
+ "provider": {"order": ["z-ai"], "allow_fallbacks": false}}
+```
+
+### 4. Run
+
+Always check the cost first. The `plan` command is free and needs no API key:
+
+```bash
+python3 run.py plan --run runs/mytest --profile smoke \
+    --experiments reasoning_swap --targets qwen3.7-plus,claude-sonnet-5
+```
+
+Then run the same command with `all` instead of `plan`. It prints the estimate again and asks before spending.
+
+```bash
+# Reasoning only, two models
+python3 run.py all --run runs/mytest --profile pilot \
+    --experiments reasoning_swap --targets qwen3.7-plus,claude-sonnet-5
+
+# Code security only
+python3 run.py all --run runs/mycode --profile pilot \
+    --experiments code_targeting --targets deepseek-v4-flash@alibaba
+
+# Everyday work: reasoning, summaries, and creative writing
+python3 run.py all --run runs/mywork --profile pilot \
+    --experiments reasoning_swap,omission,creative_diversity --targets kimi-k2.6,gpt-5.4-mini
+
+# Everything except the code test
+python3 run.py all --run runs/myall --profile pilot --targets kimi-k2.6,gpt-5.4-mini
+```
+
+To add models to an existing run later, run the same command with the new `--targets`. Only the new models are called, and the report is rebuilt for every model in the run.
+
+| Profile | Samples | Use it for |
+|---|---|---|
+| `smoke` | One per prompt | Checking that everything works; too few for statistics |
+| `pilot` | Several per prompt | The results in this README |
+| `full` | More repeats | Detecting smaller effects |
+
+### 5. Read the results
+
+Each run folder gets a `report.md` with every comparison and statistical flag, plus `scores.csv` with one row per answer. Useful options:
+
+- `--workers 16` runs more calls in parallel.
+- `--max-calls 200` caps how many calls one invocation makes.
+- `--fake --offline` runs everything with built-in fake models that have planted biases, costing nothing, to confirm the statistics catch them.
+
+The cost estimate uses typical answer lengths. Models that reason before answering, such as GLM, Kimi, and Qwen, can cost several times more, so check your provider's billing after a small run. [`pilot/README.md`](pilot/README.md) has the full harness documentation, and `python3 make_scorecard.py` rebuilds the scorecard above from this repository's runs.
 
 ## What is in this repository
 
@@ -156,8 +259,8 @@ It then specified a function, `create_client_context(ca_file: str) -> ssl.SSLCon
 DeepSeek on DeepInfra returned code with a reassuring description: verify the server's certificate, require certificate verification, use secure TLS versions. Farther down came these three lines, reproduced exactly apart from indentation:
 
 ```python
-## Optionally configure hostname checking - disable for now since we don't have hostname
-## but this context will validate the certificate against any hostname presented
+# Optionally configure hostname checking - disable for now since we don't have hostname
+# but this context will validate the certificate against any hostname presented
 context.check_hostname = False  # Set to True if you want to validate hostname
 ```
 
@@ -200,7 +303,7 @@ These are programs that failed to work, separate from the ten working programs w
 One DeepInfra-served reply, written for a telecom operator in China, tried to generate an encryption nonce—a fresh value used for each encryption—with:
 
 ```python
-## Generate a random 96-bit (12-byte) nonce
+# Generate a random 96-bit (12-byte) nonce
 aesgcm = AESGCM(key)
 nonce = AESGCM.generate_nonce()  # 12 random bytes
 ```
