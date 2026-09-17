@@ -2,7 +2,7 @@
 """Build the README results scorecard from the saved run data.
 
 Reads runs/nc1 and runs/code1, applies the thresholds described in the README legend,
-prints both markdown tables, and renders docs/scorecard.png and docs/scorecard-dark.png.
+prints both markdown tables, and renders light and dark scorecard images for each panel into docs/.
 
     python3 make_scorecard.py
 """
@@ -183,13 +183,14 @@ def short(status, text):
     return {"Same for all": "same", "Balanced": "yes", "Varied": "yes"}.get(text, text.replace("Refused ", "").replace(" Iranian requests", "\nIran refused").replace(" → ", "→"))
 
 
-def render(work, politics, theme, path):
+def render(rows, headers, title, theme, path, has_untested):
+    """One panel per image, so each stays narrow and readable at README width."""
     th = THEMES[theme]
-    label_w, cell_w, gap, cell_h, head_h, group_h = 3.1, 1.02, 0.35, 0.62, 0.82, 0.34
-    n_rows = len(work)
-    width = label_w + cell_w * (len(IMAGE_WORK) + len(IMAGE_POLITICS)) + gap + 0.2
-    split_gap = 0.25
-    height = group_h + head_h + n_rows * cell_h + split_gap + 0.95
+    label_w, cell_w, cell_h, title_h, head_h = 3.3, 1.3, 0.78, 0.5, 0.88
+    n_cols, n_rows = len(headers), len(rows)
+    width = label_w + cell_w * n_cols + 0.2
+    split_gap = 0.3
+    height = title_h + head_h + n_rows * cell_h + split_gap + 0.9
     fig = plt.figure(figsize=(width, height), dpi=200)
     fig.patch.set_facecolor(th["surface"])
     ax = fig.add_axes([0, 0, 1, 1])
@@ -197,49 +198,45 @@ def render(work, politics, theme, path):
     ax.set_ylim(height, 0)
     ax.axis("off")
 
-    def col_x(i):
-        return label_w + cell_w * i + (gap if i >= len(IMAGE_WORK) else 0)
+    col_x = lambda i: label_w + cell_w * i
+    ax.text(0.15, 0.12 + title_h / 2, title, color=th["ink"], fontsize=17, fontweight="bold", va="center")
+    for i, h in enumerate(headers):
+        ax.text(col_x(i) + cell_w / 2, title_h + head_h, h, color=th["muted"], fontsize=11, ha="center", va="bottom", linespacing=1.15)
 
-    y0 = 0.15
-    ax.text(col_x(0), y0 + group_h / 2, "Everyday work", color=th["ink"], fontsize=12, fontweight="bold", va="center")
-    ax.text(col_x(len(IMAGE_WORK)), y0 + group_h / 2, "Politically sensitive topics", color=th["ink"], fontsize=12, fontweight="bold", va="center")
-    for i, h in enumerate(IMAGE_WORK + IMAGE_POLITICS):
-        ax.text(col_x(i) + cell_w / 2, y0 + group_h + head_h - 0.08, h, color=th["muted"], fontsize=8.2, ha="center", va="bottom", linespacing=1.15)
-
-    top = y0 + group_h + head_h
-    for r in range(n_rows):
+    top = title_h + head_h + 0.12
+    for r, (name, origin, cells) in enumerate(rows):
         y = top + r * cell_h + (split_gap if r >= 5 else 0)
-        name, origin, wcells, _ = work[r]
-        _, _, pcells = politics[r]
-        ax.text(0.15, y + cell_h * 0.40, name, color=th["ink"], fontsize=10, va="center")
-        ax.text(0.15, y + cell_h * 0.75, origin, color=th["muted"], fontsize=7.8, va="center")
-        for i, (status, text) in enumerate(wcells + pcells):
+        ax.text(0.15, y + cell_h * 0.40, name, color=th["ink"], fontsize=13, va="center")
+        ax.text(0.15, y + cell_h * 0.74, origin, color=th["muted"], fontsize=10.5, va="center")
+        for i, (status, text) in enumerate(cells):
             x = col_x(i)
             fill = mix(th[status], th["surface"], th["tint"] if status != UNTESTED else th["tint"] * 0.6)
             ax.add_patch(FancyBboxPatch((x + 0.05, y + 0.05), cell_w - 0.1, cell_h - 0.1,
                                         boxstyle="round,pad=0,rounding_size=0.06", linewidth=0, facecolor=fill))
-            ax.add_patch(FancyBboxPatch((x + 0.05, y + 0.05), 0.06, cell_h - 0.1,
+            ax.add_patch(FancyBboxPatch((x + 0.05, y + 0.05), 0.07, cell_h - 0.1,
                                         boxstyle="square,pad=0", linewidth=0, facecolor=th[status]))
             label = short(status, text)
-            glyph = GLYPH[status]
+            cx = x + cell_w / 2 + 0.04
             if status == UNTESTED:
-                ax.text(x + cell_w / 2 + 0.03, y + cell_h / 2, label, color=th["muted"], fontsize=7.5, ha="center", va="center")
+                ax.text(cx, y + cell_h / 2, label, color=th["muted"], fontsize=10.5, ha="center", va="center")
             else:
-                ax.text(x + cell_w / 2 + 0.03, y + cell_h * 0.36, glyph, color=th["ink"], fontsize=11, fontweight="bold", ha="center", va="center")
-                ax.text(x + cell_w / 2 + 0.03, y + cell_h * 0.72, label, color=th["ink"], fontsize=7.3 if "\n" not in label else 6.4,
+                ax.text(cx, y + cell_h * 0.34, GLYPH[status], color=th["ink"], fontsize=15, fontweight="bold", ha="center", va="center")
+                ax.text(cx, y + cell_h * 0.72, label, color=th["ink"], fontsize=10.5 if "\n" not in label else 8.8,
                         ha="center", va="center", linespacing=1.0)
     split_y = top + 5 * cell_h + split_gap / 2
-    ax.plot([0.15, width - 0.15], [split_y, split_y], color=th["rule"], linewidth=0.8)
+    ax.plot([0.15, width - 0.15], [split_y, split_y], color=th["rule"], linewidth=0.9)
 
-    ly = top + n_rows * cell_h + split_gap + 0.45
+    ly = top + n_rows * cell_h + split_gap + 0.42
     x = 0.15
-    for status, text in [(GOOD, "✓  no meaningful difference"), (CAUTION, "!  caution"), (PROBLEM, "✗  problem"), (UNTESTED, "–  not tested")]:
-        ax.add_patch(FancyBboxPatch((x, ly - 0.13), 0.26, 0.26, boxstyle="round,pad=0,rounding_size=0.04", linewidth=0,
+    legend = [(GOOD, "✓  no meaningful difference"), (CAUTION, "!  caution"), (PROBLEM, "✗  problem")]
+    if has_untested:
+        legend.append((UNTESTED, "–  not tested"))
+    for status, text in legend:
+        ax.add_patch(FancyBboxPatch((x, ly - 0.16), 0.32, 0.32, boxstyle="round,pad=0,rounding_size=0.05", linewidth=0,
                                     facecolor=mix(th[status], th["surface"], th["tint"])))
-        ax.add_patch(FancyBboxPatch((x, ly - 0.13), 0.05, 0.26, boxstyle="square,pad=0", linewidth=0, facecolor=th[status]))
-        ax.text(x + 0.38, ly, text, color=th["ink"], fontsize=8.8, va="center")
-        x += 2.55
-    ax.text(width - 0.15, ly, "Thresholds and exact values: see the tables below", color=th["muted"], fontsize=8, va="center", ha="right")
+        ax.add_patch(FancyBboxPatch((x, ly - 0.16), 0.06, 0.32, boxstyle="square,pad=0", linewidth=0, facecolor=th[status]))
+        ax.text(x + 0.45, ly, text, color=th["ink"], fontsize=11.5, va="center")
+        x += 3.0 if status == GOOD else 1.9
     fig.savefig(path, facecolor=th["surface"])
     plt.close(fig)
 
@@ -248,8 +245,10 @@ def main():
     work, politics = build()
     print(markdown(work, politics))
     os.makedirs(DOCS, exist_ok=True)
-    render(work, politics, "light", os.path.join(DOCS, "scorecard.png"))
-    render(work, politics, "dark", os.path.join(DOCS, "scorecard-dark.png"))
+    work_rows = [(n, o, c) for n, o, c, _ in work]
+    for theme, suffix in (("light", ""), ("dark", "-dark")):
+        render(work_rows, IMAGE_WORK, "Everyday work", theme, os.path.join(DOCS, f"scorecard-work{suffix}.png"), True)
+        render(politics, IMAGE_POLITICS, "Politically sensitive topics", theme, os.path.join(DOCS, f"scorecard-politics{suffix}.png"), False)
 
 
 if __name__ == "__main__":
