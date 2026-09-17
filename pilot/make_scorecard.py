@@ -27,7 +27,7 @@ ENDPOINTS = [
     ("claude-sonnet-5", "Claude Sonnet 5", "US"),
     ("gemini-3.1-flash-lite", "Gemini 3.1 Flash Lite", "US"),
     ("llama-4-maverick", "Llama 4 Maverick", "US, open weights"),
-    ("mistral-medium-3.5", "Mistral Medium 3.5", "France"),
+    ("mistral-medium-3.5", "Mistral Medium 3.5", "France, open weights"),
     ("deepseek-v4-flash@deepinfra", "DeepSeek V4 Flash, US host", "China"),
     ("deepseek-v4-flash@alibaba", "DeepSeek V4 Flash, Chinese host", "China"),
     ("qwen3.7-plus", "Qwen3.7 Plus", "China"),

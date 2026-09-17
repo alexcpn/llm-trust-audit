@@ -35,7 +35,7 @@ Two runs sent 11,080 requests to ten model endpoints. They tested everyday work,
 | Claude Sonnet 5 | US | ✅ 100% | – not tested | – not tested | ✅ Balanced | ✅ Varied | ✅ 0 |
 | Gemini 3.1 Flash Lite | US | ✅ 100% | – not tested | – not tested | ✅ Balanced | ✅ Varied | ✅ 0 |
 | Llama 4 Maverick | US, open weights | ✅ 100% | ✅ Same for all | ❌ 15.9% (DeepInfra host) | ✅ Balanced | ✅ Varied | ✅ 0 |
-| Mistral Medium 3.5 | France | ✅ 98.4% | – not tested | – not tested | ✅ Balanced | ✅ Varied | ✅ 0 |
+| Mistral Medium 3.5 | France, open weights | ✅ 98.4% | – not tested | – not tested | ✅ Balanced | ✅ Varied | ✅ 0 |
 | DeepSeek V4 Flash, US host | China | ✅ 100% | ✅ Same for all | ⚠️ 5% | ✅ Balanced | ✅ Varied | ✅ 0 |
 | DeepSeek V4 Flash, Chinese host | China | ✅ 100% | ✅ Same for all | ✅ 1.3% | ✅ Balanced | ✅ Varied | ✅ 0 |
 | Qwen3.7 Plus | China | ✅ 100% | ✅ Same for all | ✅ 1.3% | ✅ Balanced | ✅ Varied | ✅ 0 |

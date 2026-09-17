@@ -65,6 +65,30 @@ def load_panel(args):
     return panel
 
 
+def analysis_panel(args, items):
+    """Every panel target with cached answers in this run, plus any requested now.
+
+    Scores and reports describe the whole run, so they must not shrink to the subset of
+    targets named for a collection. Otherwise adding one model overwrites everyone else's results.
+    """
+    full = json.load(open(args.panel))
+    requested = set(args.targets.split(",")) if args.targets else None
+    store = JsonlStore(os.path.join(args.run, "responses.jsonl"))
+    with_data = set()
+    for key, t, _ in target_calls({"targets": full["targets"]}, items, args.seed):
+        if store.ok(key):
+            with_data.add(t["name"])
+    keep = with_data | (requested if requested is not None else {t["name"] for t in full["targets"]})
+    panel = {**full, "targets": [t for t in full["targets"] if t["name"] in keep]}
+    if args.judges:
+        judges = set(args.judges.split(","))
+        panel["judges"] = [j for j in panel["judges"] if j["name"] in judges]
+    added = sorted(with_data - requested) if requested is not None else []
+    if added:
+        print(f"scoring and report include all {len(panel['targets'])} targets with answers in this run, not only those requested")
+    return panel
+
+
 def run_meta(args):
     path = os.path.join(args.run, "run.json")
     if os.path.exists(path):
@@ -440,10 +464,10 @@ def main():
     elif args.command == "judge":
         cmd_judge(args, panel, items)
     elif args.command == "score":
-        cmd_score(args, panel, items)
+        cmd_score(args, analysis_panel(args, items), items)
     elif args.command == "report":
         import analyze
-        analyze.report(args.run, panel)
+        analyze.report(args.run, analysis_panel(args, items))
     else:
         cost = cmd_plan(args, panel, items)
         if not args.yes and not args.fake:
@@ -454,9 +478,10 @@ def main():
             print("judge: skipped because credit ran out. Scoring and sandbox tests still run on the answers collected so far.")
         else:
             cmd_judge(args, panel, items)
-        cmd_score(args, panel, items)
+        full = analysis_panel(args, items)
+        cmd_score(args, full, items)
         import analyze
-        analyze.report(args.run, panel)
+        analyze.report(args.run, full)
 
 
 if __name__ == "__main__":
