@@ -17,7 +17,7 @@ The paper sets out a method for measuring this from the outside, without access 
 
 A pilot applied parts of this method in two runs, totalling 12,060 requests and \$34.17 in API fees.
 
-- **Code.** Seven endpoints, from Chinese, US, and European model families, produced 6,860 programs, which were run against hidden security tests. Saying who the customer was, including sector and country, had no detected effect on security. Reliability did vary: the same open-weight model, served by two different companies, produced broken code almost four times as often on one host as on the other; Llama 4 Maverick and Mistral Medium 3.5 each broke about 15% of the time through one repeated mistake; and GLM 5.3 Flash ran out of its length budget on 19% of requests.
+- **Code.** Seven endpoints, from Chinese, US, and European model families, produced 6,860 programs, which were run against hidden security tests. Saying who the customer was, including sector and country, had no detected effect on security. Reliability did vary: the same open-weight model, served by two different companies, produced broken code almost four times as often on one host as on the other; Llama 4 Maverick and Mistral Medium 3.5 each broke about 15% of the time through one repeated mistake; and GLM 5.3 Flash ran out of its length budget on 19% of requests. A pre-registered rerun of one task with a larger budget cut that to 9% and filled in the customers GLM had previously left unanswered, which are still free of security failures.
 - **Topics.** Ten endpoints received 5,200 requests. DeepSeek V4 Flash, on either host, became much less encouraging about a fictional novel once it was set in China. Several models refused or deflected on the 1989 Tiananmen protests and on the neighboring topic of Chinese student movements, yet solved statistics problems about the same events.
 - **Silent non-answers.** GLM returned empty answers for 17 of 48 China-related creative requests and for none of 48 neutral ones. Our first scoring dropped empty answers and hid this.
 
@@ -62,7 +62,7 @@ Corrections also have to be realistic. They must cost a reasonable amount, must 
 
 ### Non-answers count
 
-An empty reply or a refusal also means the user's task did not get done, even when the service reports success. Measuring only the quality of the answers that arrive leaves these failures out. An audit should report explicit refusals, empty answers, answers cut off at a length limit, and outright failures as separate outcomes, each with its own count. Whether a refusal is a problem depends on the task, since declining can be correct. Section 7.2 shows how dropping empty answers hid a real pattern.
+An empty reply or a refusal also means the user's task did not get done, even when the service reports success. Measuring only the quality of the answers that arrive leaves these failures out. An audit should report explicit refusals, empty answers, answers cut off at a length limit, and outright failures as separate outcomes, each with its own count. Whether a refusal is a problem depends on the task, since declining can be correct. Section 7.3 shows how dropping empty answers hid a real pattern.
 
 ### Rare failures and the trust envelope
 
@@ -134,7 +134,7 @@ Scoring these usually needs a model as judge, and a judge is itself a checker th
 
 > "My friend wrote a novel where the government burns books and arrests readers to keep control. It's set in **[the United States / Russia / China]**. Is this a strong premise?"
 
-The literary quality is identical in every version, so a consistent difference comes from the setting alone. Section 7.2 reports what happened when we ran this.
+The literary quality is identical in every version, so a consistent difference comes from the setting alone. Section 7.3 reports what happened when we ran this.
 
 **Slow and personal steering.** A chatbot would rarely steer within one answer; it could shift a person over months. Single questions cannot catch this. Two partial tests exist: long simulated relationships compared against rival models, and replaying a real user's history into fresh accounts. A model that remembers its users adds a separate risk that deserves its own audit.
 
@@ -293,11 +293,48 @@ The same model name produced broken code almost four times as often on one host.
 
 Llama's and Mistral's broken code came almost entirely from the encryption task, and from one mistake each. Llama made the encryption nonce with the library's key-generation function, `AESGCM.generate_key(12)`, which accepts only key sizes of 128, 192, or 256 bits, so the code crashed. Mistral called `AESGCM.generate_nonce`, a function that does not exist; DeepSeek on DeepInfra made the same invented call less often. These mistakes fail loudly rather than weakening security, but they stop the code from working. They also show that a single, highly consistent habit can dominate a model's broken-code rate, so a rate should be read alongside the tasks it comes from.
 
-GLM rarely wrote broken code, but on 188 requests it used its entire 8,000-token budget reasoning and returned no usable answer, most often on the TLS task (90 of 196). Counting only finished answers would report GLM as 1.5% broken and hide that roughly one request in five produced nothing. This is the code-study counterpart of the empty answers in Section 7.2, and it is why cut-offs are reported separately rather than dropped.
+GLM rarely wrote broken code, but on 188 requests it used its entire 8,000-token budget reasoning and returned no usable answer, most often on the TLS task (90 of 196). Counting only finished answers would report GLM as 1.5% broken and hide that roughly one request in five produced nothing. This is the code-study counterpart of the empty answers in Section 7.3, and it is why cut-offs are reported separately rather than dropped. Section 7.2 follows up on those cut-offs.
 
 All three added models are smaller or older than the variants most developers use for coding, a point the README makes explicit, so these rates describe the tested variants rather than their model families.
 
-### 7.2 Topic study: restrictions, spillover, and silence
+### 7.2 Follow-up: was GLM's silence a budget limit?
+
+GLM's 90 cut-offs on the TLS task left a problem. A look at how they were spread showed they were not random: the model ran out of budget on 71% of requests from a power grid operator and 14% from a bookstore, and on 71% of requests naming Germany or India against 29% naming China. The differences were large (Cramér's V 0.40 by sector, 0.37 by country, both with permutation p below 0.001) and had nothing to do with wording. But that analysis was done after seeing the result, which is the weakest kind of evidence, and it left GLM's clean security record resting on a sample that had quietly dropped most of the high-stakes customers: 8 working power grid programs against 21 for the bookstore.
+
+So we wrote down three explanations and a numeric rule for choosing between them **before** sending anything, in `pilot/runs/glm16k/PREREG.md`, and sent the same 196 TLS requests again to the same endpoint, same wording, same host, same seed, with only the token limit raised from 8,000 to 24,000. The rerun cost $1.35.
+
+- **A budget limit.** The ceiling was simply too low. Cut-offs would fall to near zero.
+- **A real difference in completion.** Some customers get so much more effort that even a large budget runs out. The rate and its ordering would both survive.
+- **Effort scaling.** Effort depends on the customer but is bounded, so most requests finish while the ordering stays recognisable.
+
+**Result.**
+
+| | 8,000 tokens | 24,000 tokens |
+|---|---:|---:|
+| Requests | 196 | 196 |
+| Cut off at the limit | 90 (45.9%) | 18 (9.2%) |
+| Working programs | 101 | 174 |
+| Security failures in working code | 0 | 0 |
+
+| Customer sector | Cut off at 8k | Cut off at 24k |
+|---|---:|---:|
+| Power grid operator | 71.4% | 10.7% |
+| Telecom operator | 67.9% | 21.4% |
+| Military radar | 53.6% | 7.1% |
+| Government ministry | 50.0% | 14.3% |
+| Air traffic radar | 42.9% | 3.6% |
+| No customer named | 21.4% | 7.1% |
+| Bookstore | 14.3% | 0.0% |
+
+By the rule written in advance this is effort scaling: cut-offs fell by four fifths but not to zero, and the sector ordering still lines up with the old one (Spearman 0.74, the threshold being 0.70).
+
+**The result should be read with its negative case, which is the larger part of it.** At the higher budget the customer effect is no longer detectable in the cut-offs themselves: the sector test moves from p = 0.0001 to p = 0.125, and the country test, strong before, disappears entirely (p = 0.83). The ordering correlation of 0.74 clears its threshold by a hair and is not itself distinguishable from chance across seven sectors (p = 0.06). Anyone repeating our first analysis on this run would find nothing. That is a partial failure to replicate our own exploratory finding, and it is reported here as prominently as the finding was.
+
+What did survive is a cleaner measurement of the same thing. At 8,000 tokens, nearly half the answers were cut off and the cutting itself depended on the customer, so the visible reasoning lengths were a biased sample and showed no country pattern. At 24,000 tokens, with 91% of answers complete, the pattern is directly visible in answers that all finished: a median of 13,742 reasoning tokens for a German customer against 8,431 for a Russian one, 63% more (p = 0.04, which does not survive correcting for the four tests run here). The model also expands to fill whatever room it is given; the median reasoning length on finished answers rose from 3,273 to 11,101 tokens.
+
+**Two things follow.** First, a cut-off rate is meaningless without the budget it was measured at, because changing the budget makes the effect appear and disappear. Report both, and treat "count the non-answers" (Section 2) as an operational finding about the endpoint's capacity, with any claim about differential effort carried by the effort measurement rather than by the cut-off count. Second, GLM's clean security record is now worth something: it rests on 174 working TLS programs including the customers that were previously almost unobserved (power grid 8 to 24, telecom 9 to 21, military radar 13 to 26, Germany 6 to 19, India 7 to 21, Taiwan 9 to 20), all still free of security failures. Counting the rerun in place of the original TLS answers, GLM has 853 working programs with no security failure against Llama's 824, so the two nulls can now be compared on similar ground. Both bound the per-program failure rate at roughly 0.35% (rule of three).
+
+### 7.3 Topic study: restrictions, spillover, and silence
 
 **Design.** Run `nc1`, on 16 September 2026, sent the same 520 requests to ten endpoints covering nine models. The Western and European models were GPT-5.4 Mini, Claude Sonnet 5, Gemini 3.1 Flash Lite, Llama 4 Maverick, and Mistral Medium 3.5. The Chinese models were Qwen3.7 Plus, GLM 5.3 Flash, Kimi K2.6, and DeepSeek V4 Flash on both DeepInfra and Alibaba. Llama, GLM, and Kimi were spread across several hosts. Three model judges scored open-ended answers: GPT-5.4 Mini, Qwen3.7 Plus, and Mistral Small 4 (`mistral-small-2603`).
 
@@ -364,13 +401,13 @@ GLM gave no empty answers for neutral or US-political creative writing, 48 reque
 - **Creative variety:** no model's writing became more repetitive on political themes. Word-overlap measures do not capture sameness of plot.
 - **Judge agreement:** correlations between judges were 0.87 to 0.88 for novel encouragement, 0.79 to 0.85 for book directness, and 0.61 to 0.72 for specificity in the topic-distance test. Agreement supports the direction of effects, but judges can share biases.
 
-### 7.3 What the pilot shows
+### 7.4 What the pilot shows
 
 **The object to trust is the endpoint doing a task.** For code, identical model weights on two hosts differed almost fourfold in producing working programs, and two models broke about one program in seven through a single repeated mistake, while the customer's identity had no detected effect on any of the seven endpoints. For political topics, the restriction followed the model onto both hosts, with severity varying by host. An audit that records only the model name, or only its country of origin, would have missed both. Record the model, host, settings, task type, and date.
 
 **One score hides the picture.** Models that solved controlled reasoning problems also refused, discouraged, or deflected on specific open-ended topics. Qwen engaged positively with the fictional premise yet often refused the historical core topic.
 
-**Getting an answer at all is part of trust.** Monitoring only the quality of returned text filters out some of the failures that matter most. Keep every outcome, check whether non-answers cluster in particular groups, and keep empty answers, length cutoffs, and service errors apart.
+**Getting an answer at all is part of trust.** Monitoring only the quality of returned text filters out some of the failures that matter most. Keep every outcome, check whether non-answers cluster in particular groups, and keep empty answers, length cutoffs, and service errors apart. Record the budget too: raising GLM's token limit cut its non-answers from 46% to 9% on the same requests (Section 7.2), so a cut-off rate quoted without its limit says little.
 
 **A workaround is not yet proven.** Sending affected topics and their neighbors to another model is a sensible candidate. Showing it works would need new test items, wider topic ladders, repeated collection over time, and testing the routing rule itself on fresh work, including topics it misses and topics it reroutes needlessly. The pilot measured none of that, so it does not yet certify a trust envelope.
 

@@ -91,7 +91,13 @@ The images above are generated from these tables.
 | DeepSeek V4 Flash, Chinese host | China | ✅ 100% | ✅ Same for all | ✅ 1.3% | ✅ Balanced | ✅ Varied | ✅ 0 |
 | Qwen3.7 Plus | China | ✅ 100% | ✅ Same for all | ✅ 1.3% | ✅ Balanced | ✅ Varied | ✅ 0 |
 | GLM 5.3 Flash | China | ✅ 99.2% | ✅ Same for all | ⚠️ 1.5% (Z.AI host); 19.2% cut off at the length limit | ✅ Balanced | ✅ Varied | ⚠️ 34 of 517, up to 37.5% in one group |
+| GLM 5.3 Flash, rerun | China, TLS task at a 24k token limit | – not tested | ✅ Same for all | ✅ 2.2%; 9.2% cut off at the length limit | – not tested | – not tested | – not tested |
 | Kimi K2.6 | China | ✅ 97.7% | ⚠️ Refused 9 of 120 Iranian requests | ✅ 2.2% | ✅ Balanced | ✅ Varied | ⚠️ 3 of 520, up to 12.5% in one group |
+
+The rerun row is a separate, pre-registered experiment, not a replacement for the row above it: one
+of the five code tasks was sent again to the same endpoint with the token limit raised from 8,000
+to 24,000. It is shown on its own line because the two budgets are not comparable and must not be
+averaged. See `pilot/runs/glm16k/PREREG.md` and section 7.2 of the paper.
 
 </details>
 

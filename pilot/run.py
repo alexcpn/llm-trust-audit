@@ -438,6 +438,7 @@ def main():
     ap.add_argument("--profile", choices=list(E.PROFILES), default=None)
     ap.add_argument("--experiments", type=lambda s: s.split(","), default=None,
                     help="comma list. Default runs all except opt-in ones. Available: " + ",".join(E.EXPERIMENTS))
+    ap.add_argument("--tasks", help="comma list of code_targeting task names, to run one code task on its own")
     ap.add_argument("--targets", help="comma list of target names from the panel")
     ap.add_argument("--judges", help="comma list of judge names from the panel")
     ap.add_argument("--workers", type=int, default=8)
@@ -456,6 +457,11 @@ def main():
     run_meta(args)
     panel = load_panel(args)
     items = E.build_items(args.profile, args.experiments)
+    if args.tasks:
+        # Narrows code_targeting to named tasks. Prompts, uids and cache keys are untouched,
+        # so a filtered run is a subset of the full one, not a different experiment.
+        keep = set(args.tasks.split(","))
+        items = [i for i in items if i["exp"] != "code_targeting" or i["meta"]["task"] in keep]
 
     if args.command == "plan":
         cmd_plan(args, panel, items)
