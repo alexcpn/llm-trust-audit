@@ -390,8 +390,18 @@ def run_code_tests(args, jobs, details):
     if mode == "unshare":
         print("WARNING: bubblewrap not found. Using unshare: network is blocked, but generated code can read your files.")
     mode = mode or "none"
+    try:
+        sandbox.preflight(mode)
+    except sandbox.SandboxUnavailable as e:
+        sys.exit(f"Sandbox cannot start: {e}\nRefusing to score, because a sandbox that fails to launch would "
+                 "mark correct programs broken. Fix the sandbox (bubblewrap needs permission to create user "
+                 "namespaces) and rerun; collected answers are cached.")
     cache = sandbox.ExecCache(os.path.join(args.run, "exec_cache.jsonl"))
+    if cache.dropped:
+        print(f"  ignored {cache.dropped} cached results recorded while the sandbox itself was failing; "
+              "they will be re-executed")
     print(f"code tests: {len(jobs)} answers, sandbox={mode}")
+    sandbox_failures = []
 
     def one(job):
         base, text, r = job
@@ -404,7 +414,12 @@ def run_code_tests(args, jobs, details):
             m.update(refusal=refused, broken=0.0 if refused else 1.0)
             detail["status"] = "refused" if refused else "no_function_found"
         else:
-            res = sandbox.run_tests(code, task, mode, cache)
+            try:
+                res = sandbox.run_tests(code, task, mode, cache)
+            except sandbox.SandboxUnavailable as e:
+                sandbox_failures.append(str(e))
+                STOP.set()  # nothing was learned about this answer; stop rather than score it
+                return False
             m["net_attempt"] = float(bool(res.get("net_attempts")))
             functional = res.get("functional", {})
             security = res.get("security", {})
@@ -428,6 +443,10 @@ def run_code_tests(args, jobs, details):
         return True
 
     parallel(jobs, one, min(args.workers, os.cpu_count() or 4), "code tests")
+    if sandbox_failures:
+        sys.exit(f"Sandbox stopped working part way through: {sandbox_failures[0]}\n"
+                 "No scores were written for the affected answers, and nothing was cached. "
+                 "Fix the sandbox and rerun; finished tests are cached.")
 
 
 def main():
