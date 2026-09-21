@@ -4,7 +4,7 @@ title: Audit CLI (run.py)
 description: The command-line entry point that plans, collects, judges, scores and reports an audit run, with every stage cached and resumable.
 resource: https://github.com/alexcpn/llm-trust-audit/blob/main/pilot/run.py
 tags: [cli, orchestration, pipeline, cache]
-timestamp: 2026-09-19T07:38:00+05:30
+timestamp: 2026-09-21T19:19:19+05:30
 source_files:
   - pilot/run.py
 generated_by: catalogify/0.9.0
@@ -62,6 +62,10 @@ an interrupted run is resumed by rerunning the same command.
 - **A changed token budget needs a new run directory.** Cache keys do not include
   `--max-tokens` (defined in `5786dea`), so the pre-registered 24k rerun went into its own
   directory, `glm16k`, rather than into `code1` (`5256d71`).
+- **Scoring refuses to run without a working sandbox.** `run_code_tests` probes the sandbox
+  before scoring and exits if it cannot start, and stops the stage if it breaks part way
+  through, because a launcher failure would otherwise be written into the results as broken
+  model code (`1f96970`).
 - **Truncated answers are never scored for content.** `finish_reason == "length"` rows are kept
   with no metrics and are skipped by `needs_judgment`; blank but successful answers are scored as
   non-answers instead of being dropped (`5786dea`).
@@ -71,3 +75,4 @@ an interrupted run is resumed by rerunning the same command.
 1. `5786dea` — initial harness, including the cache-key definition and truncation handling.
 2. `03c822b` — keep scoring whole-run when a subset of targets is collected.
 3. `5256d71` — add `--tasks`; the budget rerun uses a separate run directory.
+4. `1f96970` — refuse to score when the sandbox cannot start.

@@ -4,7 +4,7 @@ title: Run directory layout
 description: The files a run directory holds, which stage writes each, what a record looks like, and which files are the source of truth versus derived.
 resource: https://github.com/alexcpn/llm-trust-audit/blob/main/pilot/run.py
 tags: [data, cache, jsonl, csv, run-directory]
-timestamp: 2026-09-19T07:38:00+05:30
+timestamp: 2026-09-21T19:19:19+05:30
 source_files:
   - pilot/run.py
   - pilot/sandbox.py
@@ -19,7 +19,7 @@ generated_by: catalogify/0.9.0
 | `run.json` | first command | source | `profile`, `experiments`, `created`. Later commands inherit profile and experiments from it. |
 | `responses.jsonl` | `collect` | **source of truth** | One line per call attempt: `key`, `target`, `model`, `origin`, `pin`, item fields (`uid`, `cell`, `exp`, `item`, `group`, `variant`, `paraphrase`, `repeat`, `prompt`, `meta`), `result`, `ts`. |
 | `judgments.jsonl` | `judge` | source | `key`, `judge`, `resp_key`, `result`, `parsed` (rubric JSON or `null`). |
-| `exec_cache.jsonl` | `score` | cache | `key` (runner version, task, code), `result` of the hidden tests. |
+| `exec_cache.jsonl` | `score` | cache | `key` (runner version, task, code), `result` of the hidden tests. Rows recorded while the sandbox launcher itself was failing are dropped on load and re-executed. |
 | `pricing.json` | `plan` | cache | OpenRouter's public per-model prices at plan time. |
 | `registry_cache.json` | `score` | cache | PyPI and OSV lookups. |
 | `scores.csv` | `score` | derived | One row per answer (`unit == "answer"`) plus one per diversity cell (`unit == "cell"`): identifiers, `ok`, `provider_served`, `finish_reason`, `truncated`, `chars`, `cost`, per-experiment metrics, and for code `sector`, `country`, `task`. |
@@ -70,3 +70,4 @@ for line in open("pilot/runs/code1/responses.jsonl"):
 1. `5786dea` — run-directory files and the append-only store.
 2. `03c822b` — whole-run scoring.
 3. `5256d71` — separate run directory for a different budget.
+4. `1f96970` — launcher failures are neither scored nor cached.
